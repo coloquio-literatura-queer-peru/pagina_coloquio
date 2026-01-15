@@ -11,6 +11,8 @@ st.set_page_config(
     layout="wide"
 )
 
-
 paginas = ["Presentación", "Calendario", "​Invitados"]
 pagina_seleccionada = st.sidebar.selectbox('Selecciona una sección', paginas)
+
+if pagina_seleccionada == "Presentación":
+    st.markdown("<h1 style='text-align: center; color = purple;'>1er Coloquier de Literatura Queer Peruana</h1>", unsafe_allow_html=True)
