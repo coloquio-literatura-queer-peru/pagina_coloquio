@@ -41,7 +41,7 @@ if pagina_seleccionada == "Presentación":
     
     .titulo3 {
         color: #f250c7;
-        font-size: 70px;
+        font-size: 68px;
         position: relative;
         z-index: 3;
     }
