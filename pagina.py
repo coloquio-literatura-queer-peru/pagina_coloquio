@@ -14,6 +14,15 @@ st.set_page_config(
 paginas = ["Presentación", "Calendario", "​Invitados"]
 pagina_seleccionada = st.sidebar.selectbox('Selecciona una sección', paginas)
 
+st.markdown("""
+<style>
+.titulo {
+    font-family: 'Aghanirya';
+    font-size: 48px;
+}
+</style>
+""", unsafe_allow_html=True)
+
 if pagina_seleccionada == "Presentación":
     st.markdown("<h1 style='text-align: center; color:purple;'>I Coloquio de Literatura Queer Peruana</h1>", unsafe_allow_html=True)
 
