@@ -60,3 +60,46 @@ if pagina_seleccionada == "Presentación":
     st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
 
 elif pagina_seleccionada == "Sobre nosotrxs":
+    st.markdown("""
+    <h1 style="
+        font-size:75px;
+        color:#d550f2;
+        font-weight:900;
+        text-align:center;
+        margin-bottom:20px;
+    ">
+    Sobre Nosotrxs
+    </h1>
+    """, unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.image("https://static.wikia.nocookie.net/thelastofus/images/5/50/Ellie_Jackson_shoulder_infobox.jpg/revision/latest?cb=20230307144742&path-prefix=es", use_container_width=True)
+        st.markdown("""
+        <div class="card">
+            <div class="nombre">Nombre Apellido</div>
+            <div class="rol">Coordinación Académica</div>
+            <p>Investigadora en literatura peruana contemporánea y estudios queer.</p>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col2:
+        st.image("https://static.wikia.nocookie.net/thelastofus/images/5/50/Ellie_Jackson_shoulder_infobox.jpg/revision/latest?cb=20230307144742&path-prefix=es", use_container_width=True)
+        st.markdown("""
+        <div class="card">
+            <div class="nombre">Nombre Apellido</div>
+            <div class="rol">Producción General</div>
+            <p>Gestora cultural especializada en proyectos interdisciplinarios.</p>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col3:
+        st.image("https://static.wikia.nocookie.net/thelastofus/images/5/50/Ellie_Jackson_shoulder_infobox.jpg/revision/latest?cb=20230307144742&path-prefix=es", use_container_width=True)
+        st.markdown("""
+        <div class="card">
+            <div class="nombre">Nombre Apellido</div>
+            <div class="rol">Comunicaciones</div>
+            <p>Especialista en difusión cultural y estrategias digitales.</p>
+        </div>
+        """, unsafe_allow_html=True)
