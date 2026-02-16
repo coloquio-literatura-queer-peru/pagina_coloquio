@@ -6,12 +6,12 @@ import folium
 from streamlit_folium import st_folium
 
 st.set_page_config(
-    page_title="Coloquio de Literatura Queer Peruana",
+    page_title="Literatura Peruana Queer",
     page_icon="📖🌈",
     layout="wide"
 )
 
-paginas = ["Presentación", "Sobre nosotros", "Calendario", "​Invitados"]
+paginas = ["Presentación", "Sobre nosotrxs", "Calendario", "​Invitados"]
 pagina_seleccionada = st.sidebar.selectbox('Selecciona una sección', paginas)
 
 if pagina_seleccionada == "Presentación":
@@ -58,3 +58,5 @@ if pagina_seleccionada == "Presentación":
     El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las experiencias artísticas de personas LGBTIQ+, con un énfasis en la literatura producida en el Perú. El coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritorxs, investigadorxs y lectorxs, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
     """
     st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
+
+elif pagina_seleccionada == "Sobre nosotrxs":
