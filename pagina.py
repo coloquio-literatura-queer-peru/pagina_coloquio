@@ -63,7 +63,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     st.markdown("""
     <h1 style="
         font-size:75px;
-        color:#d550f2;
+        color:#a050f2;
         font-weight:900;
         text-align:center;
         margin-bottom:20px;
