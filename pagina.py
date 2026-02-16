@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-paginas = ["Presentación", "Calendario", "​Invitados"]
+paginas = ["Presentación", "Sobre nosotros", "Calendario", "​Invitados"]
 pagina_seleccionada = st.sidebar.selectbox('Selecciona una sección', paginas)
 
 if pagina_seleccionada == "Presentación":
