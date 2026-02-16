@@ -53,7 +53,8 @@ if pagina_seleccionada == "Presentación":
         <div class="titulo3">Queer</div>
     </div>
     """, unsafe_allow_html=True)
+    
     texto_1 = """
     El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las experiencias artísticas de personas LGBTIQ+, con un énfasis en la literatura producida en el Perú. El coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritorxs, investigadorxs y lectorxs, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
     """
-    st.markdown(f"<div style='text-align: justify; font-size: 18px'>{texto_1}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
