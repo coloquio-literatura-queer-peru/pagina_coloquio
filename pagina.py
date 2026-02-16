@@ -19,7 +19,8 @@ if pagina_seleccionada == "Presentación":
     <style>
     .titulo-container {
         text-align: center;
-        line-height: 1;
+        line-height: 0.9;
+        font-weight: 900;
     }
     
     .titulo1 {
