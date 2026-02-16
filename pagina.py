@@ -75,31 +75,53 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.image("https://static.wikia.nocookie.net/thelastofus/images/5/50/Ellie_Jackson_shoulder_infobox.jpg/revision/latest?cb=20230307144742&path-prefix=es", use_container_width=True)
+        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
         st.markdown("""
         <div class="card">
-            <div class="nombre">Nombre Apellido</div>
-            <div class="rol">Coordinación Académica</div>
+            <div class="nombre">Julia Castillo</div>
+            <div class="rol">Coordinación General</div>
             <p>Investigadora en literatura peruana contemporánea y estudios queer.</p>
         </div>
         """, unsafe_allow_html=True)
     
     with col2:
-        st.image("https://static.wikia.nocookie.net/thelastofus/images/5/50/Ellie_Jackson_shoulder_infobox.jpg/revision/latest?cb=20230307144742&path-prefix=es", use_container_width=True)
+        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
         st.markdown("""
         <div class="card">
-            <div class="nombre">Nombre Apellido</div>
-            <div class="rol">Producción General</div>
-            <p>Gestora cultural especializada en proyectos interdisciplinarios.</p>
+            <div class="nombre">André Mere</div>
+            <div class="rol">Coordinación de comunicaciones y experiencias del público</div>
+            <p>Gestor cultural especializada en proyectos interdisciplinarios.</p>
         </div>
         """, unsafe_allow_html=True)
     
     with col3:
-        st.image("https://static.wikia.nocookie.net/thelastofus/images/5/50/Ellie_Jackson_shoulder_infobox.jpg/revision/latest?cb=20230307144742&path-prefix=es", use_container_width=True)
+        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
         st.markdown("""
         <div class="card">
-            <div class="nombre">Nombre Apellido</div>
-            <div class="rol">Comunicaciones</div>
+            <div class="nombre">Alan Concepción</div>
+            <div class="rol">Coordinación de producción y logísticas</div>
+            <p>Especialista en difusión cultural y estrategias digitales.</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+    col4, col5, col6 = st.columns(3)
+
+    with col4:
+        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
+        st.markdown("""
+        <div class="card">
+            <div class="nombre">Serggio Juarez</div>
+            <div class="rol">Coordinación académica</div>
+            <p>Especialista en difusión cultural y estrategias digitales.</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col5:
+        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
+        st.markdown("""
+        <div class="card">
+            <div class="nombre">Luisa Gomez</div>
+            <div class="rol">Coordinación de difusión y prensa</div>
             <p>Especialista en difusión cultural y estrategias digitales.</p>
         </div>
         """, unsafe_allow_html=True)
