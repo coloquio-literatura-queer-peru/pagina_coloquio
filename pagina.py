@@ -171,7 +171,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         persona = equipo[4]
         st.markdown(f"""
         <div class="grid-card">
-            <img src="{persona['foto']}">
+            st.image("fotos/me.jpg")
             <div class="nombre">{persona['nombre']}</div>
             <div class="rol">{persona['rol']}</div>
             <div class="descripcion">{persona['descripcion']}</div>
