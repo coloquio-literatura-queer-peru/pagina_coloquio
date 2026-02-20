@@ -175,14 +175,13 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     
         with c2:
             st.image(persona["foto"], width=220)
-    
-        st.markdown(f"""
-        <div class="grid-card">
-            <div class="nombre">{persona['nombre']}</div>
-            <div class="rol">{persona['rol']}</div>
-            <div class="correo">{persona['correo']}</div>
-        </div>
-        """, unsafe_allow_html=True)
+            st.markdown(f"""
+            <div class="grid-card">
+                <div class="nombre">{persona['nombre']}</div>
+                <div class="rol">{persona['rol']}</div>
+                <div class="correo">{persona['correo']}</div>
+            </div>
+            """, unsafe_allow_html=True)
 
         
     with col3:
