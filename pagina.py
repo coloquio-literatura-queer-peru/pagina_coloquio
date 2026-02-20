@@ -75,7 +75,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
+        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Julia Castillo</div>
@@ -85,7 +85,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         """, unsafe_allow_html=True)
     
     with col2:
-        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
+        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">André Mere</div>
@@ -95,7 +95,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         """, unsafe_allow_html=True)
     
     with col3:
-        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
+        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Alan Concepción</div>
@@ -107,7 +107,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     col4, col5, col6 = st.columns(3)
 
     with col4:
-        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", use_container_width=True)
+        st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReHjgGNa0O4-XHEQF451zXh8sBR7S-qPW0lQ&s",width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Serggio Juarez</div>
@@ -117,7 +117,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         """, unsafe_allow_html=True)
 
     with col5:
-        st.image("fotos/me.jpg", width=100, use_container_width=True)
+        st.image("fotos/me.jpg", width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Luisa Gomez</div>
