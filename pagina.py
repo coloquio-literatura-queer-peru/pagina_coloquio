@@ -107,7 +107,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     col4, col5, col6 = st.columns(3)
 
     with col4:
-        st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReHjgGNa0O4-XHEQF451zXh8sBR7S-qPW0lQ&s",width=200, use_container_width=True)
+        st.image("https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-serie-hbo-11548.jpg",width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Serggio Juarez</div>
