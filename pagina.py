@@ -134,14 +134,15 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "rol": "Coordinación de difusión y prensa",
         "descripcion": "Especialista en difusión cultural y estrategias digitales.",
         "foto": "fotos/me.jpg"
-    },
-    # Agrega hasta completar 9 para 3x3
+    }
     ]
 
-    for i in range(0, len(equipo), 3):
+  
+
+    # Primera fila (3)
     cols = st.columns(3)
     
-    for col, persona in zip(cols, equipo[i:i+3]):
+    for col, persona in zip(cols, equipo[:3]):
         with col:
             st.markdown(f"""
             <div class="grid-card">
@@ -151,5 +152,34 @@ elif pagina_seleccionada == "Sobre nosotrxs":
                 <div class="descripcion">{persona['descripcion']}</div>
             </div>
             """, unsafe_allow_html=True)
+    
+    # Segunda fila centrada (2)
+    col1, col2, col3 = st.columns([1,1,1])
+    
+    with col1:
+        st.empty()
+    
+    with col2:
+        persona = equipo[3]
+        st.markdown(f"""
+        <div class="grid-card">
+            <img src="{persona['foto']}">
+            <div class="nombre">{persona['nombre']}</div>
+            <div class="rol">{persona['rol']}</div>
+            <div class="descripcion">{persona['descripcion']}</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col3:
+        persona = equipo[4]
+        st.markdown(f"""
+        <div class="grid-card">
+            <img src="{persona['foto']}">
+            <div class="nombre">{persona['nombre']}</div>
+            <div class="rol">{persona['rol']}</div>
+            <div class="descripcion">{persona['descripcion']}</div>
+        </div>
+        """, unsafe_allow_html=True)
+
 
 
