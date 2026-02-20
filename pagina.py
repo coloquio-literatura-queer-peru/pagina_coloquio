@@ -95,7 +95,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         """, unsafe_allow_html=True)
     
     with col3:
-        st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0QFNqrVG_w74_zse-5G9UFhoUNbR7yYej1w&s", width=200, use_container_width=True)
+        st.image("https://www.instagram.com/p/C30VgUnxcEm/?img_index=1", width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Alan Concepción</div>
