@@ -117,7 +117,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         """, unsafe_allow_html=True)
 
     with col5:
-        st.image("https://www.linkedin.com/in/luisa-gomez-28a9212aa/", use_container_width=True)
+        st.image("fotos/prueba.jpg", use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Luisa Gomez</div>
