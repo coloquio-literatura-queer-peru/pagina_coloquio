@@ -174,7 +174,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         c1, c2, c3 = st.columns([1,2,1])
     
         with c2:
-            st.image(persona["foto"], width=250)
+            st.image(persona["foto"], width=260)
             st.markdown(f"""
             <div class="grid-card">
                 <div class="nombre">{persona['nombre']}</div>
