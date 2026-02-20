@@ -75,7 +75,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.image("https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg", width=200, use_container_width=True)
+        st.image("https://revistakametsa.wordpress.com/wp-content/uploads/2024/01/image.png?w=484", width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Julia Castillo</div>
