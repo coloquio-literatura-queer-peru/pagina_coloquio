@@ -169,7 +169,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     
     with col2:
         persona = equipo[4]
-        st.image(persona["foto"], width=50)
+        st.image(persona["foto"], width=90)
         st.markdown(f"""
         <div class="nombre">{persona['nombre']}</div>
         <div class="rol">{persona['rol']}</div>
