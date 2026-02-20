@@ -95,7 +95,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         """, unsafe_allow_html=True)
     
     with col3:
-        st.image("https://www.instagram.com/p/C30VgUnxcEm/?img_index=1", width=200, use_container_width=True)
+        st.image("https://www.revistaotlet.com/wp-content/uploads/Alan_Concepcion-600x600.jpg", width=200, use_container_width=True)
         st.markdown("""
         <div class="card">
             <div class="nombre">Alan Concepción</div>
