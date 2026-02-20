@@ -68,7 +68,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         text-align:center;
         margin-bottom:20px;
     ">
-    Sobre Nosotrxs
+    Equipo organizador
     </h1>
     """, unsafe_allow_html=True)
 
@@ -98,7 +98,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         margin-bottom: 6px;
     }
     
-    .descripcion {
+    .correo {
         font-size: 0.85rem;
         color: #444;
     }
@@ -109,31 +109,31 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     {
         "nombre": "Julia Castillo",
         "rol": "Coordinación General",
-        "descripcion": "Investigadora en literatura peruana contemporánea y estudios queer.",
+        "correo": "castillo.julia@pucp.edu.pe",
         "foto": "https://revistakametsa.wordpress.com/wp-content/uploads/2024/01/image.png?w=484"
     },
     {
         "nombre": "André Mere",
         "rol": "Coordinación de comunicaciones y experiencias del público",
-        "descripcion": "Gestor cultural especializado en proyectos interdisciplinarios.",
+        "correo": "andremererivera@gmail.com",
         "foto": "https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg"
     },
     {
         "nombre": "Alan Concepción",
         "rol": "Coordinación de producción y logísticas",
-        "descripcion": "Especialista en difusión cultural y estrategias digitales.",
+        "correo": "alan.concepcion@pucp.pe",
         "foto": "https://www.revistaotlet.com/wp-content/uploads/Alan_Concepcion-600x600.jpg"
     },
     {
         "nombre": "Serggio Juarez",
         "rol": "Coordinación académica",
-        "descripcion": "Especialista en difusión cultural y estrategias digitales.",
+        "correo": "serggioart@gmail.com",
         "foto": "https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg"
     },
     {
         "nombre": "Luisa Gomez",
         "rol": "Coordinación de difusión y prensa",
-        "descripcion": "Especialista en difusión cultural y estrategias digitales.",
+        "correo": "luisa.gomez@pucp.edu.pe",
         "foto": "fotos/me.jpg"
     }
     ]
@@ -150,7 +150,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
                 <img src="{persona['foto']}">
                 <div class="nombre">{persona['nombre']}</div>
                 <div class="rol">{persona['rol']}</div>
-                <div class="descripcion">{persona['descripcion']}</div>
+                <div class="correo">{persona['correo']}</div>
             </div>
             """, unsafe_allow_html=True)
     
@@ -164,18 +164,21 @@ elif pagina_seleccionada == "Sobre nosotrxs":
             <img src="{persona['foto']}">
             <div class="nombre">{persona['nombre']}</div>
             <div class="rol">{persona['rol']}</div>
-            <div class="descripcion">{persona['descripcion']}</div>
+            <div class="correo">{persona['correo']}</div>
         </div>
         """, unsafe_allow_html=True)
     
     with col2:
         persona = equipo[4]
-        st.image(persona["foto"], width=250)
+        st.image(persona["foto"], width=220)
         st.markdown(f"""
-        <div class="nombre">{persona['nombre']}</div>
-        <div class="rol">{persona['rol']}</div>
-        <div class="descripcion">{persona['descripcion']}</div>
+        <div class="grid-card">
+            <div class="nombre">{persona['nombre']}</div>
+            <div class="rol">{persona['rol']}</div>
+            <div class="correo">{persona['correo']}</div>
+        </div>
         """, unsafe_allow_html=True)
+        
     with col3:
         st.empty()
 
