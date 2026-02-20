@@ -157,9 +157,6 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     col1, col2, col3 = st.columns([1,1,1])
     
     with col1:
-        st.empty()
-    
-    with col2:
         persona = equipo[3]
         st.markdown(f"""
         <div class="grid-card">
@@ -170,7 +167,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         </div>
         """, unsafe_allow_html=True)
     
-    with col3:
+    with col2:
         persona = equipo[4]
         st.markdown(f"""
         <div class="grid-card">
@@ -180,6 +177,8 @@ elif pagina_seleccionada == "Sobre nosotrxs":
             <div class="descripcion">{persona['descripcion']}</div>
         </div>
         """, unsafe_allow_html=True)
+    with col3:
+        st.empty()
 
 
 
