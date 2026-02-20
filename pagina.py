@@ -71,6 +71,42 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     Sobre Nosotrxs
     </h1>
     """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <style>
+    .card img {
+        width: 100%;
+        height: 320px;      /* Alto fijo */
+        object-fit: cover;  /* Recorte elegante */
+        border-radius: 10px;
+    }
+    
+    .card {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nombre {
+        font-weight: 600;
+        margin-top: 8px;
+    }
+    
+    .rol {
+        font-size: 0.9rem;
+        color: #555;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="card">
+        <img src="https://revistakametsa.wordpress.com/wp-content/uploads/2024/01/image.png?w=484">
+        <div class="nombre">Julia Castillo</div>
+        <div class="rol">Rol</div>
+        <p>Descripción</p>
+    </div>
+    """, unsafe_allow_html=True)
+
     
     col1, col2, col3 = st.columns(3)
     
