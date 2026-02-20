@@ -74,38 +74,84 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     st.markdown("""
     <style>
-    .card img {
-        width: 100%;
-        height: 320px;      /* Alto fijo */
-        object-fit: cover;  /* Recorte elegante */
-        border-radius: 10px;
+    .grid-card {
+        text-align: center;
+        padding: 12px;
     }
     
-    .card {
-        text-align: center;
-        padding: 10px;
+    .grid-card img {
+        width: 100%;
+        height: 260px;          /* Ajusta aquí el tamaño */
+        object-fit: cover;
+        border-radius: 12px;
     }
     
     .nombre {
         font-weight: 600;
-        margin-top: 8px;
+        margin-top: 10px;
     }
     
     .rol {
         font-size: 0.9rem;
-        color: #555;
+        color: #666;
+        margin-bottom: 6px;
+    }
+    
+    .descripcion {
+        font-size: 0.85rem;
+        color: #444;
     }
     </style>
     """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <div class="card">
-        <img src="https://revistakametsa.wordpress.com/wp-content/uploads/2024/01/image.png?w=484">
-        <div class="nombre">Julia Castillo</div>
-        <div class="rol">Rol</div>
-        <p>Descripción</p>
-    </div>
-    """, unsafe_allow_html=True)
+    equipo = [
+    {
+        "nombre": "Julia Castillo",
+        "rol": "Coordinación General",
+        "descripcion": "Investigadora en literatura peruana contemporánea y estudios queer.",
+        "foto": "https://revistakametsa.wordpress.com/wp-content/uploads/2024/01/image.png?w=484"
+    },
+    {
+        "nombre": "André Mere",
+        "rol": "Coordinación de comunicaciones y experiencias del público",
+        "descripcion": "Gestor cultural especializado en proyectos interdisciplinarios.",
+        "foto": "https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg"
+    },
+    {
+        "nombre": "Alan Concepción",
+        "rol": "Coordinación de producción y logísticas",
+        "descripcion": "Especialista en difusión cultural y estrategias digitales.",
+        "foto": "https://www.revistaotlet.com/wp-content/uploads/Alan_Concepcion-600x600.jpg"
+    },
+    {
+        "nombre": "Serggio Juarez",
+        "rol": "Coordinación académica",
+        "descripcion": "Especialista en difusión cultural y estrategias digitales.",
+        "foto": "https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg"
+    },
+    {
+        "nombre": "Luisa Gomez",
+        "rol": "Coordinación de difusión y prensa",
+        "descripcion": "Especialista en difusión cultural y estrategias digitales.",
+        "foto": "fotos/me.jpg"
+    },
+    # Agrega hasta completar 9 para 3x3
+    ]
+
+    for i in range(0, len(equipo), 3):
+    cols = st.columns(3)
+    
+    for col, persona in zip(cols, equipo[i:i+3]):
+        with col:
+            st.markdown(f"""
+            <div class="grid-card">
+                <img src="{persona['foto']}">
+                <div class="nombre">{persona['nombre']}</div>
+                <div class="rol">{persona['rol']}</div>
+                <div class="descripcion">{persona['descripcion']}</div>
+            </div>
+            """, unsafe_allow_html=True)
+
 
     
     col1, col2, col3 = st.columns(3)
