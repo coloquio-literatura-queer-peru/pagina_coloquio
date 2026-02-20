@@ -81,14 +81,15 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     
     .grid-card img {
         width: 100%;
-        height: 260px;          /* Ajusta aquí el tamaño */
+        height: 260px;          /* Ajustar aquí el tamaño */
         object-fit: cover;
         border-radius: 12px;
     }
     
     .nombre {
-        font-weight: 600;
-        margin-top: 10px;
+    font-weight: 800;      /* Más negrita */
+    font-size: 1.3rem;     /* Más grande */
+    margin-top: 10px;
     }
     
     .rol {
