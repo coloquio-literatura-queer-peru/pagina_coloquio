@@ -39,7 +39,7 @@ if pagina_seleccionada == "Presentación":
 elif pagina_seleccionada == "Sobre nosotrxs":
     st.markdown("""
     <h1 style="
-        font-size:70px;
+        font-size:65px;
         color:#a050f2;
         font-weight:900;
         text-align:center;
