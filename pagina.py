@@ -105,7 +105,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Serggio Juarez",
         "rol": "Coordinación académica",
         "correo": "serggioart@gmail.com",
-        "foto": "https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg"
+        "foto": "https://avatars.githubusercontent.com/u/89656628?v=4"
     },
     {
         "nombre": "Luisa Gomez",
