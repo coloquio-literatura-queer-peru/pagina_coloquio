@@ -99,7 +99,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Alan Concepción",
         "rol": "Coordinación de producción y logísticas",
         "correo": "alan.concepcion@pucp.pe",
-        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa3eiubxyZxFh5Ckl3ofnT1S5xA7mrbWniLw&s"
+        "foto": "https://www.revistaotlet.com/wp-content/uploads/Alan_Concepcion-600x600.jpg"
     },
     {
         "nombre": "Serggio Juarez",
