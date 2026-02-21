@@ -99,7 +99,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Alan Concepción",
         "rol": "Coordinación de producción y logísticas",
         "correo": "alan.concepcion@pucp.pe",
-        "foto": "https://www.revistaotlet.com/wp-content/uploads/Alan_Concepcion-600x600.jpg"
+        "foto": "https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg"
     },
     {
         "nombre": "Serggio Juarez",
