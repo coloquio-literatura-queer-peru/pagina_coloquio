@@ -93,7 +93,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "André Mere",
         "rol": "Coordinación de comunicaciones y experiencias del público",
         "correo": "andremererivera@gmail.com",
-        "foto": "https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg"
+        "foto": "https://ugc.production.linktr.ee/e3caa7b4-66b7-4f5f-b518-d3617ceb4440_IMG-20250117-231652.jpeg?io=true&size=avatar-v3_0"
     },
     {
         "nombre": "Alan Concepción",
