@@ -26,6 +26,40 @@ img {
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+.footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #d9307f;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color: #3f8c68;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="footer">
+    📩 coloquio.literatura.queer.pe@gmail.com
+    <br>
+    📷 <a href="https://instagram.com/literaturaperuqueer/" target="_blank">
+    @coloquioliteraturaqueer
+    </a>
+</div>
+""", unsafe_allow_html=True)
+
 if pagina_seleccionada == "Presentación":
     col7, col8, col9 = st.columns([1,2,1])
 
