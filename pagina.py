@@ -18,7 +18,7 @@ if pagina_seleccionada == "Presentación":
     col1, col2, col3 = st.columns([1,2,1])
 
     with col2:
-        st.image("fotos/logo.png", width=500)
+        st.image("fotos/logo.png", width=1000)
 
     
     texto_1 = """
