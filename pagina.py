@@ -26,40 +26,6 @@ img {
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-<style>
-.footer {
-    margin-top: 50px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 16px;
-    color: #555;
-    border-top: 1px solid #ddd;
-}
-
-.footer a {
-    text-decoration: none;
-    color: #d9307f;
-    font-weight: 600;
-}
-
-.footer a:hover {
-    color: #3f8c68;
-}
-</style>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="footer">
-    📩 coloquio.literatura.queer.pe@gmail.com
-    <br>
-    📷 <a href="https://instagram.com/literaturaperuqueer/" target="_blank">
-    @literaturaperuqueer
-    </a>
-</div>
-""", unsafe_allow_html=True)
-
 if pagina_seleccionada == "Presentación":
     col7, col8, col9 = st.columns([1,2,1])
 
@@ -199,4 +165,20 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         st.empty()
 
 
+st.markdown("""
+<hr style="margin-top:60px; margin-bottom:20px;">
 
+<div style="
+    text-align:center;
+    font-size:16px;
+    color:#555;
+    padding-bottom:20px;
+">
+    📩 coloquio.literatura.queer.pe@gmail.com <br>
+    📷 <a href="https://instagram.com/literaturaperuqueer/" 
+          target="_blank" 
+          style="text-decoration:none; color:#d9307f; font-weight:600;">
+          @literaturaperuqueer
+    </a>
+</div>
+""", unsafe_allow_html=True)
