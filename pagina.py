@@ -55,7 +55,7 @@ st.markdown("""
     📩 coloquio.literatura.queer.pe@gmail.com
     <br>
     📷 <a href="https://instagram.com/literaturaperuqueer/" target="_blank">
-    @coloquioliteraturaqueer
+    @literaturaperuqueer
     </a>
 </div>
 """, unsafe_allow_html=True)
