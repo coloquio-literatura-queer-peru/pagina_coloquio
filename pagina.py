@@ -15,7 +15,11 @@ paginas = ["Presentación", "Sobre nosotrxs", "Calendario", "​Invitados"]
 pagina_seleccionada = st.sidebar.selectbox('Selecciona una sección', paginas)
 
 if pagina_seleccionada == "Presentación":
-    st.image("fotos/logo.png", use_container_width=True)
+    col1, col2, col3 = st.columns([1,2,1])
+
+    with col2:
+        st.image("fotos/logo.png", width=500)
+
     
     texto_1 = """
     El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las experiencias artísticas de personas LGBTIQ+, con un énfasis en la literatura producida en el Perú. El coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritorxs, investigadorxs y lectorxs, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
