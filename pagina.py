@@ -105,7 +105,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Serggio Juarez",
         "rol": "Coordinación académica",
         "correo": "serggioart@gmail.com",
-        "foto": "https://avatars.githubusercontent.com/u/89656628?v=4"
+        "foto": "https://w0.peakpx.com/wallpaper/216/720/HD-wallpaper-the-last-of-us-2-ellie-tlou.jpg"
     },
     {
         "nombre": "Luisa Gomez",
