@@ -99,7 +99,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Alan Concepción",
         "rol": "Coordinación de producción y logísticas",
         "correo": "alan.concepcion@pucp.pe",
-        "foto": "https://indiehoy.com/wp-content/uploads/2023/01/bella-ramsey-.jpg"
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa3eiubxyZxFh5Ckl3ofnT1S5xA7mrbWniLw&s"
     },
     {
         "nombre": "Serggio Juarez",
