@@ -61,40 +61,20 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     st.markdown("""
     <style>
     
-    .miembro {
-        text-align: center;
-    }
-    
     .miembro img {
-        width: 260px;          /* mismo ancho que el texto */
-        height: 260px;
+        width: 240px;
+        height: 300px;   /* proporción 4:5 */
         object-fit: cover;
         display: block;
-        margin: 0 auto;        /* centra igual que el texto */
+        margin: 0 auto;
         border-radius: 12px;
     }
     
-    .nombre {
-        font-weight: 800;
-        font-size: 1.2rem;
-        max-width: 260px;
-        margin: 12px auto 0 auto;
-    }
-    
-    .rol {
-        font-size: 0.95rem;
-        color: #555;
-        max-width: 260px;
-        margin: 6px auto;
+    .nombre, .rol, .correo {
+        max-width: 240px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
-        line-height: 1.4;
-    }
-    
-    .correo {
-        font-size: 0.85rem;
-        color: #888;
-        max-width: 260px;
-        margin: 0 auto;
     }
     
     </style>
