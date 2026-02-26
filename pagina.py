@@ -60,25 +60,17 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     st.markdown("""
     <style>
-    .grid-card {
+    
+    .miembro {
         text-align: center;
-        padding: 15px;
-        background-color: white;
-        border-radius: 18px;
-        box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-        transition: all 0.3s ease;
+        margin-bottom: 40px;
     }
     
-    .grid-card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-    }
-    
-    .grid-card img {
-        width: 100%;
+    .miembro img {
+        width: 260px;
         height: 260px;
         object-fit: cover;
-        border-radius: 15px;
+        border-radius: 12px;
     }
     
     .nombre {
@@ -97,6 +89,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         font-size: 0.85rem;
         color: #888;
     }
+    
     </style>
     """, unsafe_allow_html=True)
 
