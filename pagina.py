@@ -63,7 +63,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     .contenedor {
     display: flex;
-    justify-content: center;   /* centra horizontal */
+    justify-content: right;   /* centra horizontal */
     }
     
     .miembro {
