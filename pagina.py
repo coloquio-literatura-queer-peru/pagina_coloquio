@@ -105,7 +105,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Julia Castillo",
         "rol": "Coordinación General",
         "correo": "castillo.julia@pucp.edu.pe",
-        "foto": "fotos/foto_julia.png"
+        "foto": "foto_julia.png"
     },
     {
         "nombre": "André Mere",
