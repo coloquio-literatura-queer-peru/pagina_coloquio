@@ -105,19 +105,19 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Julia Castillo",
         "rol": "Coordinación General",
         "correo": "castillo.julia@pucp.edu.pe",
-        "foto": "foto_julia.png"
+        "foto": "fotos/foto_julia.png"
     },
     {
         "nombre": "André Mere",
         "rol": "Coordinación de comunicaciones y experiencias del público",
         "correo": "andremererivera@gmail.com",
-        "foto": "foto_andre.png"
+        "foto": "fotos/foto_andre.png"
     },
     {
         "nombre": "Alan Concepción",
         "rol": "Coordinación de producción y logísticas",
         "correo": "alan.concepcion@pucp.pe",
-        "foto": "foto_alan.jpeg"
+        "foto": "fotos/foto_alan.jpeg"
     },
     {
         "nombre": "Serggio Juarez",
@@ -133,8 +133,6 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     }
     ]
 
-  
-
     # Primera fila (3)
     cols = st.columns(3)
 
@@ -142,7 +140,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         with col:
             st.markdown(f"""
             <div class="grid-card">
-                <img src="{persona['foto']}">
+                st.image(persona["foto"], width=260)
                 <div class="nombre">{persona['nombre']}</div>
                 <div class="rol">{persona['rol']}</div>
                 <div class="correo">{persona['correo']}</div>
@@ -156,7 +154,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         with col:
             st.markdown(f"""
             <div class="grid-card">
-                <img src="{persona['foto']}">
+                st.image(persona["foto"], width=260)
                 <div class="nombre">{persona['nombre']}</div>
                 <div class="rol">{persona['rol']}</div>
                 <div class="correo">{persona['correo']}</div>
