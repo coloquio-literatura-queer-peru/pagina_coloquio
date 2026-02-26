@@ -128,7 +128,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         with col:
             st.image(persona["foto"], width=230)
             st.markdown(f"""
-            <div class="grid-card">
+            <div style="text-align:center; margin-bottom:40px;">
                 <div class="nombre">{persona['nombre']}</div>
                 <div class="rol">{persona['rol']}</div>
                 <div class="correo">{persona['correo']}</div>
@@ -142,7 +142,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         with col:
             st.image(persona["foto"], width=230)
             st.markdown(f"""
-            <div class="grid-card">
+            <div style="text-align:center; margin-bottom:40px;">
                 <div class="nombre">{persona['nombre']}</div>
                 <div class="rol">{persona['rol']}</div>
                 <div class="correo">{persona['correo']}</div>
