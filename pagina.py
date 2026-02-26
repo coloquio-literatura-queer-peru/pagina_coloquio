@@ -60,13 +60,18 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     st.markdown("""
     <style>
+    
     .grid-card {
         text-align: center;
-        padding: 15px;
-        background-color: white;
-        border-radius: 18px;
-        box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-        transition: all 0.3s ease;
+    }
+    
+    .grid-card img {
+        width: 260px;
+        height: 260px;
+        object-fit: cover;
+        display: block;        /* clave */
+        margin: 0 auto;        /* centra la imagen */
+        border-radius: 12px;
     }
     
     .nombre {
@@ -76,13 +81,13 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     }
     
     .rol {
-    font-size: 0.95rem;
-    color: #555;
-    max-width: 260px;      /* mismo ancho que la imagen */
-    margin: 6px auto;      /* centrado */
-    text-align: centre;   /* texto justificado */
-    line-height: 1.4;      /* mejor lectura */
-    word-wrap: break-word; /* evita desbordes */
+        font-size: 0.95rem;
+        color: #555;
+        max-width: 260px;
+        margin: 6px auto;
+        text-align: center;    /* corregido */
+        line-height: 1.4;
+        word-wrap: break-word;
     }
     
     .correo {
