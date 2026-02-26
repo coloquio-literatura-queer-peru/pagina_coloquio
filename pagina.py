@@ -111,13 +111,13 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "André Mere",
         "rol": "Coordinación de comunicaciones y experiencias del público",
         "correo": "andremererivera@gmail.com",
-        "foto": "fotos/foto_andre.png"
+        "foto": "foto_andre.png"
     },
     {
         "nombre": "Alan Concepción",
         "rol": "Coordinación de producción y logísticas",
         "correo": "alan.concepcion@pucp.pe",
-        "foto": "fotos/foto_alan.jpeg"
+        "foto": "foto_alan.jpeg"
     },
     {
         "nombre": "Serggio Juarez",
