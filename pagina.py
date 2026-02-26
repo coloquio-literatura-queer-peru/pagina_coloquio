@@ -60,6 +60,12 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     st.markdown("""
     <style>
+
+    .contenedor {
+    display: flex;
+    justify-content: center;   /* centra horizontal */
+    }
+    
     .miembro {
         width: 240px;              
         margin: 0 auto 40px auto;  
