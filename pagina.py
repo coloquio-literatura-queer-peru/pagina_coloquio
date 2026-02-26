@@ -80,7 +80,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     color: #555;
     max-width: 260px;      /* mismo ancho que la imagen */
     margin: 6px auto;      /* centrado */
-    text-align: justify;   /* texto justificado */
+    text-align: centre;   /* texto justificado */
     line-height: 1.4;      /* mejor lectura */
     word-wrap: break-word; /* evita desbordes */
     }
