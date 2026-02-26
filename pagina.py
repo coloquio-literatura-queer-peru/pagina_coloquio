@@ -61,23 +61,24 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     st.markdown("""
     <style>
     
-    .grid-card {
+    .miembro {
         text-align: center;
     }
     
-    .grid-card img {
-        width: 260px;
+    .miembro img {
+        width: 260px;          /* mismo ancho que el texto */
         height: 260px;
         object-fit: cover;
-        display: block;        /* clave */
-        margin: 0 auto;        /* centra la imagen */
+        display: block;
+        margin: 0 auto;        /* centra igual que el texto */
         border-radius: 12px;
     }
     
     .nombre {
         font-weight: 800;
         font-size: 1.2rem;
-        margin-top: 12px;
+        max-width: 260px;
+        margin: 12px auto 0 auto;
     }
     
     .rol {
@@ -85,15 +86,17 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         color: #555;
         max-width: 260px;
         margin: 6px auto;
-        text-align: center;    /* corregido */
+        text-align: center;
         line-height: 1.4;
-        word-wrap: break-word;
     }
     
     .correo {
         font-size: 0.85rem;
         color: #888;
+        max-width: 260px;
+        margin: 0 auto;
     }
+    
     </style>
     """, unsafe_allow_html=True)
 
