@@ -134,7 +134,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     ]
 
     # Primera fila (3)
-    cols = st.columns(3)
+    cols = st.columns(3, gap="small") 
 
     for col, persona in zip(cols, equipo[:3]):
         with col:
