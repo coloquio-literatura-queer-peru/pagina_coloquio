@@ -60,17 +60,18 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     st.markdown("""
     <style>
-    
-    .miembro {
+    .grid-card {
         text-align: center;
-        margin-bottom: 40px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 18px;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+        transition: all 0.3s ease;
     }
     
-    .miembro img {
-        width: 260px;
-        height: 260px;
-        object-fit: cover;
-        border-radius: 12px;
+    .grid-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     }
     
     .nombre {
@@ -89,7 +90,6 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         font-size: 0.85rem;
         color: #888;
     }
-    
     </style>
     """, unsafe_allow_html=True)
 
@@ -122,7 +122,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Luisa Gomez",
         "rol": "Coordinación de difusión y prensa",
         "correo": "luisa.gomez@pucp.edu.pe",
-        "foto": "fotos/me.jpg"
+        "foto": "fotos/foto_luisa.jpg"
     }
     ]
 
