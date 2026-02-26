@@ -76,9 +76,13 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     }
     
     .rol {
-        font-size: 0.95rem;
-        color: #555;
-        margin-bottom: 6px;
+    font-size: 0.95rem;
+    color: #555;
+    max-width: 260px;      /* mismo ancho que la imagen */
+    margin: 6px auto;      /* centrado */
+    text-align: justify;   /* texto justificado */
+    line-height: 1.4;      /* mejor lectura */
+    word-wrap: break-word; /* evita desbordes */
     }
     
     .correo {
