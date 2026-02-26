@@ -66,7 +66,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     }
     
     .miembro img {
-        width: 200px;          /* mismo ancho que el texto */
+        width: 220px;          /* mismo ancho que el texto */
         height: 200px;
         object-fit: cover;
         display: block;
@@ -138,7 +138,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     for col, persona in zip(cols, equipo[:3]):
         with col:
-            st.image(persona["foto"], width=260)
+            st.image(persona["foto"], width=220)
             st.markdown(f"""
             <div style="text-align:center; margin-bottom:40px;">
                 <div class="nombre">{persona['nombre']}</div>
