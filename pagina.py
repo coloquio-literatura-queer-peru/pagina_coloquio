@@ -71,8 +71,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         height: 300px;   /* proporción 4:5 */
         object-fit: cover;
         display: block;
-        margin: 0 auto;
-        border-radius: 12px;
+        border-radius: 14px;
     }
     
     .nombre {
