@@ -68,7 +68,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     
     .miembro {
         width: 240px;              
-        margin: 0 auto 30px auto;  
+        margin: 0 auto 20px auto;  
         text-align: center;
     }
     
