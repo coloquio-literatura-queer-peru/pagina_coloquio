@@ -69,11 +69,6 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         transition: all 0.3s ease;
     }
     
-    .grid-card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-    }
-    
     .nombre {
         font-weight: 800;
         font-size: 1.2rem;
@@ -131,7 +126,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     for col, persona in zip(cols, equipo[:3]):
         with col:
-            st.image(persona["foto"], width=260)
+            st.image(persona["foto"], width=230)
             st.markdown(f"""
             <div class="grid-card">
                 <div class="nombre">{persona['nombre']}</div>
@@ -145,7 +140,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     for col, persona in zip(cols2[1:3], equipo[3:]):
         with col:
-            st.image(persona["foto"], width=260)
+            st.image(persona["foto"], width=230)
             st.markdown(f"""
             <div class="grid-card">
                 <div class="nombre">{persona['nombre']}</div>
