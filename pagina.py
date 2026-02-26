@@ -158,7 +158,38 @@ elif pagina_seleccionada == "Sobre nosotrxs":
                 <div class="correo">{persona['correo']}</div>
             </div>
             """, unsafe_allow_html=True)
+            
+    col4, col5, col6 = st.columns(3, gap="small")
 
+    with col1:
+        st.image("fotos/foto_julia.png", width=260)
+        st.markdown("""
+        <div class="miembro">
+            <div class="nombre">Julia Castillo</div>
+            <div class="rol">Coordinación General</div>
+            <div class="correo">castillo.julia@pucp.edu.pe</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col2:
+        st.image("fotos/foto_andre.png", width=260)
+        st.markdown("""
+        <div class="miembro">
+            <div class="nombre">André Mere</div>
+            <div class="rol">Coordinación de comunicaciones y experiencias del público</div>
+            <div class="correo">andremererivera@gmail.com</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col3:
+        st.image("fotos/foto_alan.jpeg", width=260)
+        st.markdown("""
+        <div class="miembro">
+            <div class="nombre">Alan Concepción</div>
+            <div class="rol">Coordinación de producción y logísticas</div>
+            <div class="correo">alan.concepcion@pucp.pe</div>
+        </div>
+        """, unsafe_allow_html=True)
 
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
