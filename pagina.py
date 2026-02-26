@@ -61,11 +61,9 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     st.markdown("""
     <style>
     .miembro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* centra TODO horizontalmente */
-    justify-content: center;
-    margin-bottom: 7px; 
+        width: 240px;              
+        margin: 0 auto 40px auto;  
+        text-align: center;
     }
     
     .miembro img {
@@ -77,10 +75,10 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     }
     
     .nombre {
-    font-weight: 900;       /* más bold */
-    font-size: 1.4rem;      /* más grande */
-    margin-top: 14px;
-    text-align: center;
+        font-weight: 900;       /* más bold */
+        font-size: 1.4rem;      /* más grande */
+        margin-top: 10px;
+        text-align: center;
     }
     
     .rol {
