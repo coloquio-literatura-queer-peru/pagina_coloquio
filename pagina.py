@@ -66,8 +66,8 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     }
     
     .miembro img {
-        width: 260px;          /* mismo ancho que el texto */
-        height: 260px;
+        width: 200px;          /* mismo ancho que el texto */
+        height: 200px;
         object-fit: cover;
         display: block;
         margin: 0 auto;        /* centra igual que el texto */
@@ -77,14 +77,14 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     .nombre {
         font-weight: 800;
         font-size: 1.2rem;
-        max-width: 260px;
+        max-width: 220px;
         margin: 12px auto 0 auto;
     }
     
     .rol {
         font-size: 0.95rem;
         color: #555;
-        max-width: 260px;
+        max-width: 220px;
         margin: 6px auto;
         text-align: center;
         line-height: 1.4;
@@ -93,7 +93,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     .correo {
         font-size: 0.85rem;
         color: #888;
-        max-width: 260px;
+        max-width: 220px;
         margin: 0 auto;
     }
     
