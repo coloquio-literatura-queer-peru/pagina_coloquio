@@ -161,7 +161,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
             
     col4, col5, col6 = st.columns(3, gap="small")
 
-    with col1:
+    with col4:
         st.image("fotos/foto_julia.png", width=260)
         st.markdown("""
         <div class="miembro">
@@ -171,7 +171,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         </div>
         """, unsafe_allow_html=True)
     
-    with col2:
+    with col5:
         st.image("fotos/foto_andre.png", width=260)
         st.markdown("""
         <div class="miembro">
@@ -181,7 +181,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         </div>
         """, unsafe_allow_html=True)
     
-    with col3:
+    with col6:
         st.image("fotos/foto_alan.jpeg", width=260)
         st.markdown("""
         <div class="miembro">
