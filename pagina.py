@@ -35,11 +35,11 @@ if pagina_seleccionada == "Presentación":
     lema_1 = """
     Memoria desde los márgenes
     """
-    st.markdown(f"<div style='text-align: justify; font-size: 70px; color: #a256d6;'>{lema_1}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: center; font-size: 50px; color: #a256d6; font-weight: bold'>{lema_1}</div>", unsafe_allow_html=True)
     lema_2 = """
     Voces Queer en la Literatura Peruana
     """
-    st.markdown(f"<div style='text-align: justify; font-size: 70px; color: #e65f46;'>{lema_2}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: center; font-size: 50px; color: #e65f46; font-weight: bold'>{lema_2}</div>", unsafe_allow_html=True)
     texto_1 = """
     El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las experiencias artísticas de personas LGBTIQ+, con un énfasis en la literatura producida en el Perú. El coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritorxs, investigadorxs y lectorxs, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
     """
