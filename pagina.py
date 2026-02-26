@@ -60,7 +60,12 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     st.markdown("""
     <style>
-    
+    .miembro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centra TODO horizontalmente */
+    justify-content: center;
+    }
     .miembro img {
         width: 240px;
         height: 300px;   /* proporción 4:5 */
