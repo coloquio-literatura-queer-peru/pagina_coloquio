@@ -70,10 +70,24 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         border-radius: 12px;
     }
     
-    .nombre, .rol, .correo {
-        max-width: 240px;
-        margin-left: auto;
-        margin-right: auto;
+    .nombre {
+    font-weight: 900;       /* más bold */
+    font-size: 1.4rem;      /* más grande */
+    margin-top: 14px;
+    text-align: center;
+    }
+    
+    .rol {
+        font-size: 1rem;
+        color: #2E5AAC;         /* azul elegante */
+        margin-top: 6px;
+        text-align: center;
+    }
+    
+    .correo {
+        font-size: 0.9rem;
+        color: #777777;         /* gris suave */
+        margin-top: 4px;
         text-align: center;
     }
     
