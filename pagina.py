@@ -27,10 +27,19 @@ img {
 """, unsafe_allow_html=True)
 
 if pagina_seleccionada == "Presentación":
-    col7, col8, col9 = st.columns([1,2,1])
+    col1, col2, col3 = st.columns([1,2,1])
 
-    with col8:
+    with col2:
         st.image("fotos/logo.png", width=1600)
+
+    lema_1 = """
+    Memoria desde los márgenes
+    """
+    st.markdown(f"<div style='text-align: justify; font-size: 70px; color: #a256d6;'>{lema_1}</div>", unsafe_allow_html=True)
+    lema_2 = """
+    Voces Queer en la Literatura Peruana
+    """
+    st.markdown(f"<div style='text-align: justify; font-size: 70px; color: #e65f46;'>{lema_2}</div>", unsafe_allow_html=True)
     texto_1 = """
     El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las experiencias artísticas de personas LGBTIQ+, con un énfasis en la literatura producida en el Perú. El coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritorxs, investigadorxs y lectorxs, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
     """
@@ -132,9 +141,9 @@ elif pagina_seleccionada == "Sobre nosotrxs":
             """, unsafe_allow_html=True)
     
     # Segunda fila centrada (2)
-    col1, col2, col3 = st.columns([1,1,1])
+    col4, col5, col6 = st.columns([1,1,1])
     
-    with col1:
+    with col4:
         persona = equipo[3]
         st.markdown(f"""
         <div class="grid-card">
@@ -145,7 +154,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         </div>
         """, unsafe_allow_html=True)
     
-    with col2:
+    with col5:
         persona = equipo[4]
     
         c1, c2, c3 = st.columns([1,2,1])
@@ -161,7 +170,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
             """, unsafe_allow_html=True)
 
         
-    with col3:
+    with col6:
         st.empty()
 
 
