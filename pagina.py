@@ -65,8 +65,9 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     flex-direction: column;
     align-items: center;   /* centra TODO horizontalmente */
     justify-content: center;
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
     }
+    
     .miembro img {
         width: 240px;
         height: 300px;   /* proporción 4:5 */
