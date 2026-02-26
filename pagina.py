@@ -122,7 +122,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Luisa Gomez",
         "rol": "Coordinación de difusión y prensa",
         "correo": "luisa.gomez@pucp.edu.pe",
-        "foto": "fotos/foto_luisa.jpg"
+        "foto": "fotos/foto-luisa.jpeg"
     }
     ]
 
