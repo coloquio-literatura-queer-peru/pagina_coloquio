@@ -66,8 +66,8 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     }
     
     .miembro img {
-        width: 220px;          /* mismo ancho que el texto */
-        height: 200px;
+        width: 260px;          /* mismo ancho que el texto */
+        height: 260px;
         object-fit: cover;
         display: block;
         margin: 0 auto;        /* centra igual que el texto */
@@ -77,14 +77,14 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     .nombre {
         font-weight: 800;
         font-size: 1.2rem;
-        max-width: 220px;
+        max-width: 260px;
         margin: 12px auto 0 auto;
     }
     
     .rol {
         font-size: 0.95rem;
         color: #555;
-        max-width: 220px;
+        max-width: 260px;
         margin: 6px auto;
         text-align: center;
         line-height: 1.4;
@@ -93,7 +93,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     .correo {
         font-size: 0.85rem;
         color: #888;
-        max-width: 220px;
+        max-width: 260px;
         margin: 0 auto;
     }
     
@@ -138,7 +138,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     for col, persona in zip(cols, equipo[:3]):
         with col:
-            st.image(persona["foto"], width=220)
+            st.image(persona["foto"], width=260)
             st.markdown(f"""
             <div style="text-align:center; margin-bottom:40px;">
                 <div class="nombre">{persona['nombre']}</div>
