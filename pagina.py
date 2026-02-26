@@ -62,31 +62,40 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     <style>
     .grid-card {
         text-align: center;
-        padding: 12px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 18px;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+        transition: all 0.3s ease;
+    }
+    
+    .grid-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     }
     
     .grid-card img {
         width: 100%;
-        height: 260px;          /* Ajustar aquí el tamaño */
+        height: 260px;
         object-fit: cover;
-        border-radius: 12px;
+        border-radius: 15px;
     }
     
     .nombre {
-    font-weight: 800;      /* Más negrita */
-    font-size: 1.3rem;     /* Más grande */
-    margin-top: 10px;
+        font-weight: 800;
+        font-size: 1.2rem;
+        margin-top: 12px;
     }
     
     .rol {
-        font-size: 0.9rem;
-        color: #666;
+        font-size: 0.95rem;
+        color: #555;
         margin-bottom: 6px;
     }
     
     .correo {
         font-size: 0.85rem;
-        color: #444;
+        color: #888;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -96,25 +105,25 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         "nombre": "Julia Castillo",
         "rol": "Coordinación General",
         "correo": "castillo.julia@pucp.edu.pe",
-        "foto": "https://revistakametsa.wordpress.com/wp-content/uploads/2024/01/image.png?w=484"
+        "foto": "fotos/foto_julia.png"
     },
     {
         "nombre": "André Mere",
         "rol": "Coordinación de comunicaciones y experiencias del público",
         "correo": "andremererivera@gmail.com",
-        "foto": "https://ugc.production.linktr.ee/e3caa7b4-66b7-4f5f-b518-d3617ceb4440_IMG-20250117-231652.jpeg?io=true&size=avatar-v3_0"
+        "foto": "fotos/foto_andre.png"
     },
     {
         "nombre": "Alan Concepción",
         "rol": "Coordinación de producción y logísticas",
         "correo": "alan.concepcion@pucp.pe",
-        "foto": "https://www.revistaotlet.com/wp-content/uploads/Alan_Concepcion-600x600.jpg"
+        "foto": "fotos/foto_alan.jpeg"
     },
     {
         "nombre": "Serggio Juarez",
         "rol": "Coordinación académica",
         "correo": "serggioart@gmail.com",
-        "foto": "https://w0.peakpx.com/wallpaper/216/720/HD-wallpaper-the-last-of-us-2-ellie-tlou.jpg"
+        "foto": "fotos/foto_serggio.png"
     },
     {
         "nombre": "Luisa Gomez",
@@ -128,7 +137,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     # Primera fila (3)
     cols = st.columns(3)
-    
+
     for col, persona in zip(cols, equipo[:3]):
         with col:
             st.markdown(f"""
@@ -141,37 +150,18 @@ elif pagina_seleccionada == "Sobre nosotrxs":
             """, unsafe_allow_html=True)
     
     # Segunda fila centrada (2)
-    col4, col5, col6 = st.columns([1,1,1])
-    
-    with col4:
-        persona = equipo[3]
-        st.markdown(f"""
-        <div class="grid-card">
-            <img src="{persona['foto']}">
-            <div class="nombre">{persona['nombre']}</div>
-            <div class="rol">{persona['rol']}</div>
-            <div class="correo">{persona['correo']}</div>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    with col5:
-        persona = equipo[4]
-    
-        c1, c2, c3 = st.columns([1,2,1])
-    
-        with c2:
-            st.image(persona["foto"], width=260)
+    cols2 = st.columns([1,2,2,1])
+
+    for col, persona in zip(cols2[1:3], equipo[3:]):
+        with col:
             st.markdown(f"""
             <div class="grid-card">
+                <img src="{persona['foto']}">
                 <div class="nombre">{persona['nombre']}</div>
                 <div class="rol">{persona['rol']}</div>
                 <div class="correo">{persona['correo']}</div>
             </div>
             """, unsafe_allow_html=True)
-
-        
-    with col6:
-        st.empty()
 
 
 st.markdown("""
