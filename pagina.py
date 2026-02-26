@@ -138,9 +138,9 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     for col, persona in zip(cols, equipo[:3]):
         with col:
+            st.image(persona["foto"], width=260)
             st.markdown(f"""
             <div class="grid-card">
-                st.image(persona["foto"], width=260)
                 <div class="nombre">{persona['nombre']}</div>
                 <div class="rol">{persona['rol']}</div>
                 <div class="correo">{persona['correo']}</div>
@@ -152,9 +152,9 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     for col, persona in zip(cols2[1:3], equipo[3:]):
         with col:
+            st.image(persona["foto"], width=260)
             st.markdown(f"""
             <div class="grid-card">
-                st.image(persona["foto"], width=260)
                 <div class="nombre">{persona['nombre']}</div>
                 <div class="rol">{persona['rol']}</div>
                 <div class="correo">{persona['correo']}</div>
