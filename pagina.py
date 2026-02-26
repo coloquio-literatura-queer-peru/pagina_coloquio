@@ -136,7 +136,6 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     for col, persona in zip(cols, equipo[:3]):
         with col:
-            st.image(persona["foto"], width=260)
             st.markdown(f"""
             <div style="width:260px; margin:0 auto 40px auto; text-align:center;">
                 <img src="{persona['foto']}" style="
