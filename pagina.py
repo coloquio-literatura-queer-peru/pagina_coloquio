@@ -148,7 +148,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
             """, unsafe_allow_html=True)
     
     # Segunda fila centrada (2)
-    cols2 = st.columns([1,2,2,1])
+    cols2 = st.columns([1,2,2,1], gap="small")
 
     for col, persona in zip(cols2[1:3], equipo[3:]):
         with col:
