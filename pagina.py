@@ -8,7 +8,7 @@ from streamlit_folium import st_folium
 
 
 st.set_page_config(
-    page_title="Coloquio",
+    page_title="Coloquio Literatura PE",
     page_icon="🌈",
     layout="wide"
 )
