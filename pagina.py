@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-paginas = ["Presentación", "Sobre nosotrxs", "Calendario", "​Invitados"]
+paginas = ["Presentación", "Equipo organizador", "Calendario", "​Invitados"]
 pagina_seleccionada = st.sidebar.selectbox('Selecciona una sección', paginas)
 
 st.markdown("""
@@ -45,11 +45,11 @@ if pagina_seleccionada == "Presentación":
     """
     st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
 
-elif pagina_seleccionada == "Sobre nosotrxs":
+elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
     <h1 style="
         font-size:65px;
-        color:#a050f2;
+        color:#9a62a5;
         font-weight:900;
         text-align:center;
         margin-bottom:20px;
