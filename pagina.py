@@ -13,7 +13,6 @@ st.set_page_config(
     layout="wide"
 )
 
-
 st.markdown("""
     <style>
     /* Texto dentro del selectbox */
@@ -291,7 +290,16 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     <ul>
     <li>Formato Word o PDF a espacio 1.5 con fuente Times New Roman tamaño 12.</li>
     <li>El título de la ponencia debe ir centrado en negrita y en mayúsculas</li>
-    <li>Debajo del título, a la derecha, se debe señalar 1) el nombre del autor/a, 2) el programa de pregrado o posgrado al que pertenece, 3) el nombre del centro de estudios y 4) el correo institucional. Cada dato en una línea. Si el participante no tiene un vínculo académico, puede colocar el nombre de la institución a la que pertenezca o, en su defecto, no colocar nada. Asimismo, en vez del correo institucional académico puede colocar el correo de preferencia (personal o de alguna otra institución). En ese caso serían tres (03) líneas.</li>
+    <li>Debajo del título, a la derecha, se debe señalar 
+    <ol>
+    <li> Nombre del autor/a </li>
+    <li> Programa de pregrado o posgrado al que pertenece </li> 
+    <li> Nombre del centro de estudios </li>
+    <li> Correo institucional </li> 
+    </ol>
+    Cada dato en una línea. Si el participante no tiene un vínculo académico, puede colocar el nombre de la institución a la que pertenezca o, en su defecto, no colocar nada. 
+    Asimismo, en vez del correo institucional académico puede colocar el correo de preferencia (personal o de alguna otra institución). 
+    En ese caso serían tres (03) líneas.</li>
     <li>La sumilla debe tener hasta 350 palabras y debe consignar la información principal de la investigación (el objeto de estudio, el tema, la hipótesis, el objetivo, el método y, de ser posible, las conclusiones).</li>
     <li>Señalar hasta cinco (05) palabras clave.</li>
     <li>Señalar entre tres (03) a cinco (05) fuentes académicas utilizadas.</li>
