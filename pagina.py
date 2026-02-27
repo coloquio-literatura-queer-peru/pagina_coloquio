@@ -351,7 +351,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     with col11:
         st.link_button(
-        "Ir al formulario de recepción de sumillas",
+        "Formulario",
         "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog"
         )
         
