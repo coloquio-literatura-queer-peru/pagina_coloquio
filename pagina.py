@@ -73,8 +73,9 @@ if pagina_seleccionada == "Presentación":
     st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
 
     col13, col14, col15, col16, col17 = st.columns(5)
+    
     with col13:
-    st.image("fotos/logo.png")
+        st.image("fotos/logo.png")
     
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
