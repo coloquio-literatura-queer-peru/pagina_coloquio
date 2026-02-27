@@ -62,19 +62,19 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     with col4:
         st.image("fotos/foto_julia.png", width=260)
-        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:700;'>Julia Castillo</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>Julia Castillo</div>",unsafe_allow_html=True)
         st.markdown("Coordinación General")
         st.markdown("castillo.julia@pucp.edu.pe")
  
     with col5:
         st.image("fotos/foto_andre.png", width=260)
-        st.markdown("André Mere Rivera")
+        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>André Mere Rivera</div>",unsafe_allow_html=True)
         st.markdown("Coordinación de Comunicaciones y Experiencias del Público")
         st.markdown("andremererivera@gmail.com")
         
     with col6:
         st.image("fotos/foto_alan.jpeg", width=260)
-        st.markdown("Alan Concepción")
+        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>Alan Concepción</div>",unsafe_allow_html=True)
         st.markdown("Coordinación de producción y logísticas")
         st.markdown("alan.concepcion@pucp.pe")
         
@@ -83,13 +83,13 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     
     with col7:
         st.image("fotos/foto_serggio.png", width=260)
-        st.markdown("Serggio Juarez")
+        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>Serggio Juarez</div>",unsafe_allow_html=True)
         st.markdown("Coordinación académica")
         st.markdown("serggioart@gmail.com")
         
     with col8:
         st.image("fotos/foto_luisa.jpeg", width=260)
-        st.markdown("Luisa Gomez")
+        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>Luisa Gomez</div>",unsafe_allow_html=True)
         st.markdown("Coordinación de difusión y prensa")
         st.markdown("luisa.gomez@pucp.edu.pe")
     
