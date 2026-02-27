@@ -13,15 +13,16 @@ st.set_page_config(
 
 st.markdown("""
     <style>
-    /* Tamaño del texto del selectbox */
-    div[data-baseweb="select"] > div {
+    /* Estilo del label en el sidebar */
+    section[data-testid="stSidebar"] div[data-testid="stWidgetLabel"] > label {
         font-size: 18px !important;
         font-weight: bold !important;
     }
 
-    /* Tamaño del label */
-    label {
+    /* Estilo del selectbox (texto visible) */
+    section[data-testid="stSidebar"] div[data-baseweb="select"] > div {
         font-size: 18px !important;
+        font-weight: bold !important;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -120,7 +121,7 @@ st.markdown("""
 
 <div style="
     text-align:center;
-    font-size:16px;
+    font-size:18px;
     color:#555;
     padding-bottom:20px;
 ">
