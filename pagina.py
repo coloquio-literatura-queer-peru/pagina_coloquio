@@ -88,7 +88,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         st.markdown("serggioart@gmail.com")
         
     with col8:
-        st.image("fotos/luisa.jpg", width=260)
+        st.image("fotos/foto_luisa.jpg", width=260)
         st.markdown("Luisa Gomez")
         st.markdown("Coordinación de difusión y prensa")
         st.markdown("luisa.gomez@pucp.edu.pe")
