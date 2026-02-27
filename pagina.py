@@ -242,6 +242,40 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     </p>
     </div>
     """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <h2 style="
+        font-size:40px;
+        color:#a154d6;
+        font-weight:900;
+        text-align:justify;
+        margin-bottom:20px;
+    ">
+    Ejes temáticos
+    </h2>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div style="text-align: justify; font-size:18px;">
+    <p>
+    Las sumillas enviadas pueden abordar los siguientes temas. 
+    Sin embargo, esta lista no es excluyente: si la ponencia aborda algún otro tema relacionado dentro del enfoque del coloquio, pasará a revisión.
+    </p>
+    <ol>
+    <li>Construcción de identidades sexuales y de género</li>
+    <li>Memorias disidentes y subjetividades marginales</li>
+    <li>Literatura infantil queer</li>
+    <li>Erotismo, poéticas del cuerpo y del deseo</li>
+    <li>Amor y afectividad queer en la literatura</li>
+    <li>Adaptaciones audiovisuales de obras literarias queer</li>
+    <li>Campo editorial de literatura queer en el Perú</li>
+    <li>Moral, control y censura frente a temáticas queer</li>
+    <li>Lo marica antes de lo queer (escrituras disidentes antes de la existencia del concepto queer y de las disidencias sexo-genéricas)</li>
+    <li>Literatura, feminismo y disidencias sexo-genéricas</li>
+    <li>Literatura disidente en entornos digitales, entre otros</li>
+    </ol>
+    </div>
+    """, unsafe_allow_html=True)
     
     col10, col11, col12 = st.columns(3)
 
