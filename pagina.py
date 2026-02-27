@@ -68,9 +68,9 @@ elif pagina_seleccionada == "Equipo organizador":
  
     with col5:
         st.image("fotos/foto_andre.png", width=260)
-        st.markdown("<div style='width:260px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>André Mere Rivera</div>",unsafe_allow_html=True)
-        st.markdown("Coordinación de Comunicaciones y Experiencias del Público")
-        st.markdown("andremererivera@gmail.com")
+        st.markdown("<div style='width:260px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones y Experiencias del Público</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
         
     with col6:
         st.image("fotos/foto_alan.jpeg", width=260)
