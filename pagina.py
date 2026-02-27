@@ -13,14 +13,17 @@ st.set_page_config(
     layout="wide"
 )
 
-st.markdown("""
-<style>
-/* Oculta únicamente el botón/enlace que contiene 'github' */
-a[href*="github"] {
-    display: none !important;
-}
-</style>
-""", unsafe_allow_html=True)
+hide_github_icon = """
+    <style>
+    #GithubIcon {
+        visibility: hidden;
+    }
+    .viewerBadge_link__1S137 {
+        display: none;
+    }
+    </style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 st.markdown("""
     <style>
