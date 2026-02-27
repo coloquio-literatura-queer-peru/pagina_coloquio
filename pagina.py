@@ -12,13 +12,14 @@ st.set_page_config(
     page_icon="📖🌈",
     layout="wide"
 )
+
 st.markdown("""
-    <style>
-    /* Oculta botón superior derecho (GitHub / Deploy / menú) */
-    header[data-testid="stHeader"] {
-        visibility: hidden;
-    }
-    </style>
+<style>
+/* Oculta únicamente el botón/enlace que contiene 'github' */
+a[href*="github"] {
+    display: none !important;
+}
+</style>
 """, unsafe_allow_html=True)
 
 st.markdown("""
