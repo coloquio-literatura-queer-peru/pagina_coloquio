@@ -1,4 +1,5 @@
 [theme]
+primaryColor = "#f4e8e0"
 backgroundColor="#f4e8e0"
 secondaryBackgroundColor="#73579d"
 font = "Cormorant Garamond:https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap"
