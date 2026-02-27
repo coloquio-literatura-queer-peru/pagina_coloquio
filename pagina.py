@@ -135,10 +135,14 @@ elif pagina_seleccionada == "Recepción de sumillas":
     </h1>
     """, unsafe_allow_html=True)
     
-    st.link_button(
-    "Ir al formulario de recepción de sumillas",
-    "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog"
-    )
+    col10, col11, col12 = st.columns([1, 2, 1])
+
+    with col11:
+        st.link_button(
+        "Ir al formulario de recepción de sumillas",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog"
+        )
+        
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
 
