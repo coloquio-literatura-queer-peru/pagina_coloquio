@@ -326,6 +326,26 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     | Confirmación de resultados | A partir del 13 de Abril del 2026 |
     | Envío de diapositivas (personas seleccionadas)| Hasta el 12 de Junio |
     """)
+
+    st.markdown("""
+    <h2 style="
+        font-size:40px;
+        color:#e55940;
+        font-weight:900;
+        text-align:justify;
+        margin-bottom:20px;
+    ">
+    Modo de envío
+    </h2>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div style="text-align: justify; font-size:18px;">
+    <p>
+    El envío de sumillas se hará a través del siguiente formulario: 
+    </p>
+    </div>
+    """, unsafe_allow_html=True)
     
     col10, col11, col12 = st.columns(3)
 
