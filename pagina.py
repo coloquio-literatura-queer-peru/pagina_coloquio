@@ -83,7 +83,7 @@ if pagina_seleccionada == "Presentación":
     with col15:
         st.image("fotos/logo_AMP.png")
     with col16:
-        st.image("fotos/logo_podcast.png")
+        st.image("fotos/logo_col.png")
     with col17:
         st.image("fotos/logo_BCO.png")
     
