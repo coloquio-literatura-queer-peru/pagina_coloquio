@@ -22,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.sidebar.markdown(
-    "<p style='color:#9a62a5; font-size:18px; font-weight:bold;'>Selecciona una sección</p>",
+    "<p style='color:#f4e8e0; font-size:18px; font-weight:bold;'>Selecciona una sección</p>",
     unsafe_allow_html=True
 )
 
