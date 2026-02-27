@@ -78,6 +78,8 @@ if pagina_seleccionada == "Presentación":
     
     with col13:
         st.image("fotos/logo_redlit.png")
+    with col14:
+        st.image("fotos/logo_fuego.png")
     with col15:
         st.image("fotos/logo_AMP.png")
     with col16:
