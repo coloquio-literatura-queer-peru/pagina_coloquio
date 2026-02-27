@@ -12,6 +12,14 @@ st.set_page_config(
     page_icon="📖🌈",
     layout="wide"
 )
+st.markdown("""
+    <style>
+    /* Oculta botón superior derecho (GitHub / Deploy / menú) */
+    header[data-testid="stHeader"] {
+        visibility: hidden;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 st.markdown("""
     <style>
@@ -28,7 +36,7 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-paginas = ["Presentación", "Equipo organizador", "Recepción de sumillas", "Programa"]
+paginas = ["Presentación", "Equipo organizador", "Convocatoria de sumillas", "Programa"]
 
 # Ocultamos el label original
 pagina_seleccionada = st.sidebar.selectbox(
@@ -122,7 +130,7 @@ elif pagina_seleccionada == "Equipo organizador":
         st.markdown("<div style='width:440px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
         st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
 
-elif pagina_seleccionada == "Recepción de sumillas":
+elif pagina_seleccionada == "Convocatoria de sumillas":
     st.markdown("""
     <h1 style="
         font-size:65px;
@@ -131,9 +139,33 @@ elif pagina_seleccionada == "Recepción de sumillas":
         text-align:center;
         margin-bottom:20px;
     ">
-    Recepción de sumillas
-    </h1>
+    Convocatoria de sumillas
+    </h2>
     """, unsafe_allow_html=True)
+
+    parte_1 = """
+    A pesar del crecimiento de eventos académicos y culturales en el Perú, persisten importantes vacíos en la programación vinculada a las disidencias sexuales y de género, particularmente en el ámbito literario. 
+    Las propuestas existentes suelen estar marcadas por enfoques generalistas, sin una atención sostenida a las voces queer ni a las escrituras que tensionan los marcos heteronormativos de representación. 
+    Asimismo, la programación cultural tiende a concentrarse en autores y temas ya legitimados, dejando de lado producciones que emergen desde los márgenes, muchas veces autoeditadas, comunitarias o vinculadas a experiencias de precariedad, exclusión y violencia.
+    Además, cuando se abordan temas de diversidad sexual o queer en eventos académicos, suelen hacerse desde un enfoque externo, desvinculado de las trayectorias de personas, activistas, escritores/as disidentes o colectivos culturales. 
+    Esto contribuye a una circulación parcial, fragmentaria o exotizada de las literaturas queer.
+    En ese contexto, el I Coloquio de Literatura Peruana Queer busca atender estas limitaciones mediante una programación que, si bien parte de la investigación académica, la combina con  producciones literarias y experiencias artísticas de sujetos LGBTIQ+ o queer, con un énfasis específico en la literatura peruana, manejando el concepto amplio de “literatura” (que considera las publicaciones independientes, fanzines, novelas gráficas y todo texto “no canónico”). 
+    Este primer coloquio crea un espacio interdisciplinario y descentralizado dentro de los circuitos hegemónicos, promoviendo las memorias y reflexiones, la visibilidad de autorías disidentes, la difusión de estudios críticos y la articulación de redes entre creadores/as, investigadores/as y lectores/as. Al hacerlo, contribuye a democratizar el acceso y la representación en el campo literario, desde una mirada situada y plural en el contexto peruano. 
+    """
+    st.markdown(f"<div style='text-align: justify; font-size: 24px;'>{parte_1}</div>", unsafe_allow_html=True)
+    
+    st.markdown("""
+    <h1 style="
+        font-size:40px;
+        color:#3cbd6d;
+        font-weight:900;
+        text-align:center;
+        margin-bottom:20px;
+    ">
+    Bases para el envío de sumillas
+    </h2>
+    """, unsafe_allow_html=True)
+    
     
     col10, col11, col12 = st.columns(3)
 
