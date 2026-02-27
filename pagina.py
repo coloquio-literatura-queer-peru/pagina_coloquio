@@ -210,6 +210,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     Cada participante enviará una sumilla (resumen) de su ponencia. 
     Nuestro comité académico revisará todas las sumillas enviadas y habrá un proceso de selección. 
     Las personas seleccionadas para las mesas de investigación serán notificadas anticipadamente para que puedan confirmar su participación en el evento.
+    
     Nuestro comité académico está compuesto por
     </p>
     <ul>
@@ -218,6 +219,27 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     <li>Leonardo Loayza, Richard Angelo</li>
     <li>Suárez Trejo, Javier Teófilo</li>
     </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <h2 style="
+        font-size:40px;
+        color:#e55940;
+        font-weight:900;
+        text-align:justify;
+        margin-bottom:20px;
+    ">
+    Participantes
+    </h2>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div style="text-align: justify; font-size:18px;">
+    <p>
+    La convocatoria del I Coloquio de Literatura Peruana Queer está abierta a alumnos de pregrado, bachilleres, tesistas, licenciados, estudiantes de posgrado de cualquier universidad, así como también investigadores independientes (sin alguna filiación académica).
+    Si bien se trata de un coloquio de literatura, el evento busca ser interdisciplinario, por lo que también se aceptarán investigaciones desde ramas afines a la literatura (e.g. humanidades, sociología, antropología, entre otros).
+    </p>
     </div>
     """, unsafe_allow_html=True)
     
