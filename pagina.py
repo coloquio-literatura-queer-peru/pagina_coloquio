@@ -160,7 +160,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     En ese contexto, el I Coloquio de Literatura Peruana Queer busca atender estas limitaciones mediante una programación que, si bien parte de la investigación académica, la combina con  producciones literarias y experiencias artísticas de sujetos LGBTIQ+ o queer, con un énfasis específico en la literatura peruana, manejando el concepto amplio de “literatura” (que considera las publicaciones independientes, fanzines, novelas gráficas y todo texto “no canónico”). 
     Este primer coloquio crea un espacio interdisciplinario y descentralizado dentro de los circuitos hegemónicos, promoviendo las memorias y reflexiones, la visibilidad de autorías disidentes, la difusión de estudios críticos y la articulación de redes entre creadores/as, investigadores/as y lectores/as. Al hacerlo, contribuye a democratizar el acceso y la representación en el campo literario, desde una mirada situada y plural en el contexto peruano. 
     """
-    st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{parte_1}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{parte_1}<div>", unsafe_allow_html=True)
 
     st.markdown("""
     <h2 style="
