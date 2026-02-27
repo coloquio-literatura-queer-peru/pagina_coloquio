@@ -3,7 +3,9 @@
 import streamlit as st
 import pandas as pd
 import folium 
+import streamlit.components.v1 as components
 from streamlit_folium import st_folium
+
 
 st.set_page_config(
     page_title="Literatura Peruana Queer",
@@ -135,11 +137,9 @@ elif pagina_seleccionada == "Recepción de sumillas":
     
     components.iframe(
     "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog",
-    width=700,
-    height=900,
-    scrolling=True
+    height=1000
     )
-
+    
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
 
