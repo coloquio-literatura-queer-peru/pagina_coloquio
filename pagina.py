@@ -135,7 +135,7 @@ elif pagina_seleccionada == "Recepción de sumillas":
     </h1>
     """, unsafe_allow_html=True)
     
-    col10, col11, col12 = st.columns([1, 2, 1])
+    col10, col11, col12 = st.columns(3)
 
     with col11:
         st.link_button(
