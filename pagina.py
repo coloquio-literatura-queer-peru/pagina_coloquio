@@ -119,7 +119,27 @@ elif pagina_seleccionada == "Equipo organizador":
         st.markdown("<div style='width:320px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Luisa Gomez</div>",unsafe_allow_html=True)
         st.markdown("<div style='width:440px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
         st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
-        
+
+elif pagina_seleccionada == "Recepción de sumillas":
+    st.markdown("""
+    <h1 style="
+        font-size:65px;
+        color:#9a62a5;
+        font-weight:900;
+        text-align:center;
+        margin-bottom:20px;
+    ">
+    Recepción de sumillas
+    </h1>
+    """, unsafe_allow_html=True)
+    
+    components.iframe(
+    "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog",
+    width=700,
+    height=900,
+    scrolling=True
+    )
+
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
 
