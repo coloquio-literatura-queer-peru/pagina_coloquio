@@ -40,6 +40,9 @@ if pagina_seleccionada == "Presentación":
     Voces queer en la literatura peruana
     """
     st.markdown(f"<div style='text-align: center; font-size: 35px; color: #e65f46; font-weight: bold'>{lema_2}</div>", unsafe_allow_html=True)
+
+    st.write("")
+    
     texto_1 = """
     El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las experiencias artísticas de personas LGBTIQ+, con un énfasis en la literatura producida en el Perú. El coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritorxs, investigadorxs y lectorxs, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
     """
@@ -68,16 +71,18 @@ elif pagina_seleccionada == "Equipo organizador":
  
     with col5:
         st.image("fotos/foto_andre.png", width=260)
-        st.markdown("<div style='width:260px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones y Experiencias del Público</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:240px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:320px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones y Experiencias del Público</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
         
     with col6:
         st.image("fotos/foto_alan.jpeg", width=260)
         st.markdown("<div style='width:260px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>Alan Concepción</div>",unsafe_allow_html=True)
         st.markdown("Coordinación de producción y logísticas")
         st.markdown("alan.concepcion@pucp.pe")
-        
+
+    st.write("")
+    
     # Segunda fila
     col7, col8, col9 = st.columns(3)
     
