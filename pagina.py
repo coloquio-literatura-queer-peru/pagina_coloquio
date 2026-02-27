@@ -35,11 +35,11 @@ if pagina_seleccionada == "Presentación":
     lema_1 = """
     Memoria desde los márgenes
     """
-    st.markdown(f"<div style='text-align: center; font-size: 35px; color: #a256d6; font-weight: bold'>{lema_1}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: center; font-size: 30px; color: #a256d6; font-weight: bold'>{lema_1}</div>", unsafe_allow_html=True)
     lema_2 = """
     Voces queer en la literatura peruana
     """
-    st.markdown(f"<div style='text-align: center; font-size: 35px; color: #e65f46; font-weight: bold'>{lema_2}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: center; font-size: 30px; color: #e65f46; font-weight: bold'>{lema_2}</div>", unsafe_allow_html=True)
 
     st.write("")
     
@@ -71,9 +71,9 @@ elif pagina_seleccionada == "Equipo organizador":
  
     with col5:
         st.image("fotos/foto_andre.png", width=260)
-        st.markdown("<div style='width:240px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:320px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones y Experiencias del Público</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:200px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:280px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones y Experiencias del Público</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:300px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
         
     with col6:
         st.image("fotos/foto_alan.jpeg", width=260)
