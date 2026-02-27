@@ -166,7 +166,27 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     Este primer coloquio crea un espacio interdisciplinario y descentralizado dentro de los circuitos hegemónicos, promoviendo las memorias y reflexiones, la visibilidad de autorías disidentes, la difusión de estudios críticos y la articulación de redes entre creadores/as, investigadores/as y lectores/as. Al hacerlo, contribuye a democratizar el acceso y la representación en el campo literario, desde una mirada situada y plural en el contexto peruano. 
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{parte_1}</div>", unsafe_allow_html=True)
-    
+
+    st.markdown("""
+    <h2 style="
+        font-size:40px;
+        color:#d92958;
+        font-weight:900;
+        text-align:justify;
+        margin-bottom:20px;
+    ">
+    Objetivos
+    </h2>
+    """, unsafe_allow_html=True)
+
+    parte_2 = """
+    * Analizar críticamente obras literarias peruanas que abordan experiencias, identidades y subjetividades queer desde diversas perspectivas teóricas y metodológicas. 
+    * Fomentar el encuentro entre investigadores/as, estudiantes, escritores/as y público general interesados en la literatura y las disidencias sexuales y de género. 
+    * Promover la difusión de estudios académicos y propuestas artísticas vinculadas a la literatura LGBTIQ+ en el Perú.
+    * Impulsar la visibilidad de autorías disidentes y la circulación de sus obras en espacios culturales y académicos.
+    * Contribuir a la construcción de redes de colaboración entre iniciativas literarias, culturales y comunitarias que trabajan desde perspectivas queer.
+    """
+    st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{parte_2}</div>", unsafe_allow_html=True)
 
     
     col10, col11, col12 = st.columns(3)
