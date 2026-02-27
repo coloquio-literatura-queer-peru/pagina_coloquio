@@ -11,7 +11,21 @@ st.set_page_config(
     layout="wide"
 )
 
-paginas = ["Presentación", "Equipo organizador", "Calendario", "​Invitados"]
+st.markdown("""
+    <style>
+    /* Tamaño del texto del selectbox */
+    div[data-baseweb="select"] > div {
+        font-size: 18px !important;
+    }
+
+    /* Tamaño del label */
+    label {
+        font-size: 18px !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+paginas = ["Presentación", "Equipo organizador", "Recepción de sumillas", "​Programa"]
 pagina_seleccionada = st.sidebar.selectbox('Selecciona una sección', paginas)
 
 st.markdown("""
