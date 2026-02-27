@@ -14,14 +14,9 @@ st.set_page_config(
 )
 
 hide_github_icon = """
-    <style>
-    #GithubIcon {
-        visibility: hidden;
-    }
-    .viewerBadge_link__1S137 {
-        display: none;
-    }
-    </style>
+#GithubIcon {
+  visibility: hidden;
+}
 """
 st.markdown(hide_github_icon, unsafe_allow_html=True)
 
