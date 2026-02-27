@@ -305,6 +305,27 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     </ul>
     </div>
     """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <h2 style="
+        font-size:40px;
+        color:#d92958;
+        font-weight:900;
+        text-align:justify;
+        margin-bottom:20px;
+    ">
+    Plazos y fechas
+    </h2>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    | EVENTO | FECHA |
+    |-------|------------|
+    | Apertura de convocatoria | Sábado 28 de Febrero del 2026 |
+    | Cierre de convocatoria | Domingo 29 de Marzo del 2026 (hasta las 11:59 pm) |
+    | Confirmación de resultados | A partir del 13 de Abril del 2026 |
+    | Envío de diapositivas (personas seleccionadas)| Hasta el 12 de Junio |
+    """)
     
     col10, col11, col12 = st.columns(3)
 
