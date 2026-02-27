@@ -58,144 +58,42 @@ elif pagina_seleccionada == "Sobre nosotrxs":
     </h1>
     """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <style>
-
-    .contenedor {
-    display: flex;
-    justify-content: center;   /* centra horizontal */
-    }
-    
-    .miembro {
-        width: 240px;              
-        margin: 0 auto 10px auto;  
-        text-align: center;
-    }
-    
-    .miembro img {
-        width: 240px;
-        height: 300px;   /* proporción 4:5 */
-        object-fit: cover;
-        display: block;
-        border-radius: 14px;
-    }
-    
-    .nombre {
-        font-weight: 900;       /* más bold */
-        font-size: 1.4rem;      /* más grande */
-        margin-top: 10px;
-        text-align: center;
-    }
-    
-    .rol {
-        font-size: 1rem;
-        color: #2E5AAC;         /* azul elegante */
-        margin-top: 6px;
-        text-align: center;
-    }
-    
-    .correo {
-        font-size: 0.9rem;
-        color: #777777;         /* gris suave */
-        margin-top: 4px;
-        text-align: center;
-    }
-    
-    </style>
-    """, unsafe_allow_html=True)
-
-    equipo = [
-    {
-        "nombre": "Julia Castillo",
-        "rol": "Coordinación General",
-        "correo": "castillo.julia@pucp.edu.pe",
-        "foto": "fotos/foto_julia.png"
-    },
-    {
-        "nombre": "André Mere",
-        "rol": "Coordinación de comunicaciones y experiencias del público",
-        "correo": "andremererivera@gmail.com",
-        "foto": "fotos/foto_andre.png"
-    },
-    {
-        "nombre": "Alan Concepción",
-        "rol": "Coordinación de producción y logísticas",
-        "correo": "alan.concepcion@pucp.pe",
-        "foto": "fotos/foto_alan.jpeg"
-    },
-    {
-        "nombre": "Serggio Juarez",
-        "rol": "Coordinación académica",
-        "correo": "serggioart@gmail.com",
-        "foto": "fotos/foto_serggio.png"
-    },
-    {
-        "nombre": "Luisa Gomez",
-        "rol": "Coordinación de difusión y prensa",
-        "correo": "luisa.gomez@pucp.edu.pe",
-        "foto": "fotos/foto_luisa.jpg"
-    }
-    ]
-
-    # Primera fila (3)
-    cols = st.columns(3, gap="small") 
-
-    for col, persona in zip(cols, equipo[:3]):
-        with col:
-            st.markdown('<div style="width:260px; margin:0 auto; text-align:center;">', unsafe_allow_html=True)
-            st.image(persona["foto"], width=260)
-            st.markdown(f"""
-                <div class="nombre">{persona['nombre']}</div>
-                <div class="rol">{persona['rol']}</div>
-                <div class="correo">{persona['correo']}</div>
-            </div>
-            """, unsafe_allow_html=True)
-    
-    # Segunda fila centrada (2)
-    cols2 = st.columns([1,2,2,1], gap="small")
-
-    for col, persona in zip(cols2[1:3], equipo[3:]):
-        with col:
-            st.image(persona["foto"], width=260)
-            st.markdown(f"""
-            <div style="text-align:center; margin-bottom:40px;">
-                <div class="nombre">{persona['nombre']}</div>
-                <div class="rol">{persona['rol']}</div>
-                <div class="correo">{persona['correo']}</div>
-            </div>
-            """, unsafe_allow_html=True)
-            
     col4, col5, col6 = st.columns(3, gap="small")
 
     with col4:
         st.image("fotos/foto_julia.png", width=260)
-        st.markdown("""
-        <div class="miembro">
-            <div class="nombre">Julia Castillo</div>
-            <div class="rol">Coordinación General</div>
-            <div class="correo">castillo.julia@pucp.edu.pe</div>
-        </div>
-        """, unsafe_allow_html=True)
-    
+        st.markdown("Julia Castillo")
+        st.markdown("Coordinación General")
+        st.markdown("castillo.julia@pucp.edu.pe")
+ 
     with col5:
         st.image("fotos/foto_andre.png", width=260)
-        st.markdown("""
-        <div class="miembro">
-            <div class="nombre">André Mere</div>
-            <div class="rol">Coordinación de comunicaciones y experiencias del público</div>
-            <div class="correo">andremererivera@gmail.com</div>
-        </div>
-        """, unsafe_allow_html=True)
-    
+        st.markdown("André Mere Rivera")
+        st.markdown("Coordinación de Comunicaciones y Experiencias del Público")
+        st.markdown("andremererivera@gmail.com")
+        
     with col6:
         st.image("fotos/foto_alan.jpeg", width=260)
-        st.markdown("""
-        <div class="miembro">
-            <div class="nombre">Alan Concepción</div>
-            <div class="rol">Coordinación de producción y logísticas</div>
-            <div class="correo">alan.concepcion@pucp.pe</div>
-        </div>
-        """, unsafe_allow_html=True)
+        st.markdown("Alan Concepción")
+        st.markdown("Coordinación de producción y logísticas")
+        st.markdown("alan.concepcion@pucp.pe")
+        
+    # Segunda fila
+    col7, col8 = st.columns(2)
+    
+    with col7:
+        st.image("fotos/foto_serggio.png", width=260)
+        st.markdown("Serggio Juarez")
+        st.markdown("Coordinación académica")
+        st.markdown("serggioart@gmail.com")
+        
+    with col8:
+        st.image("fotos/luisa.png", width=260)
+        st.markdown("Luisa Gomez")
+        st.markdown("Coordinación de difusión y prensa")
+        st.markdown("luisa.gomez@pucp.edu.pe")
+    
+ 
 
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
