@@ -16,6 +16,7 @@ st.markdown("""
     /* Tamaño del texto del selectbox */
     div[data-baseweb="select"] > div {
         font-size: 18px !important;
+        font-weight: bold !important;
     }
 
     /* Tamaño del label */
