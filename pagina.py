@@ -179,14 +179,18 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     </h2>
     """, unsafe_allow_html=True)
 
-    parte_2 = """
-    * Analizar críticamente obras literarias peruanas que abordan experiencias, identidades y subjetividades queer desde diversas perspectivas teóricas y metodológicas. 
-    * Fomentar el encuentro entre investigadores/as, estudiantes, escritores/as y público general interesados en la literatura y las disidencias sexuales y de género. 
-    * Promover la difusión de estudios académicos y propuestas artísticas vinculadas a la literatura LGBTIQ+ en el Perú.
-    * Impulsar la visibilidad de autorías disidentes y la circulación de sus obras en espacios culturales y académicos.
-    * Contribuir a la construcción de redes de colaboración entre iniciativas literarias, culturales y comunitarias que trabajan desde perspectivas queer.
-    """
-    st.markdown(f"<div style='font-size: 18px;'>{parte_2}</div>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="font-size:18px; line-height:1.6;">
+    <ul>
+    <li>Analizar críticamente obras literarias peruanas que abordan experiencias, identidades y subjetividades queer desde diversas perspectivas teóricas y metodológicas. </li>
+    <li>Fomentar el encuentro entre investigadores/as, estudiantes, escritores/as y público general interesados en la literatura y las disidencias sexuales y de género. </li>
+    <li>Promover la difusión de estudios académicos y propuestas artísticas vinculadas a la literatura LGBTIQ+ en el Perú.</li>
+    <li>Impulsar la visibilidad de autorías disidentes y la circulación de sus obras en espacios culturales y académicos.</li>
+    <li>Contribuir a la construcción de redes de colaboración entre iniciativas literarias, culturales y comunitarias que trabajan desde perspectivas queer.</li>
+    </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
 
     
     col10, col11, col12 = st.columns(3)
