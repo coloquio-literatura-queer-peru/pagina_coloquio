@@ -186,7 +186,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     * Impulsar la visibilidad de autorías disidentes y la circulación de sus obras en espacios culturales y académicos.
     * Contribuir a la construcción de redes de colaboración entre iniciativas literarias, culturales y comunitarias que trabajan desde perspectivas queer.
     """
-    st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{parte_2}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='font-size: 18px;'>{parte_2}</div>", unsafe_allow_html=True)
 
     
     col10, col11, col12 = st.columns(3)
