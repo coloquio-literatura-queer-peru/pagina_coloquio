@@ -62,7 +62,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
 
     with col4:
         st.image("fotos/foto_julia.png", width=260)
-        st.markdown("<div style='text-align:center; font-size:26px; color:#dc2f82; font-weight:700;'>Julia Castillo</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:700;'>Julia Castillo</div>",unsafe_allow_html=True)
         st.markdown("Coordinación General")
         st.markdown("castillo.julia@pucp.edu.pe")
  
