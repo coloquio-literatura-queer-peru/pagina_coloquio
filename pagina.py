@@ -180,7 +180,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     """, unsafe_allow_html=True)
 
     st.markdown("""
-    <div style="font-size:18px; line-height:1.6;">
+    <div style="font-size:18px;">
     <ul>
     <li>Analizar críticamente obras literarias peruanas que abordan experiencias, identidades y subjetividades queer desde diversas perspectivas teóricas y metodológicas. </li>
     <li>Fomentar el encuentro entre investigadores/as, estudiantes, escritores/as y público general interesados en la literatura y las disidencias sexuales y de género. </li>
