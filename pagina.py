@@ -96,9 +96,9 @@ elif pagina_seleccionada == "Equipo organizador":
        
     with col8:
         st.image("fotos/foto_luisa.jpeg", width=260)
-        st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Luisa Gomez</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:420px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:320px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Luisa Gomez</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:440px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
         
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
