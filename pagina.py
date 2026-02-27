@@ -180,7 +180,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     """, unsafe_allow_html=True)
 
     st.markdown("""
-    <div style="font-size:18px;">
+    <div style="text-align: justify; font-size:18px;">
     <ul>
     <li>Analizar críticamente obras literarias peruanas que abordan experiencias, identidades y subjetividades queer desde diversas perspectivas teóricas y metodológicas. </li>
     <li>Fomentar el encuentro entre investigadores/as, estudiantes, escritores/as y público general interesados en la literatura y las disidencias sexuales y de género. </li>
@@ -191,7 +191,35 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     </div>
     """, unsafe_allow_html=True)
 
+    st.markdown("""
+    <h2 style="
+        font-size:40px;
+        color:#73579d;
+        font-weight:900;
+        text-align:justify;
+        margin-bottom:20px;
+    ">
+    Comité Académico
+    </h2>
+    """, unsafe_allow_html=True)
 
+    st.markdown("""
+    <div style="text-align: justify; font-size:18px;">
+    <p>
+    Entre las distintas actividades del I Coloquio de Literatura Peruana Queer, contaremos con mesas de investigación, en las que estudiantes de pregrado, posgrado e investigadores independientes compartirán sus proyectos de investigación.
+    Cada participante enviará una sumilla (resumen) de su ponencia. 
+    Nuestro comité académico revisará todas las sumillas enviadas y habrá un proceso de selección. 
+    Las personas seleccionadas para las mesas de investigación serán notificadas anticipadamente para que puedan confirmar su participación en el evento.
+    Nuestro comité académico está compuesto por
+    </p>
+    <ul>
+    <li>Barrientos Silva, Aurea Violeta</li>
+    <li>Juarez Garcia, Serggio Arturo</li>
+    <li>Leonardo Loayza, Richard Angelo</li>
+    <li>Suárez Trejo, Javier Teófilo</li>
+    </ul>
+    </div>
+    """, unsafe_allow_html=True)
     
     col10, col11, col12 = st.columns(3)
 
