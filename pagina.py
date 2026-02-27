@@ -96,12 +96,10 @@ elif pagina_seleccionada == "Equipo organizador":
        
     with col8:
         st.image("fotos/foto_luisa.jpeg", width=260)
-        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>Luisa Gomez</div>",unsafe_allow_html=True)
-        st.markdown("Coordinación de difusión y prensa")
-        st.markdown("luisa.gomez@pucp.edu.pe")
-    
- 
-
+        st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Luisa Gomez</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
+        
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
 
