@@ -13,17 +13,26 @@ st.set_page_config(
 
 st.markdown("""
     <style>
-    /* Color del label del selectbox en el sidebar */
-    section[data-testid="stSidebar"] div[data-testid="stWidgetLabel"] > label {
-        color: #9a62a5 !important;
-        font-size: 18px !important;      /* opcional */
-        font-weight: bold !important;    /* opcional */
+    /* Texto dentro del selectbox */
+    section[data-testid="stSidebar"] div[data-baseweb="select"] > div {
+        font-size: 18px !important;
+        font-weight: bold !important;
     }
     </style>
 """, unsafe_allow_html=True)
 
-paginas = ["Presentación", "Equipo organizador", "Recepción de sumillas", "​Programa"]
-pagina_seleccionada = st.sidebar.selectbox('Selecciona una sección', paginas)
+st.sidebar.markdown(
+    "<p style='color:#9a62a5; font-size:18px; font-weight:bold;'>Selecciona una sección</p>",
+    unsafe_allow_html=True
+)
+
+paginas = ["Presentación", "Equipo organizador", "Recepción de sumillas", "Programa"]
+
+# Ocultamos el label original
+pagina_seleccionada = st.sidebar.selectbox(
+    label="",
+    options=paginas
+)
 
 st.markdown("""
 <style>
