@@ -135,11 +135,10 @@ elif pagina_seleccionada == "Recepción de sumillas":
     </h1>
     """, unsafe_allow_html=True)
     
-    components.iframe(
-    "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog",
-    height=1000
+    st.link_button(
+    "Ir al formulario de recepción de sumillas",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog"
     )
-    
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
 
