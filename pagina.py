@@ -13,16 +13,11 @@ st.set_page_config(
 
 st.markdown("""
     <style>
-    /* Estilo del label en el sidebar */
+    /* Color del label del selectbox en el sidebar */
     section[data-testid="stSidebar"] div[data-testid="stWidgetLabel"] > label {
-        font-size: 18px !important;
-        font-weight: bold !important;
-    }
-
-    /* Estilo del selectbox (texto visible) */
-    section[data-testid="stSidebar"] div[data-baseweb="select"] > div {
-        font-size: 18px !important;
-        font-weight: bold !important;
+        color: #9a62a5 !important;
+        font-size: 18px !important;      /* opcional */
+        font-weight: bold !important;    /* opcional */
     }
     </style>
 """, unsafe_allow_html=True)
