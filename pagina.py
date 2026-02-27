@@ -89,7 +89,7 @@ elif pagina_seleccionada == "Sobre nosotrxs":
         
     with col8:
         st.image("fotos/foto_luisa.jpeg", width=260)
-        st.markdown("<div style='width:260px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>Luisa Gomez</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:800;'>Luisa Gomez</div>",unsafe_allow_html=True)
         st.markdown("Coordinación de difusión y prensa")
         st.markdown("luisa.gomez@pucp.edu.pe")
     
