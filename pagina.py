@@ -310,7 +310,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     <ul>
     <li>Formato Word o PDF a espacio 1.5 con fuente Times New Roman tamaño 12.</li>
     <li>El título de la ponencia debe ir centrado en negrita y en mayúsculas</li>
-    <li>Debajo del título, a la derecha, se debe señalar 
+    <li>Debajo del título y centrado, se debe señalar 
     <ol>
     <li> Nombre del autor/a </li>
     <li> Programa de pregrado o posgrado al que pertenece </li> 
