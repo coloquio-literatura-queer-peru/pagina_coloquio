@@ -408,6 +408,7 @@ st.markdown("""
     color:#555;
     padding-bottom:20px;
 ">
+    <p> Más información y consultas: </p>
     📩 coloquio.literatura.queer.pe@gmail.com <br>
     📷 <a href="https://instagram.com/literaturaperuqueer/" 
           target="_blank" 
