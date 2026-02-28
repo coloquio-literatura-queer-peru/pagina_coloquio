@@ -181,7 +181,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:38px;
         color:#d92958;
         font-weight:900;
         text-align:justify;
@@ -205,7 +205,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:38px;
         color:#73579d;
         font-weight:900;
         text-align:justify;
@@ -236,7 +236,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:38px;
         color:#e55940;
         font-weight:900;
         text-align:justify;
@@ -256,7 +256,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:38px;
         color:#a154d6;
         font-weight:900;
         text-align:justify;
@@ -292,7 +292,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:38px;
         color:#3f8c68;
         font-weight:900;
         text-align:justify;
@@ -330,7 +330,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:38px;
         color:#d92958;
         font-weight:900;
         text-align:justify;
@@ -352,7 +352,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:38px;
         color:#e55940;
         font-weight:900;
         text-align:justify;
@@ -373,7 +373,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:38px;
         color:#a154d6;
         font-weight:900;
         text-align:justify;
