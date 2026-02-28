@@ -226,10 +226,10 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     Nuestro comité académico está compuesto por
     </p>
     <ul>
-    <li>Barrientos Silva, Aurea Violeta</li>
-    <li>Juarez Garcia, Serggio Arturo</li>
-    <li>Leonardo Loayza, Richard Angelo</li>
-    <li>Suárez Trejo, Javier Teófilo</li>
+    <li>Dra. Barrientos Silva, Aurea Violeta (Universidad de París VIII)</li>
+    <li>Dr. Leonardo Loayza, Richard Angelo (Universidad Nacional Mayor de San Marcos)</li>
+    <li>Dr. Suárez Trejo, Javier Teófilo (Universidad de Harvard)</li>
+    <li>Lic. Juarez Garcia, Serggio Arturo (Pontificia Universidad Católica del Perú)</li>
     </ul>
     </div>
     """, unsafe_allow_html=True)
