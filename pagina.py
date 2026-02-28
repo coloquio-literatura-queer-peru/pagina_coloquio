@@ -250,7 +250,6 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     <div style="text-align: justify; font-size:18px;">
     <p>
     La convocatoria del I Coloquio de Literatura Peruana Queer está abierta a alumnos de pregrado, bachilleres, tesistas, licenciados, estudiantes de posgrado de cualquier universidad, así como también investigadores independientes (sin alguna filiación académica).
-    Si bien se trata de un coloquio de literatura, el evento busca ser interdisciplinario, por lo que también se aceptarán investigaciones desde ramas afines a la literatura (e.g. humanidades, sociología, antropología, entre otros).
     </p>
     </div>
     """, unsafe_allow_html=True)
@@ -286,6 +285,8 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     <li>Literatura, feminismo y disidencias sexo-genéricas</li>
     <li>Literatura disidente en entornos digitales, entre otros</li>
     </ol>
+    <p> Si bien se trata de un coloquio de literatura, el evento busca ser interdisciplinario, por lo que también se aceptarán investigaciones desde ramas afines (e.g. humanidades, sociología, antropología, entre otros), cuyo objeto de estudio sea la literatura.
+    </p>
     </div>
     """, unsafe_allow_html=True)
 
