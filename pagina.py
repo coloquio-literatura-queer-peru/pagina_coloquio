@@ -336,7 +336,29 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         text-align:justify;
         margin-bottom:20px;
     ">
-    Plazos y fechas
+    Fechas y horarios
+    </h2>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div style="text-align: justify; font-size:18px;">
+    <p> El I Coloquio de Literatura Peruana Queer se llevará a cabo los días 19, 20 y 21 de junio del 2026. 
+    Los días viernes 19 y sábado 20 de junio se desarrollará en el horario de 03:00 pm a 08:30 pm, mientras que el domingo 21 de junio el evento se desarrollará desde las 02:00 pm hasta las 06:00 pm.
+    </p>
+    <b>El evento será presencial, por lo que se dará preferencia a ponentes que tengan disponibilidad para dicha modalidad en las fechas y horarios indicados.
+    </b>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <h2 style="
+        font-size:40px;
+        color:#e55940;
+        font-weight:900;
+        text-align:justify;
+        margin-bottom:20px;
+    ">
+    Plazos
     </h2>
     """, unsafe_allow_html=True)
 
@@ -352,7 +374,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     st.markdown("""
     <h2 style="
         font-size:40px;
-        color:#e55940;
+        color:#a154d6;
         font-weight:900;
         text-align:justify;
         margin-bottom:20px;
