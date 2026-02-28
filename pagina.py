@@ -322,7 +322,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     En ese caso serían tres (03) líneas.</li>
     <li>La sumilla debe tener hasta 350 palabras y debe consignar la información principal de la investigación (el objeto de estudio, el tema, la hipótesis, el objetivo, el método y, de ser posible, las conclusiones).</li>
     <li>Señalar hasta cinco (05) palabras clave.</li>
-    <li>Señalar entre tres (03) a cinco (05) fuentes académicas utilizadas.</li>
+    <li>Señalar cinco (05) fuentes académicas utilizadas.</li>
     <li>De ser escogida, la extensión de la ponencia en el evento será de quince (15) minutos. Se le pedirá a los ponentes que manden sus diapositivas hasta una semana antes del evento.</li>
     </ul>
     </div>
