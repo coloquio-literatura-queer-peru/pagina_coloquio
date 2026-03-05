@@ -112,6 +112,15 @@ if pagina_seleccionada == "Presentación":
     ALIADOS:
     </h2>
     """, unsafe_allow_html=True)
+
+    col18, col19, col20, col21, col22 = st.columns(5)
+    
+    with col19:
+        st.image("fotos/demus.png")
+    with col20:
+        st.image("fotos/dosmamas.png")
+    with col21:
+        st.image("fotos/justicia_arcoiris.jpg")
     
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
