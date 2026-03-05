@@ -73,6 +73,18 @@ if pagina_seleccionada == "Presentación":
     st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
 
     st.write("")
+
+    st.markdown("""
+    <h2 style="
+        font-size:40px;
+        color:#9a62a5;
+        font-weight:900;
+        text-align:center;
+        margin-bottom:20px;
+    ">
+    ORGANIZA:
+    </h2>
+    """, unsafe_allow_html=True)
     
     col13, col14, col15, col16, col17 = st.columns(5)
     
@@ -142,7 +154,7 @@ elif pagina_seleccionada == "Equipo organizador":
 elif pagina_seleccionada == "Convocatoria de sumillas":
     st.markdown("""
     <h1 style="
-        font-size:65px;
+        font-size:60px;
         color:#9a62a5;
         font-weight:900;
         text-align:center;
