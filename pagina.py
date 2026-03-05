@@ -57,11 +57,11 @@ if pagina_seleccionada == "Presentación":
     lema_1 = """
     Memoria desde los márgenes
     """
-    st.markdown(f"<div style='text-align: center; font-size: 30px; color: #a256d6; font-weight: bold'>{lema_1}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: center; font-size: 35px; color: #a256d6; font-weight: bold'>{lema_1}</div>", unsafe_allow_html=True)
     lema_2 = """
     Voces queer en la literatura peruana
     """
-    st.markdown(f"<div style='text-align: center; font-size: 30px; color: #e65f46; font-weight: bold'>{lema_2}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: center; font-size: 35px; color: #e65f46; font-weight: bold'>{lema_2}</div>", unsafe_allow_html=True)
 
     st.write("")
     
@@ -76,7 +76,7 @@ if pagina_seleccionada == "Presentación":
 
     st.markdown("""
     <h2 style="
-        font-size:40px;
+        font-size:30px;
         color:#9a62a5;
         font-weight:900;
         text-align:center;
