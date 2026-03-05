@@ -98,6 +98,20 @@ if pagina_seleccionada == "Presentación":
         st.image("fotos/logo_podcast.png")
     with col17:
         st.image("fotos/logo_BCO.png")
+
+    st.write("")
+
+    st.markdown("""
+    <h2 style="
+        font-size:30px;
+        color:#3F8C68;
+        font-weight:900;
+        text-align:center;
+        margin-bottom:20px;
+    ">
+    ALIADOS:
+    </h2>
+    """, unsafe_allow_html=True)
     
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
