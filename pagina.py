@@ -91,9 +91,9 @@ if pagina_seleccionada == "Presentación":
     with col13:
         st.image("fotos/logo_redlit.png")
     with col14:
-        st.image("fotos/logo_fuego.png")
-    with col15:
         st.image("fotos/logo_AMP.png")
+    with col15:
+        st.image("fotos/logo_fuego.png")
     with col16:
         st.image("fotos/logo_podcast.png")
     with col17:
@@ -116,9 +116,9 @@ if pagina_seleccionada == "Presentación":
     col18, col19, col20, col21, col22 = st.columns(5)
     
     with col19:
-        st.image("fotos/demus.png")
-    with col20:
         st.image("fotos/dosmamas.png")
+    with col20:
+        st.image("fotos/demus.png")
     with col21:
         st.image("fotos/justicia_arcoiris.jpg")
     
