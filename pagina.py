@@ -113,14 +113,16 @@ if pagina_seleccionada == "Presentación":
     </h2>
     """, unsafe_allow_html=True)
 
-    col18, col19, col20, col21, col22 = st.columns(5)
-    
+    col18, col19, col20, col21, col22 = st.columns([1,1,2,1,1])
+
     with col19:
-        st.image("fotos/dosmamas.png")
+        st.image("fotos/dosmamas.png", use_container_width=True)
+    
     with col20:
-        st.image("fotos/demus.png")
+        st.image("fotos/demus.png", use_container_width=True)
+    
     with col21:
-        st.image("fotos/justicia_arcoiris.jpg")
+        st.image("fotos/justicia_arcoiris.jpg", use_container_width=True)
     
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
