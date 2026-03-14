@@ -357,7 +357,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     Cada dato en una línea. Si el participante no tiene un vínculo académico, puede colocar el nombre de la institución a la que pertenezca o, en su defecto, no colocar nada. 
     Asimismo, en vez del correo institucional académico puede colocar el correo de preferencia (personal o de alguna otra institución). 
     En ese caso serían tres (03) líneas.</li>
-    <li>La sumilla debe tener hasta 350 palabras y debe consignar la información principal de la investigación (el objeto de estudio, el tema, la hipótesis, el objetivo, el método y, de ser posible, las conclusiones). Además, cada persona podrá presentar una sola sumilla.</li>
+    <li>La sumilla debe tener hasta 350 palabras y debe consignar la información principal de la investigación (el objeto de estudio, el tema, la hipótesis, el objetivo, el método y, de ser posible, las conclusiones). Además, cada persona podrá presentar una (01) sola sumilla.</li>
     <li>Señalar hasta cinco (05) palabras clave.</li>
     <li>Señalar cinco (05) fuentes académicas utilizadas.</li>
     <li>De ser escogida, la extensión de la ponencia en el evento será de quince (15) minutos. Se le pedirá a los ponentes que manden sus diapositivas hasta una semana antes del evento.</li>
