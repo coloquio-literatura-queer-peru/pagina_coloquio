@@ -118,7 +118,9 @@ if pagina_seleccionada == "Presentación":
         st.image("fotos/dosmamas.png", use_container_width=True)
     with col19:
         st.image("fotos/demus.png", use_container_width=True)
-
+    with col21:
+        st.image("fotos/justicia_arcoiris.jpg", use_container_width=True)
+        
     col21, col22, col23 = st.columns([1,1,1])
     with col21:
         st.image("fotos/mhol.jpeg", use_container_width=True)
