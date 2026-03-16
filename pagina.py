@@ -113,7 +113,7 @@ if pagina_seleccionada == "Presentación":
     </h2>
     """, unsafe_allow_html=True)
 
-    col18, col19, col20, col21 = st.columns([1,2,1,2])
+    col18, col19, col20, col21 = st.columns([1,2,1,1.5])
 
     with col18:
         st.image("fotos/dosmamas.png", use_container_width=True)
