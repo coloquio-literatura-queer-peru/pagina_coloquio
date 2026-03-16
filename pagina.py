@@ -122,7 +122,7 @@ if pagina_seleccionada == "Presentación":
     with col20:
         st.image("fotos/justicia_arcoiris.jpg", use_container_width=True)
     with col21:
-        st.image("fotos/mhol.PNG", use_container_width=True)
+        st.image("fotos/mhol.jpeg", use_container_width=True)
     
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
