@@ -122,7 +122,7 @@ if pagina_seleccionada == "Presentación":
         st.image("fotos/justicia_arcoiris.jpg", use_container_width=True)
         
     col21, col22, col23 = st.columns([1,1,1])
-    with col21:
+    with col22:
         st.image("fotos/mhol.jpeg", use_container_width=True)
     
 elif pagina_seleccionada == "Equipo organizador":
