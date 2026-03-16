@@ -113,14 +113,13 @@ if pagina_seleccionada == "Presentación":
     </h2>
     """, unsafe_allow_html=True)
 
-    col18, col19, col20, col21 = st.columns([1,2,1,1.2])
-
+    col18, col19, col20 = st.columns([1,2,1])
     with col18:
         st.image("fotos/dosmamas.png", use_container_width=True)
     with col19:
         st.image("fotos/demus.png", use_container_width=True)
-    with col20:
-        st.image("fotos/justicia_arcoiris.jpg", use_container_width=True)
+
+    col21, col22, col23 = st.columns([1,1,1])
     with col21:
         st.image("fotos/mhol.jpeg", use_container_width=True)
     
