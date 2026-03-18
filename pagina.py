@@ -125,7 +125,7 @@ if pagina_seleccionada == "Presentación":
     with col22:
         st.image("fotos/mhol.jpeg", use_container_width=True)
     with col23:
-        st.image("fotos/Gafas-logo-negro.png", use_container_width=True)
+        st.image("fotos/logo-gafas.png", use_container_width=True)
     
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
