@@ -121,9 +121,11 @@ if pagina_seleccionada == "Presentación":
     with col20:
         st.image("fotos/justicia_arcoiris.jpg", use_container_width=True)
         
-    col21, col22, col23 = st.columns([1,1,1])
+    col21, col22, col23, col24 = st.columns([1,1,1,1])
     with col22:
         st.image("fotos/mhol.jpeg", use_container_width=True)
+    with col23:
+        st.image("fotos/Gafas-logo-negro.png", use_container_width=True)
     
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
