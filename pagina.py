@@ -31,8 +31,12 @@ st.sidebar.markdown(
 paginas = ["Presentación", "Equipo organizador", "Convocatoria de sumillas", "Programa"]
 
 with st.sidebar:
-    paginas = option_menu(["Presentación", "Equipo organizador", "Convocatoria de sumillas", "Programa"] , 
-        icons=['house','person', 'file-earmark-arrow-up', 'calendar'], default_index=0)
+    pagina_seleccionada = option_menu(
+        menu_title=None,
+        options=paginas,
+        icons=['house','person','file-earmark-arrow-up','calendar'],
+        default_index=0
+    )
 
 
     # Ocultamos el label original
