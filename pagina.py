@@ -51,11 +51,11 @@ with st.sidebar:
     </style>
     """, unsafe_allow_html=True)
     
-    if pagina_seleccionada == "Presentación":
-        col1, col2, col3 = st.columns([1,2,1])
+if pagina_seleccionada == "Presentación":
+    col1, col2, col3 = st.columns([1,2,1])
     
-        with col2:
-            st.image("fotos/logo.png", width=1600)
+    with col2:
+        st.image("fotos/logo.png", width=1600)
     
         lema_1 = """
         Memoria desde los márgenes
@@ -130,7 +130,7 @@ with st.sidebar:
         with col23:
             st.image("fotos/logo-gafas.png", use_container_width=True)
         
-    elif pagina_seleccionada == "Equipo organizador":
+elif pagina_seleccionada == "Equipo organizador":
         st.markdown("""
         <h1 style="
             font-size:65px;
@@ -182,7 +182,7 @@ with st.sidebar:
             st.markdown("<div style='width:440px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
             st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
     
-    elif pagina_seleccionada == "Convocatoria de sumillas":
+elif pagina_seleccionada == "Convocatoria de sumillas":
         st.markdown("""
         <h1 style="
             font-size:60px;
