@@ -295,7 +295,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         </div>
         """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:38px;
             color:#a154d6;
