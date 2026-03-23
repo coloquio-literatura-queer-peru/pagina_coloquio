@@ -92,13 +92,13 @@ if pagina_seleccionada == "Presentación":
     with col13:
         st.image("fotos/logo_redlit.png")
     with col14:
-        st.image("fotos/logo_AMP.png")
+        st.image("fotos/logo_archivo.png")
     with col15:
         st.image("fotos/logo_fuego.png")
     with col16:
-        st.image("fotos/logo_podcast.png")
+        st.image("fotos/logo_capricornios.png")
     with col17:
-        st.image("fotos/logo_BCO.png")
+        st.image("fotos/logo_bibliotecas_con_orgullo.png")
     
     st.write("")
     
