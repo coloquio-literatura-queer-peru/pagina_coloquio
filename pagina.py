@@ -114,19 +114,23 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col18, col19, col20 = st.columns([1,1,1])
+    col18, col19, col20, col21, col22 = st.columns(5)
     with col18:
         st.image("fotos/logo_tengo_dos_mamas.png")
     with col19:
         st.image("fotos/logo_demus.png")
     with col20:
         st.image("fotos/logo_justicia_arcoiris.png")
-            
-    col21, col22, col23 = st.columns([1,1,1])
     with col21:
-        st.image("fotos/logo_mhol.png", use_container_width=True)
+        st.image("fotos/logo_mhol.png")
     with col22:
-        st.image("fotos/logo-gafas.png", use_container_width=True)
+        st.image("fotos/logo_gafas_moradas.png")
+        
+    col23, col24, col25 = st.columns([1,1,1])
+    with col23:
+        st.image("fotos/logo_impulse.png", use_container_width=True)
+    with col25:
+        st.image("fotos/logo_promsex.png", use_container_width=True)
         
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
