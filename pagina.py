@@ -53,31 +53,30 @@ with st.sidebar:
     
 if pagina_seleccionada == "Presentación":
     col1, col2, col3 = st.columns([1,2,1])
-    
     with col2:
         st.image("fotos/logo.png", width=1600)
     
-        lema_1 = """
-        Memoria desde los márgenes
-        """
-        st.markdown(f"<div style='text-align: center; font-size: 35px; color: #a256d6; font-weight: bold'>{lema_1}</div>", unsafe_allow_html=True)
-        lema_2 = """
-        Voces queer en la literatura peruana
-        """
-        st.markdown(f"<div style='text-align: center; font-size: 35px; color: #e65f46; font-weight: bold'>{lema_2}</div>", unsafe_allow_html=True)
+    lema_1 = """
+    Memoria desde los márgenes
+    """
+    st.markdown(f"<div style='text-align: center; font-size: 35px; color: #a256d6; font-weight: bold'>{lema_1}</div>", unsafe_allow_html=True)
+    lema_2 = """
+    Voces queer en la literatura peruana
+    """
+    st.markdown(f"<div style='text-align: center; font-size: 35px; color: #e65f46; font-weight: bold'>{lema_2}</div>", unsafe_allow_html=True)
     
-        st.write("")
+    st.write("")
         
-        texto_1 = """
-        El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las representaciones artísticas de personas LGBTIQ+. 
-        Este coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritores, investigadores y lectores, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
-        El evento se desarrollará el 19, 20 y 21 de junio de 2026.
-        """
-        st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
+    texto_1 = """
+    El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las representaciones artísticas de personas LGBTIQ+. 
+    Este coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritores, investigadores y lectores, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
+    El evento se desarrollará el 19, 20 y 21 de junio de 2026.
+    """
+    st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
     
-        st.write("")
+    st.write("")
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:30px;
             color:#9a62a5;
@@ -87,24 +86,23 @@ if pagina_seleccionada == "Presentación":
         ">
         ORGANIZA:
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
         
-        col13, col14, col15, col16, col17 = st.columns(5)
-        
-        with col13:
-            st.image("fotos/logo_redlit.png")
-        with col14:
-            st.image("fotos/logo_AMP.png")
-        with col15:
-            st.image("fotos/logo_fuego.png")
-        with col16:
-            st.image("fotos/logo_podcast.png")
-        with col17:
-            st.image("fotos/logo_BCO.png")
+    col13, col14, col15, col16, col17 = st.columns(5)
+    with col13:
+        st.image("fotos/logo_redlit.png")
+    with col14:
+        st.image("fotos/logo_AMP.png")
+    with col15:
+        st.image("fotos/logo_fuego.png")
+    with col16:
+        st.image("fotos/logo_podcast.png")
+    with col17:
+        st.image("fotos/logo_BCO.png")
     
-        st.write("")
+    st.write("")
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:30px;
             color:#3F8C68;
@@ -114,24 +112,24 @@ if pagina_seleccionada == "Presentación":
         ">
         ALIADOS:
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        col18, col19, col20 = st.columns([0.8,1.8,0.8])
-        with col18:
-            st.image("fotos/dosmamas.png", use_container_width=True)
-        with col19:
-            st.image("fotos/demus.png", use_container_width=True)
-        with col20:
-            st.image("fotos/justicia_arcoiris.jpg", use_container_width=True)
+    col18, col19, col20 = st.columns([0.8,1.8,0.8])
+    with col18:
+        st.image("fotos/dosmamas.png", use_container_width=True)
+    with col19:
+        st.image("fotos/demus.png", use_container_width=True)
+    with col20:
+        st.image("fotos/justicia_arcoiris.jpg", use_container_width=True)
             
-        col21, col22, col23, col24 = st.columns([1,1.1,0.8,1])
-        with col22:
-            st.image("fotos/logo-mhol.jpeg", use_container_width=True)
-        with col23:
-            st.image("fotos/logo-gafas.png", use_container_width=True)
+    col21, col22, col23, col24 = st.columns([1,1.1,0.8,1])
+    with col22:
+        st.image("fotos/logo-mhol.jpeg", use_container_width=True)
+    with col23:
+        st.image("fotos/logo-gafas.png", use_container_width=True)
         
 elif pagina_seleccionada == "Equipo organizador":
-        st.markdown("""
+    st.markdown("""
         <h1 style="
             font-size:65px;
             color:#9a62a5;
@@ -141,49 +139,49 @@ elif pagina_seleccionada == "Equipo organizador":
         ">
         Equipo organizador
         </h1>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        col4, col5, col6 = st.columns(3)
+    col4, col5, col6 = st.columns(3)
     
-        with col4:
-            st.image("fotos/foto_julia.png", width=260)
-            st.markdown("<div style='width:300px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Julia Castillo</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación General</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>castillo.julia@pucp.edu.pe</div>",unsafe_allow_html=True)
+    with col4:
+        st.image("fotos/foto_julia.png", width=260)
+        st.markdown("<div style='width:300px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Julia Castillo</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación General</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>castillo.julia@pucp.edu.pe</div>",unsafe_allow_html=True)
      
-        with col5:
-            st.image("fotos/foto_andre.png", width=260)
-            st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:420px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>y Experiencias del Público</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:400px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
+    with col5:
+        st.image("fotos/foto_andre.png", width=260)
+        st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:420px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>y Experiencias del Público</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:400px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
             
-        with col6:
-            st.image("fotos/foto_alan.jpeg", width=260)
-            st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Alan Concepción</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Producción</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:280px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'> y Logística</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:350px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>alan.concepcion@pucp.pe</div>",unsafe_allow_html=True)
+    with col6:
+        st.image("fotos/foto_alan.jpeg", width=260)
+        st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Alan Concepción</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Producción</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:280px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'> y Logística</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:350px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>alan.concepcion@pucp.pe</div>",unsafe_allow_html=True)
     
-        st.write("")
+    st.write("")
         
-        # Segunda fila
-        col7, col8, col9 = st.columns(3)
+    # Segunda fila
+    col7, col8, col9 = st.columns(3)
         
-        with col7:
-            st.image("fotos/foto_serggio.png", width=260)
-            st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Serggio Juarez</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación Académica</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>serggioart@gmail.com</div>",unsafe_allow_html=True)
+    with col7:
+        st.image("fotos/foto_serggio.png", width=260)
+        st.markdown("<div style='width:340px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Serggio Juarez</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación Académica</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:360px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>serggioart@gmail.com</div>",unsafe_allow_html=True)
            
-        with col8:
-            st.image("fotos/foto_luisa.jpeg", width=260)
-            st.markdown("<div style='width:320px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Luisa Gomez</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:440px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
-            st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
+    with col8:
+        st.image("fotos/foto_luisa.jpeg", width=260)
+        st.markdown("<div style='width:320px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Luisa Gomez</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:440px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:380px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
     
 elif pagina_seleccionada == "Convocatoria de sumillas":
-        st.markdown("""
+    st.markdown("""
         <h1 style="
             font-size:60px;
             color:#9a62a5;
@@ -193,9 +191,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Convocatoria de sumillas
         </h1>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:40px;
             color:#3f8c68;
@@ -205,9 +203,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Bases para el envío de sumillas
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
         
-        st.markdown("""
+    st.markdown("""
         <div style="text-align: justify; font-size:18px;">
         <p> A pesar del crecimiento de eventos académicos y culturales en el Perú, persisten importantes vacíos en la programación vinculada a las disidencias sexuales y de género, particularmente en el ámbito literario. 
         Las propuestas existentes suelen estar marcadas por enfoques generalistas, sin una atención sostenida a las voces queer ni a las escrituras que tensionan los marcos heteronormativos de representación. 
@@ -222,7 +220,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         </div>
         """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:38px;
             color:#d92958;
@@ -232,9 +230,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Objetivos
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <div style="text-align: justify; font-size:18px;">
         <ul>
         <li>Analizar críticamente obras literarias peruanas que abordan experiencias, identidades y subjetividades queer desde diversas perspectivas teóricas y metodológicas. </li>
@@ -244,9 +242,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         <li>Contribuir a la construcción de redes de colaboración entre iniciativas literarias, culturales y comunitarias que trabajan desde perspectivas queer.</li>
         </ul>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:38px;
             color:#73579d;
@@ -256,9 +254,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Comité Académico
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <div style="text-align: justify; font-size:18px;">
         <p>
         Entre las distintas actividades del I Coloquio de Literatura Peruana Queer, contaremos con mesas de investigación, en las que estudiantes de pregrado, posgrado e investigadores independientes compartirán sus proyectos de investigación.
@@ -275,9 +273,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         <li>Lic. Juarez Garcia, Serggio Arturo (Pontificia Universidad Católica del Perú)</li>
         </ul>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:38px;
             color:#e55940;
@@ -287,9 +285,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Participantes
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <div style="text-align: justify; font-size:18px;">
         <p>
         La convocatoria del I Coloquio de Literatura Peruana Queer está abierta a alumnos de pregrado, bachilleres, tesistas, licenciados, estudiantes de posgrado de cualquier universidad, así como también investigadores independientes (sin alguna filiación académica).
@@ -307,9 +305,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Ejes temáticos
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <div style="text-align: justify; font-size:18px;">
         <p>
         Las sumillas enviadas pueden abordar los siguientes temas. 
@@ -331,9 +329,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         <p> Si bien se trata de un coloquio de literatura, el evento busca ser interdisciplinario, por lo que también se aceptarán investigaciones desde ramas afines (e.g. humanidades, sociología, antropología, entre otros), cuyo objeto de estudio sea la literatura.
         </p>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:38px;
             color:#3f8c68;
@@ -343,9 +341,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Lineamientos
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <div style="text-align: justify; font-size:18px;">
         <p>
         Las sumillas que sean enviadas deben cumplir con los siguientes criterios:
@@ -369,9 +367,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         <li>De ser escogida, la extensión de la ponencia en el evento será de quince (15) minutos. Se le pedirá a los ponentes que manden sus diapositivas hasta una semana antes del evento.</li>
         </ul>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:38px;
             color:#d92958;
@@ -381,9 +379,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Fechas y horarios
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <div style="text-align: justify; font-size:18px;">
         <p> El I Coloquio de Literatura Peruana Queer se llevará a cabo los días 19, 20 y 21 de junio del 2026. 
         Los días viernes 19 y sábado 20 de junio se desarrollará en el horario de 03:00 pm a 08:30 pm, mientras que el domingo 21 de junio el evento se desarrollará desde las 02:00 pm hasta las 06:00 pm.
@@ -391,9 +389,9 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         <b>El evento será presencial, por lo que se dará preferencia a ponentes que tengan disponibilidad para dicha modalidad en las fechas y horarios indicados.
         </b>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:38px;
             color:#e55940;
@@ -403,18 +401,18 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Plazos
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         | EVENTO | FECHA |
         |-------|------------|
         | Apertura de convocatoria | Sábado 28 de Febrero del 2026 |
         | Cierre de convocatoria | Domingo 29 de Marzo del 2026 (hasta las 11:59 pm) |
         | Confirmación de resultados | A partir del 13 de Abril del 2026 |
         | Envío de diapositivas (personas seleccionadas)| Hasta el 12 de Junio |
-        """)
+    """)
     
-        st.markdown("""
+    st.markdown("""
         <h2 style="
             font-size:38px;
             color:#a154d6;
@@ -424,23 +422,23 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         ">
         Modo de envío
         </h2>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
-        st.markdown("""
+    st.markdown("""
         <div style="text-align: justify; font-size:18px;">
         <p>
         El envío de sumillas se hará a través del siguiente formulario: 
         </p>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
         
-        col10, col11, col12 = st.columns(3)
+    col10, col11, col12 = st.columns(3)
     
-        with col11:
-            st.link_button(
+    with col11:
+        st.link_button(
             "Envia aquí tu sumilla",
             "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog"
-            )
+        )
         
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
