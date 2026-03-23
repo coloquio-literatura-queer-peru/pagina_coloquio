@@ -120,7 +120,7 @@ if pagina_seleccionada == "Presentación":
     with col19:
         st.image("fotos/logo_demus.png", use_container_width=True)
     with col20:
-        st.image("fotos/logo_justicia_arcoiris.jpg", use_container_width=True)
+        st.image("fotos/logo_justicia_arcoiris.png", use_container_width=True)
             
     col21, col22, col23, col24 = st.columns([1,1.1,0.8,1])
     with col22:
