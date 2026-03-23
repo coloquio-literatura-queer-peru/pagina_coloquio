@@ -114,15 +114,15 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col18, col19, col20 = st.columns([1,1.3,1])
+    col18, col19, col20 = st.columns([1,1.4,1])
     with col18:
-        st.image("fotos/logo_tengo_dos_mamas.png", use_container_width=True)
+        st.image("fotos/logo_tengo_dos_mamas.png")
     with col19:
-        st.image("fotos/logo_demus.png", use_container_width=True)
+        st.image("fotos/logo_demus.png")
     with col20:
-        st.image("fotos/logo_justicia_arcoiris.png", use_container_width=True)
+        st.image("fotos/logo_justicia_arcoiris.png")
             
-    col21, col22, col23, col24 = st.columns([1,1.1,0.8,1])
+    col21, col22, col23, col24 = st.columns([1,1,1,1])
     with col22:
         st.image("fotos/logo_mhol.png", use_container_width=True)
     with col23:
