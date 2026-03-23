@@ -126,7 +126,7 @@ if pagina_seleccionada == "Presentación":
     with col22:
         st.image("fotos/logo_gafas_moradas.png")
         
-    col23, col24, col25 = st.columns([1,1,1])
+    col23, col24, col25 = st.columns([0.8,0.8,0.8])
     with col23:
         st.image("fotos/logo_impulse.png", use_container_width=True)
     with col25:
