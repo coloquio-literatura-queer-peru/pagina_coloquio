@@ -5,7 +5,7 @@ import pandas as pd
 import folium 
 import streamlit.components.v1 as components
 from streamlit_folium import st_folium
-
+from streamlit_option_menu import option_menu
 
 st.set_page_config(
     page_title="Coloquio Literatura PE",
