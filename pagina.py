@@ -38,13 +38,7 @@ with st.sidebar:
         default_index=0
     )
 
-
-    # Ocultamos el label original
-    pagina_seleccionada = st.sidebar.selectbox(
-        label="",
-        options=paginas
-    )
-    
+ 
     st.markdown("""
     <style>
     .block-container {
