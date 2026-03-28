@@ -84,7 +84,7 @@ if pagina_seleccionada == "Presentación":
             text-align:center;
             margin-bottom:20px;
         ">
-        ORGANIZADORES:
+        ORGANIZADORES
         </h2>
     """, unsafe_allow_html=True)
         
@@ -106,11 +106,11 @@ if pagina_seleccionada == "Presentación":
         <h2 style="
             font-size:30px;
             color:#3F8C68;
-            font-weight:900;
+            font-weight:bold;
             text-align:center;
             margin-bottom:20px;
         ">
-        ALIADOS:
+        ALIADOS
         </h2>
     """, unsafe_allow_html=True)
     
@@ -131,13 +131,31 @@ if pagina_seleccionada == "Presentación":
         st.image("fotos/logo_impulse.png", use_container_width=True)
     with col25:
         st.image("fotos/logo_promsex.png", use_container_width=True)
+
+    st.markdown("""
+        <h2 style="
+            font-size:30px;
+            color:#3F8C68;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        EDITORIALES ALIADAS
+        </h2>
+    """, unsafe_allow_html=True)
+    
+    col26, col27, col28 = st.columns([0.8,0.8,0.8])
+    
+    with col28:
+        st.image("fotos/logo_gafas_moradas.png")
+
         
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
         <h1 style="
             font-size:65px;
             color:#9a62a5;
-            font-weight:900;
+            font-weight:bold;
             text-align:center;
             margin-bottom:20px;
         ">
