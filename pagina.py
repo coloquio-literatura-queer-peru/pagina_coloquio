@@ -135,7 +135,7 @@ if pagina_seleccionada == "Presentación":
     st.markdown("""
         <h2 style="
             font-size:30px;
-            color:#3F8C68;
+            color:#dc2f82;
             font-weight:bold;
             text-align:center;
             margin-bottom:20px;
