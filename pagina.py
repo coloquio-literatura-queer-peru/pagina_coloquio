@@ -80,11 +80,11 @@ if pagina_seleccionada == "Presentación":
         <h2 style="
             font-size:30px;
             color:#9a62a5;
-            font-weight:900;
+            font-weight:bold;
             text-align:center;
             margin-bottom:20px;
         ">
-        ORGANIZA:
+        ORGANIZADORES:
         </h2>
     """, unsafe_allow_html=True)
         
