@@ -114,7 +114,7 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col18, col19, col20, col21, col22 = st.columns(5)
+    col18, col19, col20, col21 = st.columns(4)
     with col18:
         st.image("fotos/logo_tengo_dos_mamas.png")
     with col19:
@@ -123,13 +123,13 @@ if pagina_seleccionada == "Presentación":
         st.image("fotos/logo_justicia_arcoiris.png")
     with col21:
         st.image("fotos/logo_mhol.png")
-    with col22:
-        st.image("fotos/logo_gafas_moradas.png")
         
-    col23, col24, col25 = st.columns([0.8,0.8,0.8])
-    with col23:
+    col22, col23, col24 = st.columns([0.8,0.8,0.8])
+    with col22:
         st.image("fotos/logo_impulse.png", use_container_width=True)
-    with col25:
+    with col23:
+        st.image("fotos/logo_ahf.png", use_container_width=True)
+    with col24:
         st.image("fotos/logo_promsex.png", use_container_width=True)
 
     st.markdown("""
@@ -144,7 +144,7 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col26, col27, col28 = st.columns([0.8,0.5,0.75])
+    col26, col27, col28 = st.columns([0.8,0.5,0.7])
     with col26:
         st.image("fotos/logo_fce.png")
     with col28:
