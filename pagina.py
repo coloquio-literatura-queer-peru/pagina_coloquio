@@ -163,7 +163,7 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col27, col28 = st.columns([0.8, 0.7])
+    col27, col28 = st.columns(2)
     with col27:
         st.image("fotos/logo_fce.png", width=300)
     with col28:
