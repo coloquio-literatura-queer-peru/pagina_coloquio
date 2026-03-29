@@ -163,7 +163,7 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col27, col28, col9 = st.columns([1, 1, 1])
+    col27, col28, col9 = st.columns([1, 3, 1])
     with col28:
         subcol1, subcol2 = st.columns(2)
         with subcol1:
