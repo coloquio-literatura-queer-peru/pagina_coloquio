@@ -165,7 +165,7 @@ if pagina_seleccionada == "Presentación":
     
     col27, col28 = st.columns([0.3, 0.3])
     with col27:
-        st.image("fotos/logo_fce.png", use_container_width=True)
+        st.image("fotos/logo_fce.png", width=350)
     with col28:
         st.image("fotos/logo_gafas_moradas.png", use_container_width=True)
         
