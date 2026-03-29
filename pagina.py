@@ -191,9 +191,9 @@ elif pagina_seleccionada == "Equipo organizador":
     col7, col8, col9 = st.columns([1,1,1])
     with col7:
         st.image("fotos/foto_serggio.png", width=400)
-        st.markdown("<div margin:auto; text-align:center; font-size:24px; color:#dc2f82; font-weight:bold;'>Serggio Juarez</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:200px; margin:auto; text-align:center; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación Académica</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:200px; margin:auto; text-align:center; font-size:18px; color:#a154d6;'>serggioart@gmail.com</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:250px; margin:auto; text-align:right; font-size:24px; color:#dc2f82; font-weight:bold;'>Serggio Juarez</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:200px; margin:auto; text-align:right; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación Académica</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:200px; margin:auto; text-align:right; font-size:18px; color:#a154d6;'>serggioart@gmail.com</div>",unsafe_allow_html=True)
            
     with col8:
         st.image("fotos/foto_luisa.png", width=400)
