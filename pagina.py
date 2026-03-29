@@ -188,7 +188,7 @@ elif pagina_seleccionada == "Equipo organizador":
     st.write("")
         
     # Segunda fila
-    col7, col8, col9 = st.columns(3)
+    col7, col8, col9 = st.columns([1,1,1])
         
     with col7:
         st.image("fotos/foto_serggio.png")
