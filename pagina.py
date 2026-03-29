@@ -163,11 +163,11 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col27, col28, col29 = st.columns([1,0.1,1])
+    col27, col28 = st.columns(2)
     with col27:
-        st.image("fotos/logo_fce.png", width=180)
-    with col29:
-        st.image("fotos/logo_gafas_moradas.png", width=180)
+        st.image("fotos/logo_fce.png", width=200)
+    with col28:
+        st.image("fotos/logo_gafas_moradas.png", width=200)
         
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
