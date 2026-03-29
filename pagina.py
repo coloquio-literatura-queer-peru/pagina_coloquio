@@ -197,8 +197,8 @@ elif pagina_seleccionada == "Equipo organizador":
            
     with col8:
         st.image("fotos/foto_luisa.png", width=400)
-        st.markdown("<div style='width:190px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Luisa Gomez</div>",unsafe_allow_html=True)
-        st.markdown("<div style='width:270px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:200px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Luisa Gomez</div>",unsafe_allow_html=True)
+        st.markdown("<div style='width:285px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Difusión y Prensa</div>",unsafe_allow_html=True)
         st.markdown("<div style='width:230px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>luisa.gomez@pucp.edu.pe</div>",unsafe_allow_html=True)
     
 elif pagina_seleccionada == "Convocatoria de sumillas":
