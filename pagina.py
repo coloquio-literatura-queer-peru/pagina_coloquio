@@ -133,22 +133,22 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col21, col22, col23, col24 = st.columns(4)
-    with col21:
+    col20, col21, col22, col23 = st.columns(4)
+    with col20:
         st.image("fotos/logo_tengo_dos_mamas.png")
-    with col22:
+    with col21:
         st.image("fotos/logo_demus.png")
-    with col23:
+    with col22:
         st.image("fotos/logo_justicia_arcoiris.png")
-    with col24:
+    with col23:
         st.image("fotos/logo_mhol.png")
         
-    col25, col26, col27 = st.columns([0.8,0.8,0.8])
-    with col25:
+    col24, col25, col26 = st.columns([0.8,0.8,0.8])
+    with col24:
         st.image("fotos/logo_impulse.png", use_container_width=True)
-    with col26:
+    with col25:
         st.image("fotos/logo_ahf.png", use_container_width=True)
-    with col27:
+    with col26:
         st.image("fotos/logo_promsex.png", use_container_width=True)
 
     st.markdown("""
@@ -163,10 +163,10 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col28, col29, col30 = st.columns([0.8,0.5,0.7])
-    with col28:
+    col27, col28 = st.columns([0.8, 0.7])
+    with col27:
         st.image("fotos/logo_fce.png")
-    with col30:
+    with col28:
         st.image("fotos/logo_gafas_moradas.png")
         
 elif pagina_seleccionada == "Equipo organizador":
