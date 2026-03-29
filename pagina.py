@@ -426,27 +426,31 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     """, unsafe_allow_html=True)
     
     st.markdown("""
-        <div style="text-align: justify; font-size:18px;">
-        <p> El I Coloquio de Literatura Peruana Queer se llevará a cabo los días 19, 20 y 21 de junio del 2026. 
-        Los días viernes 19 y sábado 20 de junio se desarrollará en el horario de 03:00 pm a 08:30 pm, mientras que el domingo 21 de junio el evento se desarrollará desde las 02:00 pm hasta las 06:00 pm.
-        </p>
-        <b>El evento se realizará en modalidad presencial, por lo que se dará preferencia a los ponentes que cuenten con disponibilidad para participar en las fechas y horarios programados.
-        </b>
-
-        
-        <p> 📅 19 y 20 de junio de 2026
-        
-        📍 Casa de la Literatura Peruana
-        
-        🕒 3:00 p. m. – 8:30 p. m.
-        
-        📅 21 de junio de 2026
-        
-        📍 Museo de Arte de Lima (MALI)
-        
-        🕒 2:00 p. m. – 6:00 p. m.
-        </p>
-        </div>
+    <div style="text-align: justify; font-size:18px; line-height:1.6;">
+    
+    <p>
+    El <b>I Coloquio de Literatura Peruana Queer</b> se llevará a cabo los días 
+    <b>19, 20 y 21 de junio de 2026</b> en las siguientes sedes y horarios:
+    </p>
+    
+    <p>
+    📅 <b>19 y 20 de junio</b><br>
+    📍 Casa de la Literatura Peruana<br>
+    🕒 3:00 p. m. – 8:30 p. m.
+    </p>
+    
+    <p>
+    📅 <b>21 de junio</b><br>
+    📍 Museo de Arte de Lima (MALI)<br>
+    🕒 2:00 p. m. – 6:00 p. m.
+    </p>
+    
+    <p>
+    <b>El evento se realizará en modalidad presencial, por lo que se dará preferencia 
+    a los ponentes que cuenten con disponibilidad para participar en las fechas y horarios programados.</b>
+    </p>
+    
+    </div>
     """, unsafe_allow_html=True)
     
     st.markdown("""
