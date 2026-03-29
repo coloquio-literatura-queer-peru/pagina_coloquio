@@ -165,9 +165,9 @@ if pagina_seleccionada == "Presentación":
     
     col27, col28 = st.columns([0.5, 0.5])
     with col27:
-        st.image("fotos/logo_fce.png", width=200)
+        st.image("fotos/logo_fce.png", width=250)
     with col28:
-        st.image("fotos/logo_gafas_moradas.png", width=200)
+        st.image("fotos/logo_gafas_moradas.png", width=250)
         
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
