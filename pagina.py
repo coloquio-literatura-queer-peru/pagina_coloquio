@@ -115,7 +115,7 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col18, col19 = st.columns([0.8, 0.8])
+    col18, col19 = st.columns([0.5, 0.5])
     with col18:
         st.image("fotos/sede_caslit.png")
     with col19:
