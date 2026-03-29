@@ -118,10 +118,10 @@ if pagina_seleccionada == "Presentación":
     col19, col20, col21 = st.columns([1, 3, 1])
     with col20:
         subcol1, subcol2 = st.columns(2)
-            with subcol1:
-                st.image("fotos/sede_caslit.png")
-            with subcol2:
-                st.image("fotos/sede_mali.png")
+        with subcol1:
+            st.image("fotos/sede_caslit.png")
+        with subcol2:
+            st.image("fotos/sede_mali.png")
         
     st.markdown("""
         <h2 style="
