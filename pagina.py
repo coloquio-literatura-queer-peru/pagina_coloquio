@@ -75,6 +75,7 @@ if pagina_seleccionada == "Presentación":
     st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
     
     st.write("")
+    st.write("")
     
     st.markdown("""
         <h2 style="
