@@ -115,11 +115,13 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col18, col19 = st.columns([0.5, 0.5])
-    with col18:
-        st.image("fotos/sede_caslit.png")
-    with col19:
-        st.image("fotos/sede_mali.png")
+    col19, col20, col21 = st.columns([1, 3, 1])
+    with col20:
+        subcol1, subcol2 = st.columns(2)
+            with subcol1:
+                st.image("fotos/sede_caslit.png")
+            with subcol2:
+                st.image("fotos/sede_mali.png")
         
     st.markdown("""
         <h2 style="
@@ -133,22 +135,22 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col20, col21, col22, col23 = st.columns(4)
-    with col20:
-        st.image("fotos/logo_tengo_dos_mamas.png")
-    with col21:
-        st.image("fotos/logo_demus.png")
+    col22, col23, col24, col25 = st.columns(4)
     with col22:
-        st.image("fotos/logo_justicia_arcoiris.png")
+        st.image("fotos/logo_tengo_dos_mamas.png")
     with col23:
+        st.image("fotos/logo_demus.png")
+    with col24:
+        st.image("fotos/logo_justicia_arcoiris.png")
+    with col25:
         st.image("fotos/logo_mhol.png")
         
-    col24, col25, col26 = st.columns([0.8,0.8,0.8])
-    with col24:
-        st.image("fotos/logo_impulse.png", use_container_width=True)
-    with col25:
-        st.image("fotos/logo_ahf.png", use_container_width=True)
+    col26, col27, col28 = st.columns([0.8,0.8,0.8])
     with col26:
+        st.image("fotos/logo_impulse.png", use_container_width=True)
+    with col27:
+        st.image("fotos/logo_ahf.png", use_container_width=True)
+    with col28:
         st.image("fotos/logo_promsex.png", use_container_width=True)
 
     st.markdown("""
@@ -163,12 +165,12 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col27, col28, col9 = st.columns([1, 3, 1])
-    with col28:
-        subcol1, subcol2 = st.columns(2)
-        with subcol1:
+    col29, col30, col31 = st.columns([1, 3, 1])
+    with col30:
+        subcol3, subcol4 = st.columns(2)
+        with subcol3:
             st.image("fotos/logo_fce.png")
-        with subcol2:
+        with subcol4:
             st.image("fotos/logo_gafas_moradas.png")
         
 elif pagina_seleccionada == "Equipo organizador":
