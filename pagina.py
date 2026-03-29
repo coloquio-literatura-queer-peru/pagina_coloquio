@@ -163,10 +163,10 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col27, col28, col29 = st.columns([1,1,1])
+    col27, col28, col29 = st.columns([1,0.5,1])
     with col27:
         st.image("fotos/logo_fce.png", width=400)
-    with col28:
+    with col29:
         st.image("fotos/logo_gafas_moradas.png", width=400)
         
 elif pagina_seleccionada == "Equipo organizador":
