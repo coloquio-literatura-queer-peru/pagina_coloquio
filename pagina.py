@@ -167,7 +167,7 @@ if pagina_seleccionada == "Presentación":
     with col27:
         st.image("fotos/logo_fce.png")
     with col28:
-        st.image("fotos/logo_gafas_moradas.png", width=250)
+        st.image("fotos/logo_gafas_moradas.png"
         
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
