@@ -101,7 +101,7 @@ if pagina_seleccionada == "Presentación":
         st.image("fotos/logo_bibliotecas_con_orgullo.png")
     
     st.write("")
-    
+
     st.markdown("""
         <h2 style="
             font-size:30px;
@@ -110,28 +110,16 @@ if pagina_seleccionada == "Presentación":
             text-align:center;
             margin-bottom:20px;
         ">
-        ALIADOS
+        SEDES
         </h2>
     """, unsafe_allow_html=True)
     
-    col18, col19, col20, col21 = st.columns(4)
+    col18, col19, col20= st.columns(3)
     with col18:
-        st.image("fotos/logo_tengo_dos_mamas.png")
-    with col19:
-        st.image("fotos/logo_demus.png")
+        st.image("fotos/sede_caslit.png")
     with col20:
-        st.image("fotos/logo_justicia_arcoiris.png")
-    with col21:
-        st.image("fotos/logo_mhol.png")
+        st.image("fotos/sede_mali.png")
         
-    col22, col23, col24 = st.columns([0.8,0.8,0.8])
-    with col22:
-        st.image("fotos/logo_impulse.png", use_container_width=True)
-    with col23:
-        st.image("fotos/logo_ahf.png", use_container_width=True)
-    with col24:
-        st.image("fotos/logo_promsex.png", use_container_width=True)
-
     st.markdown("""
         <h2 style="
             font-size:30px;
@@ -140,14 +128,44 @@ if pagina_seleccionada == "Presentación":
             text-align:center;
             margin-bottom:20px;
         ">
+        ALIADOS
+        </h2>
+    """, unsafe_allow_html=True)
+    
+    col21, col22, col23, col24 = st.columns(4)
+    with col21:
+        st.image("fotos/logo_tengo_dos_mamas.png")
+    with col22:
+        st.image("fotos/logo_demus.png")
+    with col23:
+        st.image("fotos/logo_justicia_arcoiris.png")
+    with col24:
+        st.image("fotos/logo_mhol.png")
+        
+    col25, col26, col27 = st.columns([0.8,0.8,0.8])
+    with col25:
+        st.image("fotos/logo_impulse.png", use_container_width=True)
+    with col26:
+        st.image("fotos/logo_ahf.png", use_container_width=True)
+    with col27:
+        st.image("fotos/logo_promsex.png", use_container_width=True)
+
+    st.markdown("""
+        <h2 style="
+            font-size:30px;
+            color:#73579d;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
         EDITORIALES ALIADAS
         </h2>
     """, unsafe_allow_html=True)
     
-    col26, col27, col28 = st.columns([0.8,0.5,0.7])
-    with col26:
-        st.image("fotos/logo_fce.png")
+    col28, col29, col30 = st.columns([0.8,0.5,0.7])
     with col28:
+        st.image("fotos/logo_fce.png")
+    with col30:
         st.image("fotos/logo_gafas_moradas.png")
         
 elif pagina_seleccionada == "Equipo organizador":
