@@ -115,10 +115,10 @@ if pagina_seleccionada == "Presentación":
         </h2>
     """, unsafe_allow_html=True)
     
-    col18, col19, col20= st.columns(3)
+    col18, col19 = st.columns(2)
     with col18:
         st.image("fotos/sede_caslit.png")
-    with col20:
+    with col19:
         st.image("fotos/sede_mali.png")
         
     st.markdown("""
