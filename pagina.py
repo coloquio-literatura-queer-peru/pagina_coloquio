@@ -128,7 +128,7 @@ if pagina_seleccionada == "Presentación":
             text-align:center;
             margin-bottom:20px;
         ">
-        ALIADOS
+        EN ALIANZA CON
         </h2>
     """, unsafe_allow_html=True)
     
