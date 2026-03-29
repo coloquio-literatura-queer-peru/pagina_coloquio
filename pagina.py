@@ -432,13 +432,18 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         </p>
         <b>El evento se realizará en modalidad presencial, por lo que se dará preferencia a los ponentes que cuenten con disponibilidad para participar en las fechas y horarios programados.
         </b>
-        📅 19 y 20 de junio de 2026
+        <p> 📅 19 y 20 de junio de 2026
+        
         📍 Casa de la Literatura Peruana
+        
         🕒 3:00 p. m. – 8:30 p. m.
         
         📅 21 de junio de 2026
+        
         📍 Museo de Arte de Lima (MALI)
+        
         🕒 2:00 p. m. – 6:00 p. m.
+        </p>
         </div>
     """, unsafe_allow_html=True)
     
