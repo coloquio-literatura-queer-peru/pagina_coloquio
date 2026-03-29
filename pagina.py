@@ -104,7 +104,7 @@ if pagina_seleccionada == "Presentación":
 
     st.markdown("""
         <h2 style="
-            font-size:30px;
+            font-size:35px;
             color:#3F8C68;
             font-weight:bold;
             text-align:center;
@@ -122,7 +122,7 @@ if pagina_seleccionada == "Presentación":
         
     st.markdown("""
         <h2 style="
-            font-size:30px;
+            font-size:35px;
             color:#dc2f82;
             font-weight:bold;
             text-align:center;
@@ -152,7 +152,7 @@ if pagina_seleccionada == "Presentación":
 
     st.markdown("""
         <h2 style="
-            font-size:30px;
+            font-size:35px;
             color:#73579d;
             font-weight:bold;
             text-align:center;
