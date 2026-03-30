@@ -468,10 +468,11 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     st.markdown("""
         | EVENTO | FECHA |
         |-------|------------|
-        | Apertura de convocatoria | Sábado 28 de Febrero del 2026 |
-        | Cierre de convocatoria | Domingo 29 de Marzo del 2026 (hasta las 11:59 pm) |
-        | Confirmación de resultados | A partir del 13 de Abril del 2026 |
-        | Envío de diapositivas (personas seleccionadas)| Hasta el 12 de Junio |
+        | Apertura de convocatoria | Sábado 28 de febrero del 2026 |
+        | Ampliación de convocatoria | Lunes 30 de marzo del 2026 |
+        | Cierre de convocatoria | Lunes 13 de abril del 2026 (hasta las 11:59 pm) |
+        | Confirmación de resultados | A partir del 4 de mayo del 2026 |
+        | Envío de diapositivas (personas seleccionadas)| Hasta el 12 de junio del 2026|
     """)
     
     st.markdown("""
