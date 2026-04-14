@@ -490,18 +490,13 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     st.markdown("""
     <div style="text-align: justify; font-size:18px;">
     <p>
-    La convocatoria para el envío de sumillas ha sido cerrada. Agradecemos el interés y la participación de todos los postulantes.
+    <b>La convocatoria para el envío de sumillas ha sido cerrada. Agradecemos el interés y la participación de todos los postulantes.</b>
     </p>
     </div>
     """, unsafe_allow_html=True)
         
-    col10, col11, col12 = st.columns(3)
+    #col10, col11, col12 = st.columns(3)
     
-    with col11:
-        st.link_button(
-            "Envia aquí tu sumilla",
-            "https://docs.google.com/forms/d/e/1FAIpQLSeyzQjEVs7TLXRyZw8-D2AvKf2Hz9FzV-0iYmXaZ3CZG_ynAg/viewform?usp=dialog"
-        )
         
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
