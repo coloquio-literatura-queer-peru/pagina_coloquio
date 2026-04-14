@@ -488,11 +488,11 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     """, unsafe_allow_html=True)
     
     st.markdown("""
-        <div style="text-align: justify; font-size:18px;">
-        <p>
-        El envío de sumillas se hará a través del siguiente formulario: 
-        </p>
-        </div>
+    <div style="text-align: justify; font-size:18px;">
+    <p>
+    La convocatoria para el envío de sumillas ha sido cerrada. Agradecemos el interés y la participación de todos los postulantes.
+    </p>
+    </div>
     """, unsafe_allow_html=True)
         
     col10, col11, col12 = st.columns(3)
