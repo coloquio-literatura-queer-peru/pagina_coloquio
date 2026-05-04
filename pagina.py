@@ -52,7 +52,7 @@ with st.sidebar:
     """, unsafe_allow_html=True)
     
 if pagina_seleccionada == "Presentación":
-    col32, col33, col34, col35 = st.columns([1,1,1, 1])
+    col32, col33, col34, col35 = st.columns([0.8,0.8,0.8,0.8])
     with col35:
         st.image("fotos/logo_mincul.png")
     
