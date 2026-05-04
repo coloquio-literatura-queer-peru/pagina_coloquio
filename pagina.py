@@ -52,6 +52,10 @@ with st.sidebar:
     """, unsafe_allow_html=True)
     
 if pagina_seleccionada == "Presentación":
+    col32, col33, col34 = st.columns([1,1,2])
+    with col34:
+        st.image("fotos/logo_mincul.png", width=1600)
+    
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
         st.image("fotos/logo.png", width=1600)
