@@ -54,7 +54,7 @@ with st.sidebar:
 if pagina_seleccionada == "Presentación":
     col32, col33, col34 = st.columns([1,1,2])
     with col34:
-        st.image("fotos/logo_mincul.png", width=600)
+        st.image("fotos/logo_mincul.png")
     
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
