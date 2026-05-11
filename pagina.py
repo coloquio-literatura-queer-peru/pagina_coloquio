@@ -500,7 +500,10 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     """, unsafe_allow_html=True)
         
     #col10, col11, col12 = st.columns(3)
-    
+
+else: 
+
+    st.image("fotos/flyer_coloquio.png")
         
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
