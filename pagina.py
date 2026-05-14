@@ -503,7 +503,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 
 else: 
 
-    st.image("fotos/flyer_coloquio.png")
+    st.image("fotos/flyer_coloquio.png", width=1800)
         
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
