@@ -539,12 +539,12 @@ else:
     # Inauguración
     st.markdown("## 🎤 Inauguración")
     
-    col30, col32 = st.columns([1, 3])
+    col30, col31 = st.columns([1, 3])
     
-    with col31:
+    with col30:
         st.metric("Horario", "3:10 PM - 3:40 PM")
     
-    with col32:
+    with col31:
         st.success("""
     ### Muestra Audiovisual de Investigación #1
     
