@@ -504,10 +504,12 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 else: 
 
     st.image("fotos/flyer_coloquio.png", width=1800)
-    
+
+    st.write("")
+
     st.markdown("""
         <h2 style="
-            font-size:40px;
+            font-size:45px;
             color:#9a62a5;
             font-weight:bold;
             text-align:center;
@@ -538,11 +540,15 @@ else:
     
     # Inauguración
     st.markdown("## 🎤 Inauguración")
-    
+    st.info("""
+    **3:10 PM - 3:40 PM**  
+    """)
+
+    st.markdown("---")
     col30, col31 = st.columns([1, 3])
     
     with col30:
-        st.metric("Horario", "3:10 PM - 3:40 PM")
+        st.metric("Horario", "3:50 PM - 4:05 PM")
     
     with col31:
         st.success("""
