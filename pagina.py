@@ -504,7 +504,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 else: 
     st.markdown("""
         <h2 style="
-            font-size:50px;
+            font-size:70px;
             color:#9a62a5;
             font-weight:bold;
             text-align:center;
@@ -524,8 +524,8 @@ else:
     }
     
     .boton-centro a {
-        background-color: #FF4B4B;
-        color: white;
+        background-color: #9A62A5;
+        color: #F4E9E2;
         padding: 18px 35px;
         text-decoration: none;
         border-radius: 10px;
@@ -536,7 +536,7 @@ else:
     }
     
     .boton-centro a:hover {
-        background-color: #E03E3E;
+        background-color: #885394;
     }
     </style>
     """, unsafe_allow_html=True)
