@@ -540,22 +540,28 @@ else:
     }
     </style>
     """, unsafe_allow_html=True)
+
+    st.markdown(
+    """
+    <div style="
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #9A62A5;">
+        📢 Todas las actividades son de acceso libre y gratuito.
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
     
     st.markdown("""
     <div class="boton-centro">
-        <a href="https://forms.gle/NuWbvvbZvQK5Ra6H7" target="_blank">
-            🎟️ Inscribirme para el 19 y 20 de junio (CASLIT)
+        <a href="https://forms.gle/hBszmpvcGnG1hvcSA" target="_blank">
+            🎟️ Inscribirse aquí
         </a>
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <div class="boton-centro">
-        <a href="https://forms.gle/2xnGGrWFaYxoA9wt6" target="_blank">
-            🎟️ Inscribirme para el 21 de junio (MALI)
-        </a>
-    </div>
-    """, unsafe_allow_html=True)
 
     st.write("")
     
