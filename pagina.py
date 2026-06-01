@@ -510,7 +510,7 @@ else:
             text-align:center;
             margin-bottom:20px;
         ">
-        Programación
+        CRONOGRAMA DE ACTIVIDADES
         </h2>
     """, unsafe_allow_html=True)
 
@@ -556,6 +556,8 @@ else:
         </a>
     </div>
     """, unsafe_allow_html=True)
+
+    st.write("")
     
     st.markdown("""
         <h2 style="
@@ -569,12 +571,10 @@ else:
         </h2>
     """, unsafe_allow_html=True)
 
+    
+
     st.image("fotos/flyer_coloquio.png", width=1800)
-
-    st.write("")
-
-    #
-        
+       
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
 
