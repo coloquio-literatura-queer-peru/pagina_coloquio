@@ -587,8 +587,7 @@ else:
         font-size: 27px;
         font-weight: bold;
     ">
-        <strong>3:00 PM - 3:10 PM</strong><br>
-        Recepción de asistentes
+        <strong>3:00 PM - 3:10 PM</strong><br> Recepción de asistentes
     </div>
     """, unsafe_allow_html=True)
 
