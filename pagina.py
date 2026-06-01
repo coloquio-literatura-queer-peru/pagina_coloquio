@@ -514,14 +514,21 @@ else:
         </h2>
     """, unsafe_allow_html=True)
 
-    st.link_button(
-    "📋 Inscripción 19 y 20 de junio (CASLIT)",
-    "https://forms.gle/NuWbvvbZvQK5Ra6H7"
-    )
-    st.link_button(
-    "📋 Inscripción 21 de junio (MALI)",
-    "https://forms.gle/2xnGGrWFaYxoA9wt6"
-    )
+    st.markdown("""
+    <div class="boton-centro">
+        <a href="https://forms.gle/NuWbvvbZvQK5Ra6H7" target="_blank">
+            🎟️ Inscribirme para el 19 y 20 de junio (CASLIT)
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="boton-centro">
+        <a href="https://forms.gle/2xnGGrWFaYxoA9wt6" target="_blank">
+            🎟️ Inscribirme para el 21 de junio (MALI)
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
     
     st.markdown("""
         <h2 style="
