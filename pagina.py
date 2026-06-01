@@ -579,17 +579,15 @@ else:
     # Recepción
     st.markdown("""
     <div style="
-        text-align: left;
+        background-color: #F4E9E2;
+        border-left: 8px solid #9A62A5;
+        color: #e55940;
+        padding: 1rem;
+        border-radius: 0.5rem;
         font-size: 27px;
         font-weight: bold;
-        color: #e55940;
-        background-color: #F4E9E2;
-        padding: 15px;
-        border-left: 8px solid #9A62A5;
-        border-radius: 8px;
-        margin-bottom: 10px;
     ">
-        <strong>3:00 PM - 3:10 PM</strong><br>
+        🕒 3:00 PM - 3:10 PM<br>
         Recepción de asistentes
     </div>
     """, unsafe_allow_html=True)
