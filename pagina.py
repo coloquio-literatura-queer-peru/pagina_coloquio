@@ -504,7 +504,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 else: 
     st.markdown("""
         <h2 style="
-            font-size:70px;
+            font-size:50px;
             color:#DC2F82;
             font-weight:bold;
             text-align:center;
@@ -571,7 +571,12 @@ else:
         </h2>
     """, unsafe_allow_html=True)
 
-    
+    # Recepción
+    st.markdown("## 🕒 Recepción")
+    st.info("""
+    **3:00 PM - 3:10 PM**  
+    Recepción de asistentes
+    """)
 
     st.image("fotos/flyer_coloquio.png", width=1800)
        
