@@ -505,7 +505,7 @@ else:
     st.markdown("""
         <h2 style="
             font-size:70px;
-            color:#3C8D6B;
+            color:#DC2F82;
             font-weight:bold;
             text-align:center;
             margin-bottom:20px;
