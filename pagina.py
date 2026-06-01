@@ -562,7 +562,6 @@ else:
     </div>
     """, unsafe_allow_html=True)
 
-
     st.write("")
     
     st.markdown("""
@@ -578,11 +577,22 @@ else:
     """, unsafe_allow_html=True)
 
     # Recepción
-    st.markdown("## 🕒 Recepción")
-    st.info("""
-    **3:00 PM - 3:10 PM**  
-    Recepción de asistentes
-    """)
+    st.markdown("""
+    <div style="
+        text-align: left;
+        font-size: 27px;
+        font-weight: bold;
+        color: #e55940;
+        background-color: #F4E9E2;
+        padding: 15px;
+        border-left: 8px solid #9A62A5;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    ">
+        <strong>3:00 PM - 3:10 PM</strong><br>
+        Recepción de asistentes
+    </div>
+    """, unsafe_allow_html=True)
 
     st.image("fotos/flyer_coloquio.png", width=1800)
        
