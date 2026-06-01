@@ -502,6 +502,38 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
     #col10, col11, col12 = st.columns(3)
 
 else: 
+    st.markdown("""
+        <h2 style="
+            font-size:50px;
+            color:#9a62a5;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        Programación
+        </h2>
+    """, unsafe_allow_html=True)
+
+    st.link_button(
+    "📋 Inscripción 19 y 20 de junio (CASLIT)",
+    "https://forms.gle/NuWbvvbZvQK5Ra6H7"
+    )
+    st.link_button(
+    "📋 Inscripción 21 de junio (MALI)",
+    "https://forms.gle/2xnGGrWFaYxoA9wt6"
+    )
+    
+    st.markdown("""
+        <h2 style="
+            font-size:30px;
+            color:#3F8C68;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        VIERNES 19 DE JUNIO (CASA DE LA LITERATURA)
+        </h2>
+    """, unsafe_allow_html=True)
 
     st.image("fotos/flyer_coloquio.png", width=1800)
 
