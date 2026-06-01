@@ -515,6 +515,33 @@ else:
     """, unsafe_allow_html=True)
 
     st.markdown("""
+    <style>
+    .boton-centro {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .boton-centro a {
+        background-color: #FF4B4B;
+        color: white;
+        padding: 18px 35px;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        width: 500px;
+    }
+    
+    .boton-centro a:hover {
+        background-color: #E03E3E;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    st.markdown("""
     <div class="boton-centro">
         <a href="https://forms.gle/NuWbvvbZvQK5Ra6H7" target="_blank">
             🎟️ Inscribirme para el 19 y 20 de junio (CASLIT)
