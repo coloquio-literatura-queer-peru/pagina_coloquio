@@ -677,6 +677,44 @@ else:
     </div>
     """, unsafe_allow_html=True)
     
+    st.markdown("""
+    <div style="
+        background-color: #9EEACC;
+        color: #9A62A5;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>05:40 PM - 06:50 PM</strong><br> 
+        <div style="margin-top:10px;">
+        MESA DE PONENCIAS:
+        <i>Relecturas queer del canon peruano</i>
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>El escándalo como motivo estructurante. Una relectura necesariamente ¿queer? de Vargas Llosa</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Fabio Venero Figueroa
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Natalia Regina Ángeles Enciso
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Giancarlos Nathanael Peralta Luis
+        </div>
+        <div style="margin-top:10px;">
+            Modera: Flavia Cabrera
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
     st.image("fotos/flyer_coloquio.png", width=1800)
     
