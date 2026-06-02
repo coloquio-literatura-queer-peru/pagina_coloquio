@@ -645,9 +645,7 @@ else:
         <strong>04:10 PM - 05:20 PM</strong><br> 
         <div style="margin-top:10px;">
         MESA DE PONENCIAS
-        </div>
-        <div style="margin-top:10px;">
-            <i>Feminidades queer en la literatura peruana contemporánea</i>
+        <i>Feminidades queer en la literatura peruana contemporánea</i>
         </div>
         <div style="margin-top:10px;">
             <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín</i></b>
