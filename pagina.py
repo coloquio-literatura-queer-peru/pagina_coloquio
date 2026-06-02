@@ -644,7 +644,7 @@ else:
     ">
         <strong>04:10 PM - 05:20 PM</strong><br> 
         <div style="margin-top:10px;">
-        MESA DE PONENCIAS
+        MESA DE PONENCIAS:
         <i>Feminidades queer en la literatura peruana contemporánea</i>
         </div>
         <div style="margin-top:10px;">
@@ -652,6 +652,12 @@ else:
         </div>
         <div style="margin-top:10px;">
             Participa: Jimena Sofía Velarde Vera
+        </div>
+        <div style="margin-top:10px;">
+        📷 <a href="https://www.instagram.com/velarde_jimena?igsh=MXZsNDN3c3o3aGFmag==" target="_blank"
+              style="color:#9A62A5;">
+              @velarde_jimena
+        </a>
         </div>
         <div style="margin-top:10px;">
             <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato</i></b>
