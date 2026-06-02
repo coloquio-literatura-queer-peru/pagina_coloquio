@@ -851,25 +851,25 @@ else:
         </a>
         </div>
         <div style="margin-top:10px;">
-            <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato</i></b>
+            <b><i>«La Miss» de Lesly Quispe: el proceso de escritura de la primera autobiografía trans peruana</i></b>
         </div>
         <div style="margin-top:10px;">
-            Participa: Judith Mavila Paredes Morales
-        <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
-              style="text-decoration:none; color:#73579d; font-weight:600;"> (@judithparedesmorales)
+            Participa: Ernesto Cuba
+        <a href="https://www.instagram.com/ernesto.cuba/" target="_blank"
+              style="text-decoration:none; color:#73579d; font-weight:600;"> (@ernesto.cuba)
         </a>
         </div>
         <div style="margin-top:10px;">
-            <b><i>«Compórtense como señoritas» de Karen Luy de Aliaga: formación de la subjetividad lésbica entre violencia y deseo</i></b>
+            <b><i>Heterogeneidad marica: lenguaje queer como resistencia en Campuzano y Frau Diamanda</i></b>
         </div>
         <div style="margin-top:10px;">
-            Participa: Karol Nicol Sialas Rosas
-        <a href="https://www.instagram.com/karol_sialas/" target="_blank"
-              style="text-decoration:none; color:#73579d; font-weight:600;"> (@karol_sialas)
+            Participa: José Antonio Arias Bernal
+        <a href="https://www.instagram.com/jaba94_/" target="_blank"
+              style="text-decoration:none; color:#73579d; font-weight:600;"> (@jaba94_)
         </a>
         </div>
         <div style="margin-top:10px;">
-            Modera: Camila Arizaca
+            Modera: Luis León Santos
         </div>
     </div>
     """, unsafe_allow_html=True)
