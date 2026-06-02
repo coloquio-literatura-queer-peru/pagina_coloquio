@@ -706,7 +706,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Fabio Venero Figueroa
         <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#9a62a5; font-weight:600;"> (@qvispe.ynca)
+              style="text-decoration:none; color:#E1B9FE; font-weight:600;"> (@qvispe.ynca)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -715,7 +715,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Natalia Regina Ángeles Enciso
         <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#F5F5F5; font-weight:600;"> (@regi_ae07)
+              style="text-decoration:none; color:#E1B9FE; font-weight:600;"> (@regi_ae07)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -724,7 +724,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Giancarlos Nathanael Peralta Luis
         <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
-              style="text-decoration:none; color:#F5F5F5; font-weight:600;"> (@nathanael.peralta.luis)
+              style="text-decoration:none; color:#E1B9FE; font-weight:600;"> (@nathanael.peralta.luis)
         </a>
         </div>
         <div style="margin-top:10px;">
