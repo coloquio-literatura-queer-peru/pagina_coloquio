@@ -700,18 +700,27 @@ else:
         </div>
         <div style="margin-top:10px;">
             Participa: Fabio Venero Figueroa
+        <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@qvispe.ynca)
+        </a>
         </div>
         <div style="margin-top:10px;">
             <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
         </div>
         <div style="margin-top:10px;">
             Participa: Natalia Regina Ángeles Enciso
+        <a href="https://www.instagram.com/regi_ae07/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@regi_ae07)
+        </a>
         </div>
         <div style="margin-top:10px;">
             <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
         </div>
         <div style="margin-top:10px;">
             Participa: Giancarlos Nathanael Peralta Luis
+        <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@nathanael.peralta.luis)
+        </a>
         </div>
         <div style="margin-top:10px;">
             Modera: Flavia Cabrera
