@@ -1,4 +1,9 @@
-# Página del 1er Coloquio de Literatura Queer Peruana
+"""
+Módulo: pagina.py
+Descripción: Página web del I Coloquio de Literatura Queer Peruana
+Autora: https://github.com/4591526 (luisa.gomez@pucp.edu.pe)
+Fecha de creación: febrero 2026
+"""
 
 import streamlit as st
 import pandas as pd
