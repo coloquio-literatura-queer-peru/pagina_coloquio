@@ -652,8 +652,8 @@ else:
         </div>
         <div style="margin-top:10px;">
             Participa: Jimena Sofía Velarde Vera
-        📷 <a href="https://www.instagram.com/velarde_jimena?igsh=MXZsNDN3c3o3aGFmag==" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> @velarde_jimena
+        <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@velarde_jimena)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -661,6 +661,9 @@ else:
         </div>
         <div style="margin-top:10px;">
             Participa: Judith Mavila Paredes Morales
+        <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@judithparedesmorales)
+        </a>
         </div>
         <div style="margin-top:10px;">
             <b><i>«Compórtense como señoritas»: formación de la subjetividad lésbica entre violencia y deseo</i></b>
