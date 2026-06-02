@@ -504,7 +504,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
 else: 
     st.markdown("""
         <h2 style="
-            font-size:50px;
+            font-size:45px;
             color:#DC2F82;
             font-weight:bold;
             text-align:center;
