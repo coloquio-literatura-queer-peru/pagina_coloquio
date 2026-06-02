@@ -620,11 +620,17 @@ else:
         font-weight: bold;
     ">
         <strong>03:50 PM - 04:05 PM</strong><br> 
+        <div style="margin-top:10px;">
         MUESTRA AUDIOVISUAL
-        "<b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>"
-        Participa: Fátima Denisse Córdova Luna
-    </div>
-    """, unsafe_allow_html=True)
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Fátima Denisse Córdova Luna
+        </div>
+        </div>
+        """, unsafe_allow_html=True)
 
     st.image("fotos/flyer_coloquio.png", width=1800)
        
