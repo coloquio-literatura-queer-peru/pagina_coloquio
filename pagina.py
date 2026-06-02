@@ -800,19 +800,19 @@ else:
     st.markdown("""
         <h2 style="
             font-size:30px;
-            color:#DC2F82;
+            color:#e55940;
             font-weight:bold;
             text-align:center;
             margin-bottom:20px;
         ">
-        VIERNES 19 DE JUNIO (CASA DE LA LITERATURA)
+        SÁBADO 20 DE JUNIO (CASA DE LA LITERATURA)
         </h2>
     """, unsafe_allow_html=True)
 
     # Recepción
     st.markdown("""
     <div style="
-        background-color: #E57A07;
+        background-color: #775aa4;
         color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -820,7 +820,7 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>3:00 PM - 3:10 PM</strong><br> 
+        <strong>3:00 PM - 3:05 PM</strong><br> 
         Recepción de asistentes
     </div>
     """, unsafe_allow_html=True)
@@ -836,7 +836,7 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>03:10 PM - 03:40 PM</strong><br> 
+        <strong>03:05 PM - 04:15 PM</strong><br> 
         Inauguración
     </div>
     """, unsafe_allow_html=True)
@@ -844,8 +844,8 @@ else:
     #
     st.markdown("""
     <div style="
-        background-color: #E57A07;
-        color: #F4E9E2;
+        background-color: #C1B3D5;
+        color: #dc2f82;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
