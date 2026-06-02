@@ -629,10 +629,53 @@ else:
         <div style="margin-top:10px;">
             Participa: Fátima Denisse Córdova Luna
         </div>
-        </div>
+    </div>
         """, unsafe_allow_html=True)
 
+    st.markdown("""
+    <div style="
+        background-color: #FFC88A;
+        color: #9A62A5;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>04:10 PM - 05:20 PM</strong><br> 
+        <div style="margin-top:10px;">
+        MESA DE PONENCIAS
+        </div>
+        <div style="margin-top:10px;">
+            <i>Feminidades queer en la literatura peruana contemporánea</i>
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Jimena Sofía Velarde Vera
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Judith Mavila Paredes Morales
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>«Compórtense como señoritas»: formación de la subjetividad lésbica entre violencia y deseo</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Karol Nicol Sialas Rosas
+        </div>
+        <div style="margin-top:10px;">
+            Modera: Camila Arizaca
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    
+
     st.image("fotos/flyer_coloquio.png", width=1800)
+    
        
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
