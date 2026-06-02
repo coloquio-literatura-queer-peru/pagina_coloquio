@@ -687,8 +687,8 @@ else:
     
     st.markdown("""
     <div style="
-        background-color: #F1A598;
-        color: #73579d;
+        background-color: #e65d44;
+        color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -706,7 +706,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Fabio Venero Figueroa
         <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@qvispe.ynca)
+              style="text-decoration:none; color:#3f8c68; font-weight:600;"> (@qvispe.ynca)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -715,7 +715,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Natalia Regina Ángeles Enciso
         <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@regi_ae07)
+              style="text-decoration:none; color:#a154d6; font-weight:600;"> (@regi_ae07)
         </a>
         </div>
         <div style="margin-top:10px;">
