@@ -640,7 +640,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #F1A598;
-        color: #3f8c68;
+        color: #73579d;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -687,8 +687,8 @@ else:
     
     st.markdown("""
     <div style="
-        background-color: #9EEACC;
-        color: #9A62A5;
+        background-color: #F1A598;
+        color: #73579d;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
