@@ -608,6 +608,24 @@ else:
     </div>
     """, unsafe_allow_html=True)
 
+    #
+    st.markdown("""
+    <div style="
+        background-color: #CE8CFD;
+        color: #DC2F82;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>03:50 PM - 04:05 PM</strong><br> 
+        MUESTRA AUDIOVISUAL
+        "<b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>"
+        Participa: Fátima Denisse Córdova Luna
+    </div>
+    """, unsafe_allow_html=True)
+
     st.image("fotos/flyer_coloquio.png", width=1800)
        
 st.markdown("""
