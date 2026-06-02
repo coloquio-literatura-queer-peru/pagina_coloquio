@@ -600,7 +600,7 @@ else:
     #
     st.markdown("""
     <div style="
-        background-color: #F1A598;
+        background-color: #FFC88A;
         color: #73579d;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -639,7 +639,7 @@ else:
 
     st.markdown("""
     <div style="
-        background-color: #F1A598;
+        background-color: #FFC88A;
         color: #73579d;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -715,7 +715,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Natalia Regina Ángeles Enciso
         <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#E1B9FE; font-weight:600;"> (@regi_ae07)
+              style="text-decoration:none; color:#27F5B0; font-weight:600;"> (@regi_ae07)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -724,7 +724,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Giancarlos Nathanael Peralta Luis
         <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
-              style="text-decoration:none; color:#E1B9FE; font-weight:600;"> (@nathanael.peralta.luis)
+              style="text-decoration:none; color:#27F5B0; font-weight:600;"> (@nathanael.peralta.luis)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -735,8 +735,8 @@ else:
 
     st.markdown("""
     <div style="
-        background-color: #E1B9FE;
-        color: #DC2F82;
+        background-color: #FFC88A;
+        color: #73579d;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -758,8 +758,8 @@ else:
 
     st.markdown("""
     <div style="
-        background-color: #FFC88A;
-        color: #9A62A5;
+        background-color: #e65d44;
+        color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -777,7 +777,7 @@ else:
         <div style="margin-top:10px;">
             Javier Lucierno/ Javi Vargas
         <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@javi_vargas_st)
+              style="text-decoration:none; color:#27F5B0; font-weight:600;"> (@javi_vargas_st)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -786,7 +786,7 @@ else:
         <div style="margin-top:10px;">
             Hélard Fuentes
         <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@helard.fuentes)
+              style="text-decoration:none; color:#27F5B0; font-weight:600;"> (@helard.fuentes)
         </a>
         </div>
         <div style="margin-top:10px;">
