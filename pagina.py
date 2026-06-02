@@ -836,7 +836,7 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>03:50 PM - 04:05 PM</strong><br> 
+        <strong>03:05 PM - 04:15 PM</strong><br> 
         <div style="margin-top:10px;">
         MESA DE PONENCIAS:
         <i>Poéticas trans y travestis: memoria, cuerpo y resistencia</i>
@@ -847,7 +847,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Alejandra Romi Vargas Rojas
         <a href="https://www.instagram.com/scarlett.rza/" target="_blank"
-              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@scarlett.rza)
+              style="text-decoration:none; color:#73579d; font-weight:600;"> (@scarlett.rza)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -856,7 +856,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Judith Mavila Paredes Morales
         <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
-              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@judithparedesmorales)
+              style="text-decoration:none; color:#73579d; font-weight:600;"> (@judithparedesmorales)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -865,7 +865,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Karol Nicol Sialas Rosas
         <a href="https://www.instagram.com/karol_sialas/" target="_blank"
-              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@karol_sialas)
+              style="text-decoration:none; color:#73579d; font-weight:600;"> (@karol_sialas)
         </a>
         </div>
         <div style="margin-top:10px;">
