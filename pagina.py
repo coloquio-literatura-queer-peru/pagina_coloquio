@@ -666,7 +666,7 @@ else:
         </a>
         </div>
         <div style="margin-top:10px;">
-            <b><i>«Compórtense como señoritas» de Karen Luy: formación de la subjetividad lésbica entre violencia y deseo</i></b>
+            <b><i>«Compórtense como señoritas» de Karen Luy de Aliaga: formación de la subjetividad lésbica entre violencia y deseo</i></b>
         </div>
         <div style="margin-top:10px;">
             Participa: Karol Nicol Sialas Rosas
