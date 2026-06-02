@@ -786,7 +786,7 @@ else:
         <div style="margin-top:10px;">
             Hélard Fuentes
         <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@helard.fuentes)
+              style="text-decoration:none; color:#9a48d5; font-weight:600;"> (@helard.fuentes)
         </a>
         </div>
         <div style="margin-top:10px;">
