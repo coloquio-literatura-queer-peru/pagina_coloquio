@@ -716,8 +716,71 @@ else:
     </div>
     """, unsafe_allow_html=True)
 
-    st.image("fotos/flyer_coloquio.png", width=1800)
+    st.markdown("""
+    <div style="
+        background-color: #E1B9FE;
+        color: #DC2F82;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>06:55 PM - 07:05 PM</strong><br> 
+        <div style="margin-top:10px;">
+        MUESTRA AUDIOVISUAL
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Fátima Denisse Córdova Luna
+        </div>
+    </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div style="
+        background-color: #FFC88A;
+        color: #9A62A5;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>07:15 PM - 08:15 PM</strong><br> 
+        <div style="margin-top:10px;">
+        CONVERSATORIO:
+        <i>Archivos y disidencias sexuales en la historia del Perú</i>
+        </div>
+        <div style="margin-top:10px;">
+            Participan:
+        </div>
+        <div style="margin-top:10px;">
+            Javier Lucierno/ Javi Vargas
+        <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@javi_vargas_st)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Magally Alegre Henderson
+        </div>
+        <div style="margin-top:10px;">
+            Hélard Fuentes
+        <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@helard.fuentes)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Modera: Giancarlo Mori Bolo
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
     
+    st.write("")
+
+    st.image("fotos/flyer_coloquio.png", width=1800)
        
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
