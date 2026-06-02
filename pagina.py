@@ -611,8 +611,8 @@ else:
     #
     st.markdown("""
     <div style="
-        background-color: #CE8CFD;
-        color: #DC2F82;
+        background-color: #E1B9FE;
+        color: #9A62A5;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
