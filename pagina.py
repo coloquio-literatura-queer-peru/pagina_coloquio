@@ -670,6 +670,9 @@ else:
         </div>
         <div style="margin-top:10px;">
             Participa: Karol Nicol Sialas Rosas
+        <a href="https://www.instagram.com/karol_sialas/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@karol_sialas)
+        </a>
         </div>
         <div style="margin-top:10px;">
             Modera: Camila Arizaca
