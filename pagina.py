@@ -654,9 +654,8 @@ else:
             Participa: Jimena Sofía Velarde Vera
         </div>
         <div style="margin-top:10px;">
-        📷 <a href="https://www.instagram.com/velarde_jimena?igsh=MXZsNDN3c3o3aGFmag==" target="_blank"
-              style="color:#9A62A5;">
-              @velarde_jimena
+        <a href="https://www.instagram.com/velarde_jimena?igsh=MXZsNDN3c3o3aGFmag==" target="_blank"
+              style="color:#9A62A5;"> @velarde_jimena
         </a>
         </div>
         <div style="margin-top:10px;">
