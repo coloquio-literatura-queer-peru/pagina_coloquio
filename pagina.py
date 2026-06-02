@@ -567,7 +567,7 @@ else:
     st.markdown("""
         <h2 style="
             font-size:30px;
-            color:#3F8C68;
+            color:#DC2F82;
             font-weight:bold;
             text-align:center;
             margin-bottom:20px;
@@ -579,8 +579,8 @@ else:
     # Recepción
     st.markdown("""
     <div style="
-        background-color: #FFA07A;
-        color: #73579d;
+        background-color: #F1A598;
+        color: #DC2F82;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -589,6 +589,22 @@ else:
     ">
         <strong>3:00 PM - 3:10 PM</strong><br> 
         Recepción de asistentes
+    </div>
+    """, unsafe_allow_html=True)
+
+    #
+    st.markdown("""
+    <div style="
+        background-color: #7EDDB2;
+        color: #DC2F82;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>03:10 PM - 03:40 PM</strong><br> 
+        Inauguración
     </div>
     """, unsafe_allow_html=True)
 
