@@ -706,7 +706,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Fabio Venero Figueroa
         <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#F5B027; font-weight:600;"> (@qvispe.ynca)
+              style="text-decoration:none; color:#B027F5; font-weight:600;"> (@qvispe.ynca)
         </a>
         </div>
         <div style="margin-top:10px;">
