@@ -829,22 +829,6 @@ else:
     st.markdown("""
     <div style="
         background-color: #FFC88A;
-        color: #73579d;
-        padding: 1rem 1.25rem;
-        border-radius: 0.5rem;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
-        font-size: 25px;
-        font-weight: bold;
-    ">
-        <strong>03:05 PM - 04:15 PM</strong><br> 
-        Inauguración
-    </div>
-    """, unsafe_allow_html=True)
-
-    #
-    st.markdown("""
-    <div style="
-        background-color: #C1B3D5;
         color: #dc2f82;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -854,39 +838,16 @@ else:
     ">
         <strong>03:50 PM - 04:05 PM</strong><br> 
         <div style="margin-top:10px;">
-        MUESTRA AUDIOVISUAL
-        </div>
-        <div style="margin-top:10px;">
-            <b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>
-        </div>
-        <div style="margin-top:10px;">
-            Participa: Fátima Denisse Córdova Luna
-        </div>
-    </div>
-        """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <div style="
-        background-color: #FFC88A;
-        color: #73579d;
-        padding: 1rem 1.25rem;
-        border-radius: 0.5rem;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
-        font-size: 25px;
-        font-weight: bold;
-    ">
-        <strong>04:10 PM - 05:20 PM</strong><br> 
-        <div style="margin-top:10px;">
         MESA DE PONENCIAS:
-        <i>Feminidades queer en la literatura peruana contemporánea</i>
+        <i>Poéticas trans y travestis: memoria, cuerpo y resistencia</i>
         </div>
         <div style="margin-top:10px;">
-            <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín</i></b>
+            <b><i>Del infierno al paraíso: espiritualidad y memoria trans en En el valle de las Onassis de Salò Tomoe</i></b>
         </div>
         <div style="margin-top:10px;">
-            Participa: Jimena Sofía Velarde Vera
-        <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@velarde_jimena)
+            Participa: Alejandra Romi Vargas Rojas
+        <a href="https://www.instagram.com/scarlett.rza/" target="_blank"
+              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@scarlett.rza)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -895,7 +856,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Judith Mavila Paredes Morales
         <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@judithparedesmorales)
+              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@judithparedesmorales)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -904,7 +865,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Karol Nicol Sialas Rosas
         <a href="https://www.instagram.com/karol_sialas/" target="_blank"
-              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@karol_sialas)
+              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@karol_sialas)
         </a>
         </div>
         <div style="margin-top:10px;">
