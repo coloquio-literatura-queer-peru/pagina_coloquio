@@ -706,7 +706,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Fabio Venero Figueroa
         <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#27F5B0; font-weight:600;"> (@qvispe.ynca)
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@qvispe.ynca)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -715,7 +715,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Natalia Regina Ángeles Enciso
         <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#27F5B0; font-weight:600;"> (@regi_ae07)
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@regi_ae07)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -724,7 +724,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Giancarlos Nathanael Peralta Luis
         <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
-              style="text-decoration:none; color:#27F5B0; font-weight:600;"> (@nathanael.peralta.luis)
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@nathanael.peralta.luis)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -777,7 +777,235 @@ else:
         <div style="margin-top:10px;">
             Javier Lucierno/ Javi Vargas
         <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
-              style="text-decoration:none; color:#27F5B0; font-weight:600;"> (@javi_vargas_st)
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@javi_vargas_st)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Magally Alegre Henderson
+        </div>
+        <div style="margin-top:10px;">
+            Hélard Fuentes
+        <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@helard.fuentes)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Modera: Giancarlo Mori Bolo
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+     st.write("")
+    
+    st.markdown("""
+        <h2 style="
+            font-size:30px;
+            color:#DC2F82;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        VIERNES 19 DE JUNIO (CASA DE LA LITERATURA)
+        </h2>
+    """, unsafe_allow_html=True)
+
+    # Recepción
+    st.markdown("""
+    <div style="
+        background-color: #E57A07;
+        color: #F4E9E2;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>3:00 PM - 3:10 PM</strong><br> 
+        Recepción de asistentes
+    </div>
+    """, unsafe_allow_html=True)
+
+    #
+    st.markdown("""
+    <div style="
+        background-color: #FFC88A;
+        color: #73579d;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>03:10 PM - 03:40 PM</strong><br> 
+        Inauguración
+    </div>
+    """, unsafe_allow_html=True)
+
+    #
+    st.markdown("""
+    <div style="
+        background-color: #E57A07;
+        color: #F4E9E2;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>03:50 PM - 04:05 PM</strong><br> 
+        <div style="margin-top:10px;">
+        MUESTRA AUDIOVISUAL
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Fátima Denisse Córdova Luna
+        </div>
+    </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div style="
+        background-color: #FFC88A;
+        color: #73579d;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>04:10 PM - 05:20 PM</strong><br> 
+        <div style="margin-top:10px;">
+        MESA DE PONENCIAS:
+        <i>Feminidades queer en la literatura peruana contemporánea</i>
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Jimena Sofía Velarde Vera
+        <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@velarde_jimena)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Judith Mavila Paredes Morales
+        <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@judithparedesmorales)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>«Compórtense como señoritas» de Karen Luy de Aliaga: formación de la subjetividad lésbica entre violencia y deseo</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Karol Nicol Sialas Rosas
+        <a href="https://www.instagram.com/karol_sialas/" target="_blank"
+              style="text-decoration:none; color:#d9307f; font-weight:600;"> (@karol_sialas)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Modera: Camila Arizaca
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    st.markdown("""
+    <div style="
+        background-color: #E57A07;
+        color: #F4E9E2;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>05:40 PM - 06:50 PM</strong><br> 
+        <div style="margin-top:10px;">
+        MESA DE PONENCIAS:
+        <i>Relecturas queer del canon peruano</i>
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>El escándalo como motivo estructurante. Una relectura necesariamente ¿queer? de Vargas Llosa</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Fabio Venero Figueroa
+        <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@qvispe.ynca)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Natalia Regina Ángeles Enciso
+        <a href="https://www.instagram.com/regi_ae07/" target="_blank"
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@regi_ae07)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Giancarlos Nathanael Peralta Luis
+        <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@nathanael.peralta.luis)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Modera: Flavia Cabrera
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div style="
+        background-color: #FFC88A;
+        color: #73579d;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>06:55 PM - 07:05 PM</strong><br> 
+        <div style="margin-top:10px;">
+        MUESTRA AUDIOVISUAL
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Fátima Denisse Córdova Luna
+        </div>
+    </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <div style="
+        background-color: #E57A07;
+        color: #F4E9E2;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>07:15 PM - 08:15 PM</strong><br> 
+        <div style="margin-top:10px;">
+        CONVERSATORIO:
+        <i>Archivos y disidencias sexuales en la historia del Perú</i>
+        </div>
+        <div style="margin-top:10px;">
+            Participan:
+        </div>
+        <div style="margin-top:10px;">
+            Javier Lucierno/ Javi Vargas
+        <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@javi_vargas_st)
         </a>
         </div>
         <div style="margin-top:10px;">
