@@ -651,10 +651,9 @@ else:
         <strong>04:10 PM - 05:20 PM</strong><br>
     
         <div style="margin-top:10px;">
-            <span style="color:#dc2982;">
+            <b style="color:#dc2982;">
                 MESA DE PONENCIAS:
-            </span>
-            <i>Feminidades queer en la literatura peruana contemporánea</i>
+            <i>Feminidades queer en la literatura peruana contemporánea</i></b>
         </div>
     
         <div style="margin-top:10px;">
