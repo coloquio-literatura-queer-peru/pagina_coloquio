@@ -1015,7 +1015,7 @@ else:
     st.write("")
     st.markdown("""
     <div style="
-        background-color: #775aa4;
+        background-color: #E57A07;
         color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -1023,23 +1023,15 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>04:20 PM - 04:30 PM / 05:40 PM - 05:55 PM</strong><br> 
+        <strong>06:00 PM - 08:00 PM</strong><br> 
         <div style="margin-top:10px;">
-        MUESTRA AUDIOVISUAL
+        PROYECCIÓN DE PELÍCULA
         </div>
         <div style="margin-top:10px;">
-            <b><i>Desprogramar el género: hyperpoesía, futurismo andino y subjetividades queer en la literatura digital peruana</i></b>
+            <b><i>No se lo digas a nadie (1998)</i></b>
         </div>
         <div style="margin-top:10px;">
-            Participa: Lisa Carrasco La Cruz
-        <a href="https://www.instagram.com/fuegodecumbia/" target="_blank"
-              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@fuegodecumbia)
-        </a>
-        </div>
-        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
-            Esta investigación analiza la literatura electrónica y la poesía digital como formas de
-            experimentación estética que replantean las relaciones entre tecnología, lenguaje e
-            identidades queer.
+            Dir. Francisco Lombardi
         </div>
     </div>
     """, unsafe_allow_html=True)
