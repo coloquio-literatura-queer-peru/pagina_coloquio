@@ -599,6 +599,8 @@ else:
         </div>
     """, unsafe_allow_html=True)
 
+    st.write("")
+    
     # Recepción
     st.markdown("""
     <div style="
@@ -652,7 +654,7 @@ else:
         <div style="margin-top:10px;">
             Participa: Fátima Denisse Córdova Luna
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
             Esta investigación analiza las representaciones queer en los Andes peruanos y reflexiona
             sobre las formas de resistencia, memoria y diversidad sexual que emergen fuera de los
             espacios urbanos hegemónicos.
@@ -675,7 +677,7 @@ else:
         MESA DE PONENCIAS:
         <i>Feminidades queer en la literatura peruana contemporánea</i>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
             Esta mesa reúne investigaciones en torno a las representaciones de feminidades queer en
             la literatura peruana contemporánea, atendiendo a las relaciones entre cuerpo, deseo,
             memoria y disidencia. A partir del análisis de narrativas y poéticas escritas por mujeres,
@@ -732,7 +734,7 @@ else:
         MESA DE PONENCIAS:
         <i>Relecturas queer del canon peruano</i>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
             Esta mesa propone revisitar el canon de la literatura peruana desde perspectivas queer
             contemporáneas, poniendo en discusión las formas en que el deseo, las sexualidades
             disidentes y las subjetividades no heteronormativas aparecen —muchas veces de manera
@@ -790,7 +792,7 @@ else:
         CONVERSATORIO:
         <i>Archivos y disidencias sexuales en la historia del Perú</i>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
             Esta mesa propone una aproximación histórica a la diversidad sexual y de género en el
             Perú, a partir del análisis de expresiones literarias, artísticas y periodísticas que han
             representado formas de disidencia sexo-genérica en distintos momentos. Asimismo, busca
