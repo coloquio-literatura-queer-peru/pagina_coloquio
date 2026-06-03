@@ -1183,56 +1183,49 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>03:05 PM - 04:15 PM</strong><br> 
+        <strong>03:30 PM - 04:15 PM</strong><br> 
         <div style="margin-top:10px;">
-        MESA DE PONENCIAS:
-        <i>Poéticas trans y travestis: memoria, cuerpo y resistencia</i>
+        PRESENTACIÓN DE LIBROS:
+        <i>Voces queer en el Perú: historias no contadas</i>
         </div>
         <div style="margin-top:10px; text-align:justify; font-weight: normal;">
-            Esta mesa aborda las escrituras trans y travestis como espacios de memoria, resistencia y
-            construcción de archivo frente a las violencias de la heteronormatividad y la colonialidad
-            de género. A través del análisis de propuestas autobiográficas, poéticas y performáticas,
-            las ponencias examinan cómo las narrativas trans contemporáneas articulan experiencias
-            de exclusión, activismo, espiritualidad y autoafirmación, contribuyendo a la configuración
-            de archivos alternativos y nuevas formas de representación de las disidencias sexogenéricas
-            en el Perú y América Latina.
+            Espacio de diálogo en torno a publicaciones que recuperan memorias, experiencias y luchas
+            de las comunidades LGTBIQ+ en el Perú. A partir de la presentación de estas obras, se
+            reflexionará sobre la construcción de archivos, la defensa de derechos y la importancia de
+            preservar y difundir historias que han sido tradicionalmente silenciadas.
+        </div>
+       <div style="margin-top:10px; color:#775aa4">
+            <b><i>Resistimos porque recordamos. Relatoría del encuentro por las memorias LGTBIQ+ del Perú</i></b>
+        </div>
+        <div style="margin-top:10px; color:#775aa4">
+            Autores: WikiAcción Perú y Archivo de la Memoria Marica del Perú
         </div>
         <div style="margin-top:10px; color:#3c8e6c">
-            <b><i>Del infierno al paraíso: espiritualidad y memoria trans en En el valle de las Onassis de Salò Tomoe</i></b>
+            <b><i>¡No discriminarás! Crissthian Olivera Fuentes vs Perú</i></b>
         </div>
-        <div style="margin-top:10px; color:#9a48d5">
-            Participa: Alejandra Romi Vargas Rojas
-        <a href="https://www.instagram.com/scarlett.rza/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@scarlett.rza)
+        <div style="margin-top:10px; color:#3c8e6c">
+            Autor: Estudio para la Defensa de los Derechos de la Mujer (Demus)
+        </div>
+        <div style="margin-top:10px;">
+            Participan:
+        </div>
+        <div style="margin-top:10px;">
+            André Mere Rivera
+        <a href="https://www.instagram.com/andre.mere.rivera/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@andre.mere.rivera)
         </a>
+        <div style="margin-top:10px;">
+            Crissthian Manuel Olivera Fuentes
         </div>
-        <div style="margin-top:10px; color:#3c8e6c">
-            <b><i>«La Miss» de Lesly Quispe: el proceso de escritura de la primera autobiografía trans peruana</i></b>
-        </div>
-        <div style="margin-top:10px; color:#9a48d5">
-            Participa: Ernesto Cuba
-        <a href="https://www.instagram.com/ernesto.cuba/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@ernesto.cuba)
-        </a>
-        </div>
-        <div style="margin-top:10px; color:#3c8e6c">
-            <b><i>Heterogeneidad marica: lenguaje queer como resistencia en Campuzano y Frau Diamanda</i></b>
-        </div>
-        <div style="margin-top:10px; color:#9a48d5">
-            Participa: José Antonio Arias Bernal
-        <a href="https://www.instagram.com/jaba94_/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@jaba94_)
-        </a>
-        </div>
-        <div style="margin-top:10px; color:#3c8e6c">
-            Modera: Luis León Santos
+        <div style="margin-top:10px;">
+            Modera: Enrique León
         </div>
     </div>
     """, unsafe_allow_html=True)
     st.write("")
     st.markdown("""
     <div style="
-        background-color: #dc2982;
+        background-color: #775aa4;
         color: #fae9e2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -1240,21 +1233,53 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>04:35 PM - 05:35 PM</strong><br> 
+        <strong>04:30 PM - 05:45 PM</strong><br> 
         <div style="margin-top:10px;">
-        CONVERSATORIO:
-        <i>Infancia y diversidad: representaciones queer en la literatura infantil</i>
+        RECITAL DE POESÍA Y NARRATIVA QUEER
         </div>
         <div style="margin-top:10px; text-align:justify; font-weight: normal;">
-            Esta mesa propone reflexionar sobre la literatura queer dirigida a niños, niñas y
-            adolescentes, atendiendo a sus formas de representación, circulación y recepción, y su
-            papel en la construcción de imaginarios sobre la diversidad desde edades tempranas.
-            Asimismo, busca problematizar el lugar de la diversidad sexual y de género en la literatura
-            infantil y juvenil, así como los debates en torno a su visibilidad, mediación pedagógica y
-            tensiones con discursos sociales contemporáneos.
+            Espacio de lectura y encuentro dedicado a poetxs y escritorxs disidentes, orientado a la
+            difusión de sus obras y al acercamiento del público a las diversas expresiones de la
+            literatura queer contemporánea.
         </div>
         <div style="margin-top:10px;">
             Participan:
+        </div>
+        <div style="margin-top:10px;">
+            Melissa Ghezzi
+        <a href="https://www.instagram.com/amanda_meza1/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@amanda_meza1)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Gabs Valdivia
+        <a href="https://www.instagram.com/veroferrarig/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@veroferrarig)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Lakita
+        <a href="https://www.instagram.com/lakitatheartist/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@lakitatheartist)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Daniboi
+        <a href="https://www.instagram.com/amanda_meza1/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@amanda_meza1)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            María Paz
+        <a href="https://www.instagram.com/veroferrarig/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@veroferrarig)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Lakita
+        <a href="https://www.instagram.com/lakitatheartist/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@lakitatheartist)
+        </a>
         </div>
         <div style="margin-top:10px;">
             Amanda Meza
@@ -1273,9 +1298,6 @@ else:
         <a href="https://www.instagram.com/lakitatheartist/" target="_blank"
               style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@lakitatheartist)
         </a>
-        </div>
-        <div style="margin-top:10px;">
-            Modera: Alan Concepción
         </div>
     </div>
     """, unsafe_allow_html=True)
