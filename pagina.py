@@ -584,7 +584,7 @@ else:
     # Recepción
     st.markdown("""
     <div style="
-        background-color: #E65D44;
+        background-color: #E65d44;
         color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -616,7 +616,7 @@ else:
     #
     st.markdown("""
     <div style="
-        background-color: #E57A07;
+        background-color: #9a48d5;
         color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
