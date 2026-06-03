@@ -1038,7 +1038,7 @@ else:
     st.write("")
     st.markdown("""
     <div style="
-        background-color: #dc2982;
+        background-color: #3c8e6c;
         color: #fae9e2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -1046,38 +1046,36 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>07:15 PM - 08:15 PM</strong><br> 
+        <strong>08:00 PM - 08:30 PM</strong><br> 
         <div style="margin-top:10px;">
         CONVERSATORIO:
-        <i>Archivos y disidencias sexuales en la historia del Perú</i>
+        <i>Memoria y representación queer a partir de No se lo digas a nadie (1998) de Francisco Lombardi</i>
         </div>
         <div style="margin-top:10px; text-align:justify; font-weight: normal;">
-            Esta mesa propone una aproximación histórica a la diversidad sexual y de género en el
-            Perú, a partir del análisis de expresiones literarias, artísticas y periodísticas que han
-            representado formas de disidencia sexo-genérica en distintos momentos. Asimismo, busca
-            reflexionar sobre cómo estas experiencias fueron nombradas, reguladas o silenciadas antes
-            de la consolidación de las categorías contemporáneas de identidad.
+            El conversatorio busca reflexionar sobre No se lo digas a nadie como obra cinematográfica
+            (basada en una obra literaria) dentro de la historia de las representaciones queer en el
+            Perú, considerando tanto su impacto cultural como las formas en que aborda la diversidad
+            sexual, el deseo, la masculinidad y las tensiones sociales de su contexto. Asimismo, se busca
+            poner en diálogo la película con las discusiones contemporáneas sobre memoria queer,
+            visibilidad y representación en el Perú.
         </div>
         <div style="margin-top:10px;">
             Participan:
         </div>
         <div style="margin-top:10px;">
-            Javier Lucierno/ Javi Vargas
-        <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@javi_vargas_st)
+            Fabs Reyna
+        <a href="https://www.instagram.com/transudaka/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@transudaka)
         </a>
         </div>
         <div style="margin-top:10px;">
-            Magally Alegre Henderson
-        </div>
-        <div style="margin-top:10px;">
-            Hélard Fuentes
-        <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@helard.fuentes)
+            Alberto Castro Antezana
+        <a href="https://www.instagram.com/mc_zorro/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@mc_zorro)
         </a>
         </div>
         <div style="margin-top:10px;">
-            Modera: Giancarlo Mori Bolo
+            Modera: Fer Wong
         </div>
     </div>
     """, unsafe_allow_html=True)
