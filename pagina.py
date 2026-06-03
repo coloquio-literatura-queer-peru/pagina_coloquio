@@ -640,7 +640,6 @@ else:
     st.markdown("""
     <div style="
         background-color: #FFC88A;
-        color: #73579d;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -650,57 +649,52 @@ else:
     
         <strong>04:10 PM - 05:20 PM</strong><br>
     
-        <div style="margin-top:10px;">
-            <b style="color:#dc2982;">
-                MESA DE PONENCIAS:
-            <i>Feminidades queer en la literatura peruana contemporánea</i></b>
+        <div style="margin-top:10px; color:#dc2982;">
+            MESA DE PONENCIAS:
+            <i>Feminidades queer en la literatura peruana contemporánea</i>
         </div>
     
-        <div style="margin-top:10px;">
-            <b><i style="color:#3c8e6c;">
-            El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín
+        <div style="margin-top:10px; color:#3c8e6c;">
+            <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín
             </i></b>
         </div>
     
-        <div style="margin-top:10px;">
-            <span style="color:#0a48d5;">Participa: Jimena Sofía Velarde Vera</span>
-            <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
+        <div style="margin-top:10px; color:#0a48d5;">
+            Participa: Jimena Sofía Velarde Vera
+        <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
                style="text-decoration:none; color:#775aa4; font-weight:600;">
                (@velarde_jimena)
-            </a>
+        </a>
         </div>
     
-        <div style="margin-top:10px;">
-            <b><i style="color:#8E24AA;">
-            Estética queer y política del cuerpo en la narrativa de Doris Moromisato
+        <div style="margin-top:10px; color:#3c8e6c;">
+            <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato
             </i></b>
         </div>
     
-        <div style="margin-top:10px;">
-            <span style="color:#1565C0;">Participa: Judith Mavila Paredes Morales</span>
-            <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
-               style="text-decoration:none; color:#E1306C; font-weight:600;">
+        <div style="margin-top:10px; color:#0a48d5;">
+            Participa: Judith Mavila Paredes Morales
+        <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
+               style="text-decoration:none; color:#775aa4; font-weight:600;">
                (@judithparedesmorales)
-            </a>
+        </a>
         </div>
     
-        <div style="margin-top:10px;">
-            <b><i style="color:#8E24AA;">
-            «Compórtense como señoritas» de Karen Luy de Aliaga: formación de la subjetividad lésbica entre violencia y deseo
+        <div style="margin-top:10px; color:#3c8e6c;">
+            <b><i>«Compórtense como señoritas» de Karen Luy de Aliaga: formación de la subjetividad lésbica entre violencia y deseo
             </i></b>
         </div>
     
-        <div style="margin-top:10px;">
-            <span style="color:#1565C0;">Participa: Karol Nicol Sialas Rosas </span>
-    
-            <a href="https://www.instagram.com/karol_sialas/" target="_blank"
-               style="text-decoration:none; color:#E1306C; font-weight:600;">
+        <div style="margin-top:10px; color:#0a48d5;">
+            Participa: Karol Nicol Sialas Rosas
+        <a href="https://www.instagram.com/karol_sialas/" target="_blank"
+               style="text-decoration:none; color:#775aa4; font-weight:600;">
                (@karol_sialas)
-            </a>
+        </a>
         </div>
     
-        <div style="margin-top:10px;">
-            <span style="color:#2E7D32;">Modera: Camila Arizaca </span>
+        <div style="margin-top:10px; color:#0a48d5;">
+            Modera: Camila Arizaca
         </div>
     
     </div>
