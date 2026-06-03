@@ -934,7 +934,7 @@ else:
     
     st.markdown("""
     <div style="
-        background-color: #E57A07;
+        background-color: #775aa4;
         color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -942,102 +942,77 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>05:40 PM - 06:50 PM</strong><br> 
-        <div style="margin-top:10px;">
-        MESA DE PONENCIAS:
-        <i>Relecturas queer del canon peruano</i>
-        </div>
-        <div style="margin-top:10px;">
-            <b><i>El escándalo como motivo estructurante. Una relectura necesariamente ¿queer? de Vargas Llosa</i></b>
-        </div>
-        <div style="margin-top:10px;">
-            Participa: Fabio Venero Figueroa
-        <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@qvispe.ynca)
-        </a>
-        </div>
-        <div style="margin-top:10px;">
-            <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
-        </div>
-        <div style="margin-top:10px;">
-            Participa: Natalia Regina Ángeles Enciso
-        <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@regi_ae07)
-        </a>
-        </div>
-        <div style="margin-top:10px;">
-            <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
-        </div>
-        <div style="margin-top:10px;">
-            Participa: Giancarlos Nathanael Peralta Luis
-        <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@nathanael.peralta.luis)
-        </a>
-        </div>
-        <div style="margin-top:10px;">
-            Modera: Flavia Cabrera
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <div style="
-        background-color: #FFC88A;
-        color: #73579d;
-        padding: 1rem 1.25rem;
-        border-radius: 0.5rem;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
-        font-size: 25px;
-        font-weight: bold;
-    ">
-        <strong>06:55 PM - 07:05 PM</strong><br> 
+        <strong>04:20 PM - 04:30 PM / 05:40 PM - 05:55 PM</strong><br> 
         <div style="margin-top:10px;">
         MUESTRA AUDIOVISUAL
         </div>
         <div style="margin-top:10px;">
-            <b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>
+            <b><i>Desprogramar el género: hyperpoesía, futurismo andino y subjetividades queer en la literatura digital peruana</i></b>
         </div>
         <div style="margin-top:10px;">
-            Participa: Fátima Denisse Córdova Luna
+            Participa: Lisa Carrasco La Cruz
+        </div>
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
+            Esta investigación analiza la literatura electrónica y la poesía digital como formas de
+            experimentación estética que replantean las relaciones entre tecnología, lenguaje e
+            identidades queer.
         </div>
     </div>
         """, unsafe_allow_html=True)
 
     st.markdown("""
     <div style="
-        background-color: #E57A07;
-        color: #3c8e6c;
+        background-color: #FFC88A;
+        color: #dc2982;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>07:15 PM - 08:15 PM</strong><br> 
+        <strong>03:05 PM - 04:15 PM</strong><br> 
         <div style="margin-top:10px;">
-        CONVERSATORIO:
-        <i>Archivos y disidencias sexuales en la historia del Perú</i>
+        MESA DE PONENCIAS:
+        <i>Poéticas trans y travestis: memoria, cuerpo y resistencia</i>
         </div>
-        <div style="margin-top:10px;">
-            Participan:
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
+            Esta mesa aborda las escrituras trans y travestis como espacios de memoria, resistencia y
+            construcción de archivo frente a las violencias de la heteronormatividad y la colonialidad
+            de género. A través del análisis de propuestas autobiográficas, poéticas y performáticas,
+            las ponencias examinan cómo las narrativas trans contemporáneas articulan experiencias
+            de exclusión, activismo, espiritualidad y autoafirmación, contribuyendo a la configuración
+            de archivos alternativos y nuevas formas de representación de las disidencias sexogenéricas
+            en el Perú y América Latina.
         </div>
-        <div style="margin-top:10px;">
-            Javier Lucierno/ Javi Vargas
-        <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@javi_vargas_st)
+        <div style="margin-top:10px; color:#3c8e6c">
+            <b><i>Del infierno al paraíso: espiritualidad y memoria trans en En el valle de las Onassis de Salò Tomoe</i></b>
+        </div>
+        <div style="margin-top:10px; color:#9a48d5">
+            Participa: Alejandra Romi Vargas Rojas
+        <a href="https://www.instagram.com/scarlett.rza/" target="_blank"
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@scarlett.rza)
         </a>
         </div>
-        <div style="margin-top:10px;">
-            Magally Alegre Henderson
+        <div style="margin-top:10px; color:#3c8e6c">
+            <b><i>«La Miss» de Lesly Quispe: el proceso de escritura de la primera autobiografía trans peruana</i></b>
         </div>
-        <div style="margin-top:10px;">
-            Hélard Fuentes
-        <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@helard.fuentes)
+        <div style="margin-top:10px; color:#9a48d5">
+            Participa: Ernesto Cuba
+        <a href="https://www.instagram.com/ernesto.cuba/" target="_blank"
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@ernesto.cuba)
         </a>
         </div>
-        <div style="margin-top:10px;">
-            Modera: Giancarlo Mori Bolo
+        <div style="margin-top:10px; color:#3c8e6c">
+            <b><i>Heterogeneidad marica: lenguaje queer como resistencia en Campuzano y Frau Diamanda</i></b>
+        </div>
+        <div style="margin-top:10px; color:#9a48d5">
+            Participa: José Antonio Arias Bernal
+        <a href="https://www.instagram.com/jaba94_/" target="_blank"
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@jaba94_)
+        </a>
+        </div>
+        <div style="margin-top:10px; color:#3c8e6c">
+            Modera: Luis León Santos
         </div>
     </div>
     """, unsafe_allow_html=True)
