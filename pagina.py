@@ -655,29 +655,27 @@ else:
         </div>
     
         <div style="margin-top:10px; color:#3c8e6c;">
-            <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín
-            </i></b>
+            <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín </i></b>
         </div>
     
         <div style="margin-top:10px; color:#0a48d5;">
             Participa: Jimena Sofía Velarde Vera
-        <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
+            <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
                style="text-decoration:none; color:#775aa4; font-weight:600;">
                (@velarde_jimena)
-        </a>
+            </a>
         </div>
     
         <div style="margin-top:10px; color:#3c8e6c;">
-            <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato
-            </i></b>
+            <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato </i></b>
         </div>
     
         <div style="margin-top:10px; color:#0a48d5;">
             Participa: Judith Mavila Paredes Morales
-        <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
+            <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
                style="text-decoration:none; color:#775aa4; font-weight:600;">
                (@judithparedesmorales)
-        </a>
+            </a>
         </div>
     
         <div style="margin-top:10px; color:#3c8e6c;">
@@ -687,10 +685,10 @@ else:
     
         <div style="margin-top:10px; color:#0a48d5;">
             Participa: Karol Nicol Sialas Rosas
-        <a href="https://www.instagram.com/karol_sialas/" target="_blank"
+            <a href="https://www.instagram.com/karol_sialas/" target="_blank"
                style="text-decoration:none; color:#775aa4; font-weight:600;">
                (@karol_sialas)
-        </a>
+            </a>
         </div>
     
         <div style="margin-top:10px; color:#0a48d5;">
