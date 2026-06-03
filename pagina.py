@@ -1206,13 +1206,13 @@ else:
         <div style="margin-top:10px; color:#3c8e6c">
             Autor: Estudio para la Defensa de los Derechos de la Mujer (Demus)
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#9a48d5;">
             Participan:
         </div>
         <div style="margin-top:10px; color:#9a48d5;">
             André Mere Rivera
         <a href="https://www.instagram.com/andre.mere.rivera/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@andre.mere.rivera)
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@andre.mere.rivera)
         </a>
         <div style="margin-top:10px; color:##9a48d5;">
             Crissthian Manuel Olivera Fuentes
@@ -1253,52 +1253,55 @@ else:
         </div>
         <div style="margin-top:10px;">
             Gabs Valdivia
-        <a href="https://www.instagram.com/veroferrarig/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@veroferrarig)
-        </a>
-        </div>
-        <div style="margin-top:10px;">
-            Lakita
-        <a href="https://www.instagram.com/lakitatheartist/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@lakitatheartist)
+        <a href="https://www.instagram.com/unfixgabs/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@unfixgabs)
         </a>
         </div>
         <div style="margin-top:10px;">
             Daniboi
-        <a href="https://www.instagram.com/amanda_meza1/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@amanda_meza1)
+        <a href="https://www.instagram.com/daniboi.pdf/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@daniboi.pdf)
         </a>
         </div>
         <div style="margin-top:10px;">
             María Paz
-        <a href="https://www.instagram.com/veroferrarig/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@veroferrarig)
+        </div>
+        <div style="margin-top:10px;">
+            Sebastián Marallano
+        </div>
+        <div style="margin-top:10px;">
+            Mariposa Caótica
+        <a href="https://www.instagram.com/mariposacaoticaa/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@mariposacaoticaa)
         </a>
         </div>
         <div style="margin-top:10px;">
-            Lakita
-        <a href="https://www.instagram.com/lakitatheartist/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@lakitatheartist)
+            Fidel Chaparro Torres
+        <a href="https://www.instagram.com/fidel.chapa/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@fidel.chapa)
         </a>
         </div>
         <div style="margin-top:10px;">
-            Amanda Meza
-        <a href="https://www.instagram.com/amanda_meza1/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@amanda_meza1)
+            Yasmín Gómez
+        <a href="https://www.instagram.com/yasdana.gomez/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@yasdana.gomez)
         </a>
         </div>
-        <div style="margin-top:10px;">
-            Vero Ferrari
-        <a href="https://www.instagram.com/veroferrarig/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@veroferrarig)
-        </a>
-        </div>
-        <div style="margin-top:10px;">
-            Lakita
-        <a href="https://www.instagram.com/lakitatheartist/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@lakitatheartist)
-        </a>
-        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    st.write("")
+    st.markdown("""
+    <div style="
+        background-color: #3C8E6C;
+        color: #F4E9E2;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>05:45 PM - 06:00 PM</strong><br> 
+        Cierre
     </div>
     """, unsafe_allow_html=True)
     
