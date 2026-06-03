@@ -639,60 +639,49 @@ else:
 
     st.markdown("""
     <div style="
-        background-color: #FFC88A;
+        background-color: #8ccfb3;
+        color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
     ">
-    
-        <strong>04:10 PM - 05:20 PM</strong><br>
-    
-        <div style="margin-top:10px; color:#dc2982;">
-            MESA DE PONENCIAS:
-            <i>Feminidades queer en la literatura peruana contemporánea</i>
+        <strong>05:40 PM - 06:50 PM</strong><br> 
+        <div style="margin-top:10px; color:#7A07E5">
+        MESA DE PONENCIAS:
+        <i>Relecturas queer del canon peruano</i>
         </div>
-    
-        <div style="margin-top:10px; color:#3c8e6c;">
-            <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín </i></b>
+        <div style="margin-top:10px;">
+            <b><i>El escándalo como motivo estructurante. Una relectura necesariamente ¿queer? de Vargas Llosa</i></b>
         </div>
-    
-        <div style="margin-top:10px; color:#0a48d5;">
-            Participa: Jimena Sofía Velarde Vera
-            <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
-               style="text-decoration:none; color:#775aa4; font-weight:600;">
-               (@velarde_jimena)
-            </a>
+        <div style="margin-top:10px;">
+            Participa: Fabio Venero Figueroa
+        <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@qvispe.ynca)
+        </a>
         </div>
-    
-        <div style="margin-top:10px; color:#3c8e6c;">
-            <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato </i></b>
+        <div style="margin-top:10px;">
+            <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
         </div>
-    
-        <div style="margin-top:10px; color:#0a48d5;">
-            Participa: Judith Mavila Paredes Morales
-            <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
-               style="text-decoration:none; color:#775aa4; font-weight:600;">
-               (@judithparedesmorales)
-            </a>
+        <div style="margin-top:10px;">
+            Participa: Natalia Regina Ángeles Enciso
+        <a href="https://www.instagram.com/regi_ae07/" target="_blank"
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@regi_ae07)
+        </a>
         </div>
-    
-        <div style="margin-top:10px; color:#3c8e6c;">
-            <b><i>«Compórtense como señoritas» de Karen Luy de Aliaga: formación de la subjetividad lésbica entre violencia y deseo
-            </i></b>
+        <div style="margin-top:10px;">
+            <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
         </div>
-    
-        <div style="margin-top:10px; color:#0a48d5;">
-            Participa: Karol Nicol Sialas Rosas
-            <a href="https://www.instagram.com/karol_sialas/" target="_blank"
-               style="text-decoration:none; color:#775aa4; font-weight:600;">
-               (@karol_sialas)
-            </a>
+        <div style="margin-top:10px;">
+            Participa: Giancarlos Nathanael Peralta Luis
+        <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
+              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@nathanael.peralta.luis)
+        </a>
         </div>
-    
-        <div style="margin-top:10px; color:#0a48d5;">
-            Modera: Camila Arizaca
+        <div style="margin-top:10px;">
+            Modera: Flavia Cabrera
         </div>
-    
     </div>
     """, unsafe_allow_html=True)
     
