@@ -658,13 +658,13 @@ else:
         <i>Feminidades queer en la literatura peruana contemporánea</i>
         </div>
         <div style="margin-top:10px;">
-        Esta mesa reúne investigaciones en torno a las representaciones de feminidades queer en
-        la literatura peruana contemporánea, atendiendo a las relaciones entre cuerpo, deseo,
-        memoria y disidencia. A partir del análisis de narrativas y poéticas escritas por mujeres,
-        las ponencias reflexionan sobre las formas en que las subjetividades lésbicas y queer se
-        construyen en tensión con la violencia, la regulación social y las normas heteropatriarcales,
-        así como sobre las estrategias de resistencia íntima y afirmación identitaria que emergen
-        desde la escritura.
+            Esta mesa reúne investigaciones en torno a las representaciones de feminidades queer en
+            la literatura peruana contemporánea, atendiendo a las relaciones entre cuerpo, deseo,
+            memoria y disidencia. A partir del análisis de narrativas y poéticas escritas por mujeres,
+            las ponencias reflexionan sobre las formas en que las subjetividades lésbicas y queer se
+            construyen en tensión con la violencia, la regulación social y las normas heteropatriarcales,
+            así como sobre las estrategias de resistencia íntima y afirmación identitaria que emergen
+            desde la escritura.
         </div>
         <div style="margin-top:10px; color:#3c8e6c">
             <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín</i></b>
@@ -701,8 +701,8 @@ else:
     
     st.markdown("""
     <div style="
-        background-color: #acdcc8;
-        color: #CD6C04;
+        background-color: #FFC88A;
+        color: #dc2982;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -714,34 +714,44 @@ else:
         MESA DE PONENCIAS:
         <i>Relecturas queer del canon peruano</i>
         </div>
-        <div style="margin-top:10px; color:#dc2982">
+        <div style="margin-top:10px;">
+            Esta mesa propone revisitar el canon de la literatura peruana desde perspectivas queer
+            contemporáneas, poniendo en discusión las formas en que el deseo, las sexualidades
+            disidentes y las subjetividades no heteronormativas aparecen —muchas veces de manera
+            ambigua, silenciada o marginal— en obras consideradas fundamentales de la tradición
+            literaria peruana. A través de nuevas aproximaciones críticas a autores como Mario Vargas
+            Llosa, José Diez Canseco y Oswaldo Reynoso, las ponencias exploran cómo el canon
+            literario contiene tensiones, cuerpos y afectos que desestabilizan las lecturas hegemónicas
+            de la sexualidad y la identidad.
+        </div>
+        <div style="margin-top:10px; color:#3c8e6c">
             <b><i>El escándalo como motivo estructurante. Una relectura necesariamente ¿queer? de Vargas Llosa</i></b>
         </div>
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Fabio Venero Figueroa
         <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@qvispe.ynca)
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@qvispe.ynca)
         </a>
         </div>
-        <div style="margin-top:10px; color:#dc2982">
+        <div style="margin-top:10px; color:#3c8e6c">
             <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
         </div>
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Natalia Regina Ángeles Enciso
         <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@regi_ae07)
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@regi_ae07)
         </a>
         </div>
-        <div style="margin-top:10px; color:#dc2982">
+        <div style="margin-top:10px; color:#3c8e6c">
             <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
         </div>
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Giancarlos Nathanael Peralta Luis
         <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
-              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@nathanael.peralta.luis)
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@nathanael.peralta.luis)
         </a>
         </div>
-        <div style="margin-top:10px; color:#dc2982">
+        <div style="margin-top:10px; color:#3c8e6c">
             Modera: Flavia Cabrera
         </div>
     </div>
