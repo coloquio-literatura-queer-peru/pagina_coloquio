@@ -679,7 +679,7 @@ else:
               style="text-decoration:none; color:#dc2982; font-weight:600;"> (@karol_sialas)
         </a>
         </div>
-        <div style="margin-top:10px; color:#9a48d5">
+        <div style="margin-top:10px; color:#3c8e6c">
             Modera: Camila Arizaca
         </div>
     </div>
@@ -727,7 +727,7 @@ else:
               style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@nathanael.peralta.luis)
         </a>
         </div>
-        <div style="margin-top:10px; color:#9a48d5">
+        <div style="margin-top:10px; color:#dc2982">
             Modera: Flavia Cabrera
         </div>
     </div>
