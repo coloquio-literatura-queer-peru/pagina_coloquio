@@ -553,7 +553,7 @@ else:
         font-size: 22px;
         font-weight: bold;
         color: #9A62A5;">
-        📢 Todas las actividades son de acceso libre y gratuito.
+        📢 Todas las actividades son gratuitas (previa inscripción).
     </div>
     """,
     unsafe_allow_html=True
