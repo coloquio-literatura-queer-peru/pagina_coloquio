@@ -771,19 +771,19 @@ else:
         CONVERSATORIO:
         <i>Archivos y disidencias sexuales en la historia del Perú</i>
         </div>
-        <div style="margin-top:10px; color:#9a48d5">
+        <div style="margin-top:10px; color:#775aa4">
             Participan:
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#775aa4">
             Javier Lucierno/ Javi Vargas
         <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
               style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@javi_vargas_st)
         </a>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#775aa4">
             Magally Alegre Henderson
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#775aa4">
             Hélard Fuentes
         <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
               style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@helard.fuentes)
