@@ -633,6 +633,8 @@ else:
         </div>
         <div style="margin-top:10px;">
             Participa: Fátima Denisse Córdova Luna
+        </div>
+        <div style="margin-top:10px;">
             Esta investigación analiza las representaciones queer en los Andes peruanos y reflexiona
             sobre las formas de resistencia, memoria y diversidad sexual que emergen fuera de los
             espacios urbanos hegemónicos.
@@ -654,6 +656,15 @@ else:
         <div style="margin-top:10px;">
         MESA DE PONENCIAS:
         <i>Feminidades queer en la literatura peruana contemporánea</i>
+        </div>
+        <div style="margin-top:10px;">
+        Esta mesa reúne investigaciones en torno a las representaciones de feminidades queer en
+        la literatura peruana contemporánea, atendiendo a las relaciones entre cuerpo, deseo,
+        memoria y disidencia. A partir del análisis de narrativas y poéticas escritas por mujeres,
+        las ponencias reflexionan sobre las formas en que las subjetividades lésbicas y queer se
+        construyen en tensión con la violencia, la regulación social y las normas heteropatriarcales,
+        así como sobre las estrategias de resistencia íntima y afirmación identitaria que emergen
+        desde la escritura.
         </div>
         <div style="margin-top:10px; color:#3c8e6c">
             <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín</i></b>
