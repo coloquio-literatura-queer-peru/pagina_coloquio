@@ -1209,12 +1209,12 @@ else:
         <div style="margin-top:10px;">
             Participan:
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#9a48d5;">
             André Mere Rivera
         <a href="https://www.instagram.com/andre.mere.rivera/" target="_blank"
               style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@andre.mere.rivera)
         </a>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:##9a48d5;">
             Crissthian Manuel Olivera Fuentes
         </div>
         <div style="margin-top:10px;">
@@ -1247,8 +1247,8 @@ else:
         </div>
         <div style="margin-top:10px;">
             Melissa Ghezzi
-        <a href="https://www.instagram.com/amanda_meza1/" target="_blank"
-              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@amanda_meza1)
+        <a href="https://www.instagram.com/melissaghezzi_poeta/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@melissaghezzi_poeta)
         </a>
         </div>
         <div style="margin-top:10px;">
