@@ -837,6 +837,27 @@ else:
         </h2>
     """, unsafe_allow_html=True)
 
+    st.markdown("""
+        <div style="
+            font-size:25px;
+            color:#e55940;
+            text-align:justify;
+            margin-bottom:20px;
+        ">
+            El segundo día del coloquio estará centrado en las representaciones contemporáneas de
+            las disidencias sexo-genéricas en la literatura y la cultura. La programación incluye una
+            mesa de ponencias dedicada a las escrituras trans y travestis como espacios de memoria,
+            resistencia y construcción de archivo, así como un conversatorio sobre las representaciones
+            de la diversidad sexual y de género en la literatura infantil y juvenil. Asimismo, se
+            presentarán muestras audiovisuales de investigación y se realizará la proyección de la
+            película No se lo digas a nadie (1998), seguida de un conversatorio que reflexionará sobre
+            su lugar en la historia de las representaciones queer en el Perú y su vigencia dentro de los
+            debates actuales sobre memoria, visibilidad y diversidad sexual.
+        </div>
+    """, unsafe_allow_html=True)
+
+    st.write("")
+
     # Recepción
     st.markdown("""
     <div style="
