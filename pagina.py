@@ -878,7 +878,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #FFC88A;
-        color: #775aa4;
+        color: #dc2982;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -890,9 +890,6 @@ else:
         MESA DE PONENCIAS:
         <i>Poéticas trans y travestis: memoria, cuerpo y resistencia</i>
         </div>
-        <div style="margin-top:10px;">
-            <b><i>Del infierno al paraíso: espiritualidad y memoria trans en En el valle de las Onassis de Salò Tomoe</i></b>
-        </div>
         <div style="margin-top:10px; text-align:justify; font-weight: normal;">
             Esta mesa aborda las escrituras trans y travestis como espacios de memoria, resistencia y
             construcción de archivo frente a las violencias de la heteronormatividad y la colonialidad
@@ -903,30 +900,33 @@ else:
             en el Perú y América Latina.
         </div>
         <div style="margin-top:10px; color:#3c8e6c">
+            <b><i>Del infierno al paraíso: espiritualidad y memoria trans en En el valle de las Onassis de Salò Tomoe</i></b>
+        </div>
+        <div style="margin-top:10px; color:#9a48d5">
             Participa: Alejandra Romi Vargas Rojas
         <a href="https://www.instagram.com/scarlett.rza/" target="_blank"
-              style="text-decoration:none; color:#73579d; font-weight:600;"> (@scarlett.rza)
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@scarlett.rza)
         </a>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#3c8e6c">
             <b><i>«La Miss» de Lesly Quispe: el proceso de escritura de la primera autobiografía trans peruana</i></b>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#9a48d5">
             Participa: Ernesto Cuba
         <a href="https://www.instagram.com/ernesto.cuba/" target="_blank"
-              style="text-decoration:none; color:#73579d; font-weight:600;"> (@ernesto.cuba)
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@ernesto.cuba)
         </a>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#3c8e6c">
             <b><i>Heterogeneidad marica: lenguaje queer como resistencia en Campuzano y Frau Diamanda</i></b>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#9a48d5">
             Participa: José Antonio Arias Bernal
         <a href="https://www.instagram.com/jaba94_/" target="_blank"
-              style="text-decoration:none; color:#73579d; font-weight:600;"> (@jaba94_)
+              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@jaba94_)
         </a>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#3c8e6c">
             Modera: Luis León Santos
         </div>
     </div>
