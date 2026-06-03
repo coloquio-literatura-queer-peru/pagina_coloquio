@@ -640,6 +640,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #FFC88A;
+        color: #73579d;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -664,7 +665,6 @@ else:
     
         <div style="margin-top:10px;">
             <span style="color:#0a48d5;">Participa: Jimena Sofía Velarde Vera</span>
-    
             <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
                style="text-decoration:none; color:#775aa4; font-weight:600;">
                (@velarde_jimena)
@@ -678,9 +678,7 @@ else:
         </div>
     
         <div style="margin-top:10px;">
-            <span style="color:#1565C0;">Participa:</span>
-            <span style="color:#424242;"> Judith Mavila Paredes Morales </span>
-    
+            <span style="color:#1565C0;">Participa: Judith Mavila Paredes Morales</span>
             <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
                style="text-decoration:none; color:#E1306C; font-weight:600;">
                (@judithparedesmorales)
@@ -694,8 +692,7 @@ else:
         </div>
     
         <div style="margin-top:10px;">
-            <span style="color:#1565C0;">Participa:</span>
-            <span style="color:#424242;"> Karol Nicol Sialas Rosas </span>
+            <span style="color:#1565C0;">Participa: Karol Nicol Sialas Rosas </span>
     
             <a href="https://www.instagram.com/karol_sialas/" target="_blank"
                style="text-decoration:none; color:#E1306C; font-weight:600;">
@@ -704,8 +701,7 @@ else:
         </div>
     
         <div style="margin-top:10px;">
-            <span style="color:#2E7D32;">Modera:</span>
-            <span style="color:#424242;"> Camila Arizaca </span>
+            <span style="color:#2E7D32;">Modera: Camila Arizaca </span>
         </div>
     
     </div>
