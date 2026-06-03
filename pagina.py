@@ -965,61 +965,131 @@ else:
     st.write("")
     st.markdown("""
     <div style="
-        background-color: #FFC88A;
-        color: #dc2982;
+        background-color: #dc2982;
+        color: #fae9e2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>03:05 PM - 04:15 PM</strong><br> 
+        <strong>04:35 PM - 05:35 PM</strong><br> 
         <div style="margin-top:10px;">
-        MESA DE PONENCIAS:
-        <i>Poéticas trans y travestis: memoria, cuerpo y resistencia</i>
+        CONVERSATORIO:
+        <i>Infancia y diversidad: representaciones queer en la literatura infantil</i>
         </div>
         <div style="margin-top:10px; text-align:justify; font-weight: normal;">
-            Esta mesa aborda las escrituras trans y travestis como espacios de memoria, resistencia y
-            construcción de archivo frente a las violencias de la heteronormatividad y la colonialidad
-            de género. A través del análisis de propuestas autobiográficas, poéticas y performáticas,
-            las ponencias examinan cómo las narrativas trans contemporáneas articulan experiencias
-            de exclusión, activismo, espiritualidad y autoafirmación, contribuyendo a la configuración
-            de archivos alternativos y nuevas formas de representación de las disidencias sexogenéricas
-            en el Perú y América Latina.
+            Esta mesa propone reflexionar sobre la literatura queer dirigida a niños, niñas y
+            adolescentes, atendiendo a sus formas de representación, circulación y recepción, y su
+            papel en la construcción de imaginarios sobre la diversidad desde edades tempranas.
+            Asimismo, busca problematizar el lugar de la diversidad sexual y de género en la literatura
+            infantil y juvenil, así como los debates en torno a su visibilidad, mediación pedagógica y
+            tensiones con discursos sociales contemporáneos.
         </div>
-        <div style="margin-top:10px; color:#3c8e6c">
-            <b><i>Del infierno al paraíso: espiritualidad y memoria trans en En el valle de las Onassis de Salò Tomoe</i></b>
+        <div style="margin-top:10px;">
+            Participan:
         </div>
-        <div style="margin-top:10px; color:#9a48d5">
-            Participa: Alejandra Romi Vargas Rojas
-        <a href="https://www.instagram.com/scarlett.rza/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@scarlett.rza)
+        <div style="margin-top:10px;">
+            Amanda Meza
+        <a href="https://www.instagram.com/amanda_meza1/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@amanda_meza1)
         </a>
         </div>
-        <div style="margin-top:10px; color:#3c8e6c">
-            <b><i>«La Miss» de Lesly Quispe: el proceso de escritura de la primera autobiografía trans peruana</i></b>
-        </div>
-        <div style="margin-top:10px; color:#9a48d5">
-            Participa: Ernesto Cuba
-        <a href="https://www.instagram.com/ernesto.cuba/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@ernesto.cuba)
+        <div style="margin-top:10px;">
+            Vero Ferrari
+        <a href="https://www.instagram.com/veroferrarig/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@veroferrarig)
         </a>
         </div>
-        <div style="margin-top:10px; color:#3c8e6c">
-            <b><i>Heterogeneidad marica: lenguaje queer como resistencia en Campuzano y Frau Diamanda</i></b>
-        </div>
-        <div style="margin-top:10px; color:#9a48d5">
-            Participa: José Antonio Arias Bernal
-        <a href="https://www.instagram.com/jaba94_/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@jaba94_)
+        <div style="margin-top:10px;">
+            Lakita
+        <a href="https://www.instagram.com/lakitatheartist/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@lakitatheartist)
         </a>
         </div>
-        <div style="margin-top:10px; color:#3c8e6c">
-            Modera: Luis León Santos
+        <div style="margin-top:10px;">
+            Modera: Alan Concepción
         </div>
     </div>
     """, unsafe_allow_html=True)
-    
+    st.write("")
+     st.markdown("""
+    <div style="
+        background-color: #775aa4;
+        color: #F4E9E2;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>04:20 PM - 04:30 PM / 05:40 PM - 05:55 PM</strong><br> 
+        <div style="margin-top:10px;">
+        MUESTRA AUDIOVISUAL
+        </div>
+        <div style="margin-top:10px;">
+            <b><i>Desprogramar el género: hyperpoesía, futurismo andino y subjetividades queer en la literatura digital peruana</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Participa: Lisa Carrasco La Cruz
+        <a href="https://www.instagram.com/fuegodecumbia/" target="_blank"
+              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@fuegodecumbia)
+        </a>
+        </div>
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
+            Esta investigación analiza la literatura electrónica y la poesía digital como formas de
+            experimentación estética que replantean las relaciones entre tecnología, lenguaje e
+            identidades queer.
+        </div>
+    </div>
+        """, unsafe_allow_html=True)
+    st.write("")
+    st.markdown("""
+    <div style="
+        background-color: #dc2982;
+        color: #fae9e2;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+        font-size: 25px;
+        font-weight: bold;
+    ">
+        <strong>07:15 PM - 08:15 PM</strong><br> 
+        <div style="margin-top:10px;">
+        CONVERSATORIO:
+        <i>Archivos y disidencias sexuales en la historia del Perú</i>
+        </div>
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
+            Esta mesa propone una aproximación histórica a la diversidad sexual y de género en el
+            Perú, a partir del análisis de expresiones literarias, artísticas y periodísticas que han
+            representado formas de disidencia sexo-genérica en distintos momentos. Asimismo, busca
+            reflexionar sobre cómo estas experiencias fueron nombradas, reguladas o silenciadas antes
+            de la consolidación de las categorías contemporáneas de identidad.
+        </div>
+        <div style="margin-top:10px;">
+            Participan:
+        </div>
+        <div style="margin-top:10px;">
+            Javier Lucierno/ Javi Vargas
+        <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@javi_vargas_st)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Magally Alegre Henderson
+        </div>
+        <div style="margin-top:10px;">
+            Hélard Fuentes
+        <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@helard.fuentes)
+        </a>
+        </div>
+        <div style="margin-top:10px;">
+            Modera: Giancarlo Mori Bolo
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
     st.write("")
 
     st.image("fotos/flyer_coloquio.png", width=1800)
