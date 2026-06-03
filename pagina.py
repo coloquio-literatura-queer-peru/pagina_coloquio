@@ -861,7 +861,7 @@ else:
     # Recepción
     st.markdown("""
     <div style="
-        background-color: #775aa4;
+        background-color: #3C8E6C;
         color: #F4E9E2;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -878,7 +878,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #FFC88A;
-        color: #dc2f82;
+        color: #775aa4;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -893,7 +893,16 @@ else:
         <div style="margin-top:10px;">
             <b><i>Del infierno al paraíso: espiritualidad y memoria trans en En el valle de las Onassis de Salò Tomoe</i></b>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; text-align:justify; font-weight: normal;">
+            Esta mesa aborda las escrituras trans y travestis como espacios de memoria, resistencia y
+            construcción de archivo frente a las violencias de la heteronormatividad y la colonialidad
+            de género. A través del análisis de propuestas autobiográficas, poéticas y performáticas,
+            las ponencias examinan cómo las narrativas trans contemporáneas articulan experiencias
+            de exclusión, activismo, espiritualidad y autoafirmación, contribuyendo a la configuración
+            de archivos alternativos y nuevas formas de representación de las disidencias sexogenéricas
+            en el Perú y América Latina.
+        </div>
+        <div style="margin-top:10px; color:#3c8e6c">
             Participa: Alejandra Romi Vargas Rojas
         <a href="https://www.instagram.com/scarlett.rza/" target="_blank"
               style="text-decoration:none; color:#73579d; font-weight:600;"> (@scarlett.rza)
