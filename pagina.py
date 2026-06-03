@@ -616,7 +616,7 @@ else:
         Recepción de asistentes
     </div>
     """, unsafe_allow_html=True)
-
+    st.write("")
     #
     st.markdown("""
     <div style="
@@ -632,7 +632,7 @@ else:
         Inauguración
     </div>
     """, unsafe_allow_html=True)
-
+    st.write("")
     #
     st.markdown("""
     <div style="
@@ -661,7 +661,7 @@ else:
         </div>
     </div>
         """, unsafe_allow_html=True)
-
+    st.write("")
     st.markdown("""
     <div style="
         background-color: #FFC88A;
@@ -722,7 +722,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #FFC88A;
-        color: #775aa4;
+        color: #dc2982;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -776,7 +776,7 @@ else:
         </div>
     </div>
     """, unsafe_allow_html=True)
-
+    st.write("")
     st.markdown("""
     <div style="
         background-color: #dc2982;
