@@ -687,7 +687,7 @@ else:
     
     st.markdown("""
     <div style="
-        background-color: #e5c2d4;
+        background-color: #acdcc8;
         color: #E57A07;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
