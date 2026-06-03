@@ -773,12 +773,19 @@ else:
         <i>Archivos y disidencias sexuales en la historia del Perú</i>
         </div>
         <div style="margin-top:10px;">
+            Esta mesa propone una aproximación histórica a la diversidad sexual y de género en el
+            Perú, a partir del análisis de expresiones literarias, artísticas y periodísticas que han
+            representado formas de disidencia sexo-genérica en distintos momentos. Asimismo, busca
+            reflexionar sobre cómo estas experiencias fueron nombradas, reguladas o silenciadas antes
+            de la consolidación de las categorías contemporáneas de identidad.
+        </div>
+        <div style="margin-top:10px;">
             Participan:
         </div>
         <div style="margin-top:10px;">
             Javier Lucierno/ Javi Vargas
         <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
-              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@javi_vargas_st)
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@javi_vargas_st)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -787,7 +794,7 @@ else:
         <div style="margin-top:10px;">
             Hélard Fuentes
         <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
-              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@helard.fuentes)
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@helard.fuentes)
         </a>
         </div>
         <div style="margin-top:10px;">
