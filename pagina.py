@@ -643,8 +643,6 @@ else:
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
-        font-size: 25px;
-        font-weight: bold;
     ">
     
         <strong>04:10 PM - 05:20 PM</strong><br>
