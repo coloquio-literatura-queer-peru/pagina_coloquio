@@ -759,7 +759,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #F5C2DB;
-        color: #F4E9E2;
+        color: #3c8e6c;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -771,13 +771,13 @@ else:
         CONVERSATORIO:
         <i>Archivos y disidencias sexuales en la historia del Perú</i>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#9a48d5">
             Participan:
         </div>
         <div style="margin-top:10px;">
             Javier Lucierno/ Javi Vargas
         <a href="https://www.instagram.com/javi_vargas_st/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@javi_vargas_st)
+              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@javi_vargas_st)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -786,7 +786,7 @@ else:
         <div style="margin-top:10px;">
             Hélard Fuentes
         <a href="https://www.instagram.com/helard.fuentes/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@helard.fuentes)
+              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@helard.fuentes)
         </a>
         </div>
         <div style="margin-top:10px;">
@@ -948,7 +948,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #E57A07;
-        color: #F4E9E2;
+        color: #3c8e6c;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
