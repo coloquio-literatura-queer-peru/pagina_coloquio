@@ -624,7 +624,7 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>03:50 PM - 04:05 PM</strong><br> 
+        <strong>03:50 PM - 04:05 PM / 06:55 PM - 07:05 PM</strong><br> 
         <div style="margin-top:10px;">
         MUESTRA AUDIOVISUAL
         </div>
@@ -633,6 +633,9 @@ else:
         </div>
         <div style="margin-top:10px;">
             Participa: Fátima Denisse Córdova Luna
+            Esta investigación analiza las representaciones queer en los Andes peruanos y reflexiona
+            sobre las formas de resistencia, memoria y diversidad sexual que emergen fuera de los
+            espacios urbanos hegemónicos.
         </div>
     </div>
         """, unsafe_allow_html=True)
@@ -732,29 +735,6 @@ else:
         </div>
     </div>
     """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <div style="
-        background-color: #775aa4;
-        color: #F4E9E2;
-        padding: 1rem 1.25rem;
-        border-radius: 0.5rem;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
-        font-size: 25px;
-        font-weight: bold;
-    ">
-        <strong>06:55 PM - 07:05 PM</strong><br> 
-        <div style="margin-top:10px;">
-        MUESTRA AUDIOVISUAL
-        </div>
-        <div style="margin-top:10px;">
-            <b><i>Lo queer en los Andes: entre la representación y el silencio en las ruralidades peruanas</i></b>
-        </div>
-        <div style="margin-top:10px;">
-            Participa: Fátima Denisse Córdova Luna
-        </div>
-    </div>
-        """, unsafe_allow_html=True)
 
     st.markdown("""
     <div style="
