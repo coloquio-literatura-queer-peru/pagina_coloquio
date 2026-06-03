@@ -581,6 +581,24 @@ else:
         </h2>
     """, unsafe_allow_html=True)
 
+    st.markdown("""
+        <div style="
+            font-size:18px;
+            color:#DC2F82;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+            El primer día del coloquio estará enfocado en la investigación académica sobre literatura
+            peruana queer. La programación incluye dos mesas de ponencias dedicadas, por un lado, a
+            las representaciones de feminidades queer en la literatura peruana contemporánea y, por
+            otro, a relecturas queer de autores canónicos como Mario Vargas Llosa, José Diez Canseco
+            y Oswaldo Reynoso. Asimismo, se presentarán muestras audiovisuales de investigación y se
+            cerrará la jornada con un conversatorio sobre la historia de las disidencias sexuales y de
+            género en el Perú, abordando sus representaciones, silencios y memorias antes de la
+            consolidación de las categorías identitarias contemporáneas.
+        </div>
+    """, unsafe_allow_html=True)
+
     # Recepción
     st.markdown("""
     <div style="
