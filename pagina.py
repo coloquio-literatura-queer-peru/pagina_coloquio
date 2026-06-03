@@ -688,7 +688,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #acdcc8;
-        color: #dc2982;
+        color: #e57a07;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -700,31 +700,31 @@ else:
         MESA DE PONENCIAS:
         <i>Relecturas queer del canon peruano</i>
         </div>
-        <div style="margin-top:10px; color:#e57a07">
+        <div style="margin-top:10px; color:#dc2982">
             <b><i>El escándalo como motivo estructurante. Una relectura necesariamente ¿queer? de Vargas Llosa</i></b>
         </div>
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Fabio Venero Figueroa
         <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@qvispe.ynca)
+              style="text-decoration:none; color:#e57a07; font-weight:600;"> (@qvispe.ynca)
         </a>
         </div>
-        <div style="margin-top:10px; color:#e57a07">
+        <div style="margin-top:10px; color:#dc2982">
             <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
         </div>
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Natalia Regina Ángeles Enciso
         <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@regi_ae07)
+              style="text-decoration:none; color:#e57a07; font-weight:600;"> (@regi_ae07)
         </a>
         </div>
-        <div style="margin-top:10px; color:#e57a07">
+        <div style="margin-top:10px; color:#dc2982">
             <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
         </div>
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Giancarlos Nathanael Peralta Luis
         <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
-              style="text-decoration:none; color:#dc2982; font-weight:600;"> (@nathanael.peralta.luis)
+              style="text-decoration:none; color:#e57a07; font-weight:600;"> (@nathanael.peralta.luis)
         </a>
         </div>
         <div style="margin-top:10px;">
