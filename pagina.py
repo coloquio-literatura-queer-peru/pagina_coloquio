@@ -647,7 +647,7 @@ else:
         font-size: 25px;
         font-weight: bold;
     ">
-        <strong>05:40 PM - 06:50 PM</strong><br> 
+        <strong>04:10 PM - 05:20 PM</strong><br> 
         <div style="margin-top:10px;">
         MESA DE PONENCIAS:
         <i>Feminidades queer en la literatura peruana contemporánea</i>
@@ -688,7 +688,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #8ccfb3;
-        color: #F4E9E2;
+        color: #E57A07;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -700,7 +700,7 @@ else:
         MESA DE PONENCIAS:
         <i>Relecturas queer del canon peruano</i>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#3c8e6c">
             <b><i>El escándalo como motivo estructurante. Una relectura necesariamente ¿queer? de Vargas Llosa</i></b>
         </div>
         <div style="margin-top:10px;">
@@ -709,7 +709,7 @@ else:
               style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@qvispe.ynca)
         </a>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#3c8e6c">
             <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
         </div>
         <div style="margin-top:10px;">
@@ -718,7 +718,7 @@ else:
               style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@regi_ae07)
         </a>
         </div>
-        <div style="margin-top:10px;">
+        <div style="margin-top:10px; color:#3c8e6c">
             <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
         </div>
         <div style="margin-top:10px;">
