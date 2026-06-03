@@ -639,7 +639,7 @@ else:
 
     st.markdown("""
     <div style="
-        background-color: #c1b3d5;
+        background-color: #FFC88A;
         color: #dc2982;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
@@ -658,29 +658,29 @@ else:
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Jimena Sofía Velarde Vera
         <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
-              style="text-decoration:none; color:#73579d; font-weight:600;"> (@velarde_jimena)
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@velarde_jimena)
+        </a>
+        </div>
+        <div style="margin-top:10px; color:#3c8e6c">
+            <b><i>Estética queer y política del cuerpo en la narrativa de Doris Moromisato</i></b>
+        </div>
+        <div style="margin-top:10px; color:#9a48d5">
+            Participa: Judith Mavila Paredes Morales
+        <a href="https://www.instagram.com/judithparedesmorales/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@judithparedesmorales)
+        </a>
+        </div>
+        <div style="margin-top:10px; color:#3c8e6c">
+            <b><i>«Compórtense como señoritas» de K. Luy de Aliaga: formación de la subjetividad lésbica entre violencia y deseo</i></b>
+        </div>
+        <div style="margin-top:10px; color:#9a48d5">
+            Participa: Karol Nicol Sialas Rosas
+        <a href="https://www.instagram.com/karol_sialas/" target="_blank"
+              style="text-decoration:none; color:#fae9e2; font-weight:600;"> (@karol_sialas)
         </a>
         </div>
         <div style="margin-top:10px;">
-            <b><i>La representación de la bisexualidad en Duque (1934) de José Diez Canseco</i></b>
-        </div>
-        <div style="margin-top:10px;">
-            Participa: Natalia Regina Ángeles Enciso
-        <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@regi_ae07)
-        </a>
-        </div>
-        <div style="margin-top:10px;">
-            <b><i>El deseo de la abyección: una lectura de la prostitución masculina desde la perrería del amor en «El triunfo» (2006) de Oswaldo Reynoso”</i></b>
-        </div>
-        <div style="margin-top:10px;">
-            Participa: Giancarlos Nathanael Peralta Luis
-        <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@nathanael.peralta.luis)
-        </a>
-        </div>
-        <div style="margin-top:10px;">
-            Modera: Flavia Cabrera
+            Modera: Camila Arizaca
         </div>
     </div>
     """, unsafe_allow_html=True)
