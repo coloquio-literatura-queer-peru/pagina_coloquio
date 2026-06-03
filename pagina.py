@@ -583,9 +583,9 @@ else:
 
     st.markdown("""
         <div style="
-            font-size:18px;
+            font-size:25px;
             color:#DC2F82;
-            text-align:center;
+            text-align:justify;
             margin-bottom:20px;
         ">
             El primer día del coloquio estará enfocado en la investigación académica sobre literatura
