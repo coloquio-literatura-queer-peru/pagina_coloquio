@@ -639,8 +639,8 @@ else:
 
     st.markdown("""
     <div style="
-        background-color: #8ccfb3;
-        color: #F4E9E2;
+        background-color: #c1b3d5;
+        color: #dc2982;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -648,17 +648,17 @@ else:
         font-weight: bold;
     ">
         <strong>05:40 PM - 06:50 PM</strong><br> 
-        <div style="margin-top:10px; color:#7A07E5">
+        <div style="margin-top:10px;">
         MESA DE PONENCIAS:
-        <i>Relecturas queer del canon peruano</i>
+        <i>Feminidades queer en la literatura peruana contemporánea</i>
         </div>
-        <div style="margin-top:10px;">
-            <b><i>El escándalo como motivo estructurante. Una relectura necesariamente ¿queer? de Vargas Llosa</i></b>
+        <div style="margin-top:10px; color:#3c8e6c">
+            <b><i>El egoísmo del cuerpo: poéticas del repliegue y disidencia en Matrioska de Valeria Román Marroquín</i></b>
         </div>
-        <div style="margin-top:10px;">
-            Participa: Fabio Venero Figueroa
-        <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#7A07E5; font-weight:600;"> (@qvispe.ynca)
+        <div style="margin-top:10px; color:#9a48d5">
+            Participa: Jimena Sofía Velarde Vera
+        <a href="https://www.instagram.com/velarde_jimena/" target="_blank"
+              style="text-decoration:none; color:#73579d; font-weight:600;"> (@velarde_jimena)
         </a>
         </div>
         <div style="margin-top:10px;">
