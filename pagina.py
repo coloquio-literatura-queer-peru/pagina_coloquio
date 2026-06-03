@@ -824,7 +824,7 @@ else:
     """, unsafe_allow_html=True)
 
     st.write("")
-    
+    #############################
     st.markdown("""
         <h2 style="
             font-size:30px;
@@ -873,7 +873,7 @@ else:
         Recepción de asistentes
     </div>
     """, unsafe_allow_html=True)
-
+    st.write("")
     #
     st.markdown("""
     <div style="
@@ -931,7 +931,7 @@ else:
         </div>
     </div>
     """, unsafe_allow_html=True)
-    
+    st.write("")
     st.markdown("""
     <div style="
         background-color: #775aa4;
@@ -951,6 +951,9 @@ else:
         </div>
         <div style="margin-top:10px;">
             Participa: Lisa Carrasco La Cruz
+        <a href="https://www.instagram.com/fuegodecumbia/" target="_blank"
+              style="text-decoration:none; color:#F4E9E2; font-weight:600;"> (@fuegodecumbia)
+        </a>
         </div>
         <div style="margin-top:10px; text-align:justify; font-weight: normal;">
             Esta investigación analiza la literatura electrónica y la poesía digital como formas de
@@ -959,7 +962,7 @@ else:
         </div>
     </div>
         """, unsafe_allow_html=True)
-
+    st.write("")
     st.markdown("""
     <div style="
         background-color: #FFC88A;
