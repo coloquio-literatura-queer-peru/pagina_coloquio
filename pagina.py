@@ -688,7 +688,7 @@ else:
     st.markdown("""
     <div style="
         background-color: #acdcc8;
-        color: #EB7C05;
+        color: #CD6C04;
         padding: 1rem 1.25rem;
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
@@ -706,7 +706,7 @@ else:
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Fabio Venero Figueroa
         <a href="https://www.instagram.com/qvispe.ynca/" target="_blank"
-              style="text-decoration:none; color:#e57a07; font-weight:600;"> (@qvispe.ynca)
+              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@qvispe.ynca)
         </a>
         </div>
         <div style="margin-top:10px; color:#dc2982">
@@ -715,7 +715,7 @@ else:
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Natalia Regina Ángeles Enciso
         <a href="https://www.instagram.com/regi_ae07/" target="_blank"
-              style="text-decoration:none; color:#e57a07; font-weight:600;"> (@regi_ae07)
+              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@regi_ae07)
         </a>
         </div>
         <div style="margin-top:10px; color:#dc2982">
@@ -724,7 +724,7 @@ else:
         <div style="margin-top:10px; color:#9a48d5">
             Participa: Giancarlos Nathanael Peralta Luis
         <a href="https://www.instagram.com/nathanael.peralta.luis/" target="_blank"
-              style="text-decoration:none; color:#e57a07; font-weight:600;"> (@nathanael.peralta.luis)
+              style="text-decoration:none; color:#CD6C04; font-weight:600;"> (@nathanael.peralta.luis)
         </a>
         </div>
         <div style="margin-top:10px;">
