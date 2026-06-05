@@ -1346,24 +1346,25 @@ else:
             use_container_width=True
         )
         st.markdown("""
-        <a href="https://cronicasdeladiversidad.com/literatura/coloquio/" style="text-decoration:none;">
-            <div style="
-                border:1px solid #ddd;
-                border-radius:10px;
-                overflow:hidden;
-                box-shadow:0px 2px 6px rgba(0,0,0,0.15);
-            ">
-                <div style="
-                    padding:12px;
-                    text-align:center;
-                    font-size:18px;
+        <div style="
+            border:1px solid #ddd;
+            border-radius:12px;
+            padding:15px;
+            text-align:center;
+            box-shadow:0 4px 10px rgba(0,0,0,0.15);
+            margin-top:10px;
+        ">
+            <a href="https://cronicasdeladiversidad.com/literatura/coloquio/"
+               target="_blank"
+               style="
+                    text-decoration:none;
+                    font-size:22px;
                     font-weight:bold;
-                    color:#dc2982;
-                ">
-                    Crónicas de la diversidad
-                </div>
-            </div>
-        </a>
+                    color:#DC2F82;
+               ">
+                Crónicas de la diversidad
+            </a>
+        </div>
         """, unsafe_allow_html=True)
     
     with col37:
