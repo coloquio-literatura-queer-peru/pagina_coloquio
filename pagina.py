@@ -1335,7 +1335,6 @@ elif pagina_seleccionada == "Feriantes":
             padding:15px;
             border-radius:12px;
             text-align:center;
-            min-height:220px;
         ">
             <div style="
                 font-size:22px;
@@ -1358,14 +1357,11 @@ elif pagina_seleccionada == "Feriantes":
             <a href="https://gafasmoradas.com"
                target="_blank"
                style="
-                   background-color:#DC2F82;
-                   color:white;
-                   padding:8px 15px;
-                   border-radius:8px;
-                   text-decoration:none;
+                   color:#DC2F82;
                    font-weight:bold;
-            ">
-               Visitar página
+                   word-break:break-all;
+               ">
+               https://gafasmoradas.com
             </a>
         </div>
         """, unsafe_allow_html=True)
