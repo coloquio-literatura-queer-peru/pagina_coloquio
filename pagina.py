@@ -1321,7 +1321,7 @@ elif pagina_seleccionada == "Feriantes":
             text-align:center;
             margin-bottom:20px;
         ">
-        Feriantes
+        FERIANTES
         </h1>
     """, unsafe_allow_html=True)
 
@@ -1334,7 +1334,7 @@ else:
             text-align:center;
             margin-bottom:20px;
         ">
-        MENCIONES ❤️ 🫱🏽‍🫲🏾
+        MENCIONES 💜 🙌
         </h2>
     """, unsafe_allow_html=True)
     
