@@ -1353,12 +1353,6 @@ elif pagina_seleccionada == "Feriantes":
                 feminismos y diversidad sexual.
             </div>
     
-            <div style="margin-top:10px;">
-                <a href="https://gafasmoradas.com"
-                   target="_blank">
-                   https://gafasmoradas.com
-                </a>
-            </div>
         </div>
         """, unsafe_allow_html=True)
         
