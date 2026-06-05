@@ -33,7 +33,7 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-paginas = ["Presentación", "Equipo organizador", "Convocatoria de sumillas", "Programa"]
+paginas = ["Presentación", "Equipo organizador", "Convocatoria de sumillas", "Programa", "Feriantes", "Menciones"]
 
 with st.sidebar:
     pagina_seleccionada = option_menu(
@@ -506,7 +506,7 @@ elif pagina_seleccionada == "Convocatoria de sumillas":
         
     #col10, col11, col12 = st.columns(3)
 
-else: 
+elif pagina_seleccionada == "Programa":
     st.markdown("""
         <h2 style="
             font-size:45px;
@@ -1311,6 +1311,22 @@ else:
     st.write("")
     
     st.image("fotos/flyer_coloquio.png", width=1800)
+
+elif pagina_seleccionada == "Feriantes":
+
+else:
+    st.markdown("""
+        <h2 style="
+            font-size:45px;
+            color:#DC2F82;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        MENCIONES ❤️ 🫱🏽‍🫲🏾
+        </h2>
+    """, unsafe_allow_html=True)
+    
        
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
