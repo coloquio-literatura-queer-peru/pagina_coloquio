@@ -1336,6 +1336,7 @@ elif pagina_seleccionada == "Feriantes":
             border-radius:12px;
             text-align:center;
         ">
+    
             <div style="
                 font-size:22px;
                 font-weight:bold;
@@ -1344,7 +1345,7 @@ elif pagina_seleccionada == "Feriantes":
             ">
                 Gafas Moradas
             </div>
-
+    
             <div style="
                 font-size:16px;
                 color:#444;
@@ -1353,7 +1354,7 @@ elif pagina_seleccionada == "Feriantes":
                 Editorial independiente especializada en literatura,
                 feminismos y diversidad sexual.
             </div>
-
+    
             <a href="https://gafasmoradas.com"
                target="_blank"
                style="
@@ -1363,6 +1364,7 @@ elif pagina_seleccionada == "Feriantes":
                ">
                https://gafasmoradas.com
             </a>
+    
         </div>
         """, unsafe_allow_html=True)
         
