@@ -1353,7 +1353,7 @@ elif pagina_seleccionada == "Feriantes":
                 a través de la literatura.
             </div>
             """, unsafe_allow_html=True)
-        
+            st.write("")
             st.markdown(
                 "📷 **Instagram:** "
                 "[@editorial_gafas_moradas](https://www.instagram.com/editorial_gafas_moradas/)"
@@ -1383,19 +1383,22 @@ elif pagina_seleccionada == "Feriantes":
                 font-size:16px;
                 color:#444;
             ">
-                Editorial peruana feminista con perspectiva de género.
-                Publica libros sobre feminismos, género, maternidad,
-                diversidad sexual y masculinidades, además de rescatar
-                obras fundamentales. Promueve la paridad y el activismo
-                a través de la literatura.
+                Diversa Editorial es un emprendimiento sanmarquino que busca visibilizar la literatura disidente y queer en lengua castellana. 
+                Como editores de la revista Visibles, impulsa la difusión de narrativas diversas y, 
+                a través de publicaciones, libros y libretas artesanales, fomenta la circulación de
+                voces diversas y la representación de las disidencias sexuales y de género.
             </div>
             """, unsafe_allow_html=True)
-        
+            st.write("")
             st.markdown(
                 "📷 **Instagram:** "
                 "[@diversaeditorial](https://www.instagram.com/diversaeditorial/)"
             )
-            
+            st.markdown(
+                "📩 **Correo:** "
+                "ed.diversa@gmail.com"
+            )
+           
     with col42:
         st.image("fotos/logo_gafas_moradas.png")
         with st.container(border=True):
@@ -1415,23 +1418,20 @@ elif pagina_seleccionada == "Feriantes":
                 font-size:16px;
                 color:#444;
             ">
-                Editorial peruana feminista con perspectiva de género.
-                Publica libros sobre feminismos, género, maternidad,
-                diversidad sexual y masculinidades, además de rescatar
-                obras fundamentales. Promueve la paridad y el activismo
-                a través de la literatura.
+                Leyendo con Orgullo es un club de lectura peruano dedicado a la difusión de literatura LGBTQ+ 
+                y a la creación de espacios seguros para el diálogo y la reflexión. 
+                Fundado por Renzo Cabrera, el proyecto promueve la lectura de obras 
+                con protagonistas y temáticas de la diversidad sexual y de género, 
+                fomentando el intercambio de ideas, la construcción de comunidad y 
+                el reconocimiento de experiencias diversas a través de los libros.
             </div>
             """, unsafe_allow_html=True)
-        
+            st.write("")
             st.markdown(
                 "📷 **Instagram:** "
                 "[@leyendoconorgullo](https://www.instagram.com/leyendoconorgullo/)"
             )
-
-            st.markdown(
-                "🌐 **Web:** "
-                "https://www.editorialgafasmoradas.com"
-            )
+            
     st.write("")
 
 else:
