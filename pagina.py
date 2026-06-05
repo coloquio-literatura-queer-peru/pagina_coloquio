@@ -1329,7 +1329,6 @@ elif pagina_seleccionada == "Feriantes":
     
     with col40:
         st.image("fotos/logo_gafas_moradas.png")
-        
         with st.container(border=True):
             st.markdown("""
             <h3 style="
@@ -1337,7 +1336,7 @@ elif pagina_seleccionada == "Feriantes":
                 color:#DC2F82;
                 margin-bottom:15px;
             ">
-                Gafas Moradas
+                Editorial Gafas Moradas
             </h3>
             """, unsafe_allow_html=True)
         
@@ -1367,18 +1366,72 @@ elif pagina_seleccionada == "Feriantes":
         
     with col41:
         st.image("fotos/logo_gafas_moradas.png")
-        #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
-        #st.markdown("<div style='width:280px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones</div>",unsafe_allow_html=True)
-        #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>y Experiencias del Público</div>",unsafe_allow_html=True)
-        #st.markdown("<div style='width:240px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
+        with st.container(border=True):
+            st.markdown("""
+            <h3 style="
+                text-align:center;
+                color:#DC2F82;
+                margin-bottom:15px;
+            ">
+                Diversa Editorial
+            </h3>
+            """, unsafe_allow_html=True)
+        
+            st.markdown("""
+            <div style="
+                text-align: justify;
+                font-size:16px;
+                color:#444;
+            ">
+                Editorial peruana feminista con perspectiva de género.
+                Publica libros sobre feminismos, género, maternidad,
+                diversidad sexual y masculinidades, además de rescatar
+                obras fundamentales. Promueve la paridad y el activismo
+                a través de la literatura.
+            </div>
+            """, unsafe_allow_html=True)
+        
+            st.markdown(
+                "📷 **Instagram:** "
+                "[@diversaeditorial](https://www.instagram.com/diversaeditorial/)"
+            )
             
     with col42:
         st.image("fotos/logo_gafas_moradas.png")
-        #st.markdown("<div style='width:210px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Alan Concepción</div>",unsafe_allow_html=True)
-        #st.markdown("<div style='width:250px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Producción</div>",unsafe_allow_html=True)
-        #st.markdown("<div style='width:130px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'> y Logística</div>",unsafe_allow_html=True)
-        #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>alan.concepcion@pucp.pe</div>",unsafe_allow_html=True)
-    
+        with st.container(border=True):
+            st.markdown("""
+            <h3 style="
+                text-align:center;
+                color:#DC2F82;
+                margin-bottom:15px;
+            ">
+                Club de Lectura: Leyendo con Orgullo
+            </h3>
+            """, unsafe_allow_html=True)
+        
+            st.markdown("""
+            <div style="
+                text-align: justify;
+                font-size:16px;
+                color:#444;
+            ">
+                Editorial peruana feminista con perspectiva de género.
+                Publica libros sobre feminismos, género, maternidad,
+                diversidad sexual y masculinidades, además de rescatar
+                obras fundamentales. Promueve la paridad y el activismo
+                a través de la literatura.
+            </div>
+            """, unsafe_allow_html=True)
+        
+            st.markdown(
+                "📷 **Instagram:** "
+                "[@leyendoconorgullo](https://www.instagram.com/leyendoconorgullo/)"
+            )
+
+            st.markdown(
+                "🌐 **Web:** "
+                "https://www.editorialgafasmoradas.com"
+            )
     st.write("")
 
 else:
