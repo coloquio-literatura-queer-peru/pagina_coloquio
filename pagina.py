@@ -1329,31 +1329,17 @@ elif pagina_seleccionada == "Feriantes":
     
     with col40:
         st.image("fotos/logo_gafas_moradas.png")
-        st.markdown("""
-        <div style="
-            background-color:#F8F3FA;
-            padding:15px;
-            border-radius:12px;
-            text-align:center;
-        ">
-            <div style="
-                font-size:22px;
-                font-weight:bold;
-                color:#DC2F82;
-            ">
-                Gafas Moradas
-            </div>
-    
-            <div style="
-                font-size:16px;
-                color:#444;
-                margin-top:10px;
-            ">
-                Editorial independiente especializada en literatura,
-                feminismos y diversidad sexual.
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        
+        with st.container(border=True):
+            st.subheader("Gafas Moradas")
+        
+            st.write(
+                "Editorial independiente especializada en literatura, "
+                "feminismos y diversidad sexual."
+            )
+        
+            st.write("📷 Instagram:")
+            st.write("@gafasmoradas")
         
     with col41:
         st.image("fotos/logo_gafas_moradas.png")
