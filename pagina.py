@@ -1349,7 +1349,7 @@ else:
                 overflow:hidden;
                 box-shadow:0px 2px 6px rgba(0,0,0,0.15);
             ">
-                <img src="cronicas_diversidad.png" width="50%">
+                <img src="cronicas_diversidad.png" width="400">
                 <div style="
                     padding:12px;
                     text-align:center;
@@ -1372,7 +1372,7 @@ else:
                 overflow:hidden;
                 box-shadow:0px 2px 6px rgba(0,0,0,0.15);
             ">
-                <img src="kametsa_revista.png" width="100%">
+                <img src="kametsa_revista.png" width="400">
                 <div style="
                     padding:12px;
                     text-align:center;
