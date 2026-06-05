@@ -1341,16 +1341,23 @@ elif pagina_seleccionada == "Feriantes":
             </h3>
             """, unsafe_allow_html=True)
         
-            st.write("""
-                Editorial peruana feminista con perspectiva de género. 
-                Publica libros sobre feminismos, género, maternidad, diversidad sexual y masculinidades, 
-                además de rescatar obras fundamentales. 
-                Promueve la paridad y el activismo a través de la literatura.
-            """)
+            st.markdown("""
+            <div style="
+                text-align: justify;
+                font-size:16px;
+                color:#444;
+            ">
+                Editorial peruana feminista con perspectiva de género.
+                Publica libros sobre feminismos, género, maternidad,
+                diversidad sexual y masculinidades, además de rescatar
+                obras fundamentales. Promueve la paridad y el activismo
+                a través de la literatura.
+            </div>
+            """, unsafe_allow_html=True)
         
             st.markdown(
                 "📷 **Instagram:** "
-                "[@gafasmoradas](https://www.instagram.com/gafasmoradas/)"
+                "[@editorial_gafas_moradas](https://www.instagram.com/editorial_gafas_moradas/)"
             )
 
             st.markdown(
