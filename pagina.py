@@ -1337,7 +1337,15 @@ elif pagina_seleccionada == "Feriantes":
             text-align:center;
             min-height:220px;
         ">
-        </div>
+            <div style="
+                font-size:22px;
+                font-weight:bold;
+                color:#DC2F82;
+                margin-bottom:10px;
+            ">
+                Gafas Moradas
+            </div>
+
             <div style="
                 font-size:16px;
                 color:#444;
