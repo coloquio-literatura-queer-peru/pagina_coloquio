@@ -1316,7 +1316,7 @@ elif pagina_seleccionada == "Feriantes":
     st.markdown("""
         <h1 style="
             font-size:45px;
-            color:#DC2F82;
+            color:#e55940;
             font-weight:bold;
             text-align:center;
             margin-bottom:20px;
@@ -1324,6 +1324,30 @@ elif pagina_seleccionada == "Feriantes":
         FERIANTES
         </h1>
     """, unsafe_allow_html=True)
+
+    col40, col41, col42 = st.columns([0.8,0.8,0.8])
+    
+    with col40:
+        st.image("fotos/logo_gafas_moradas.png")
+        #st.markdown("<div style='width:180px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Julia Castillo</div>",unsafe_allow_html=True)
+        #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación General</div>",unsafe_allow_html=True)
+        #st.markdown("<div style='width:240px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>castillo.julia@pucp.edu.pe</div>",unsafe_allow_html=True)
+     
+    with col41:
+        st.image("logo_gafas_moradas.png")
+        #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
+        #st.markdown("<div style='width:280px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Comunicaciones</div>",unsafe_allow_html=True)
+        #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>y Experiencias del Público</div>",unsafe_allow_html=True)
+        #st.markdown("<div style='width:240px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>andremererivera@gmail.com</div>",unsafe_allow_html=True)
+            
+    with col42:
+        st.image("logo_gafas_moradas.png")
+        #st.markdown("<div style='width:210px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Alan Concepción</div>",unsafe_allow_html=True)
+        #st.markdown("<div style='width:250px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación de Producción</div>",unsafe_allow_html=True)
+        #st.markdown("<div style='width:130px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'> y Logística</div>",unsafe_allow_html=True)
+        #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>alan.concepcion@pucp.pe</div>",unsafe_allow_html=True)
+    
+    st.write("")
 
 else:
     st.markdown("""
