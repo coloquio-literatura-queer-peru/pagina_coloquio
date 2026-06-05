@@ -39,7 +39,7 @@ with st.sidebar:
     pagina_seleccionada = option_menu(
         menu_title=None,
         options=paginas,
-        icons=['house','person','file-earmark-arrow-up','calendar'],
+        icons=['house','person','file-earmark-arrow-up','calendar', 'book-half', 'chat-left-heart'],
         default_index=0
     )
 
@@ -1312,7 +1312,7 @@ elif pagina_seleccionada == "Programa":
     
     st.image("fotos/flyer_coloquio.png", width=1800)
 
-elif pagina_seleccionada == "Feriantes":
+#elif pagina_seleccionada == "Feriantes":
 
 else:
     st.markdown("""
