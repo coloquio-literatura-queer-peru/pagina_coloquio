@@ -1472,7 +1472,7 @@ else:
                     font-weight:bold;
                     color: #F4E9E2;
                ">
-                Crónicas de la diversidad
+                Crónicas de la Diversidad
             </a>
         </div>
         """, unsafe_allow_html=True)
