@@ -1337,6 +1337,7 @@ elif pagina_seleccionada == "Feriantes":
             text-align:center;
             min-height:220px;
         ">
+        </div>
             <div style="
                 font-size:16px;
                 color:#444;
