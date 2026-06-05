@@ -1331,15 +1331,32 @@ elif pagina_seleccionada == "Feriantes":
         st.image("fotos/logo_gafas_moradas.png")
         
         with st.container(border=True):
-            st.subheader("Gafas Moradas")
+            st.markdown("""
+            <h3 style="
+                text-align:center;
+                color:#DC2F82;
+                margin-bottom:15px;
+            ">
+                Gafas Moradas
+            </h3>
+            """, unsafe_allow_html=True)
         
-            st.write(
-                "Editorial independiente especializada en literatura, "
-                "feminismos y diversidad sexual."
+            st.write("""
+                Editorial peruana feminista con perspectiva de género. 
+                Publica libros sobre feminismos, género, maternidad, diversidad sexual y masculinidades, 
+                además de rescatar obras fundamentales. 
+                Promueve la paridad y el activismo a través de la literatura.
+            """)
+        
+            st.markdown(
+                "📷 **Instagram:** "
+                "[@gafasmoradas](https://www.instagram.com/gafasmoradas/)"
             )
-        
-            st.write("📷 Instagram:")
-            st.write("@gafasmoradas")
+
+            st.markdown(
+                "🌐 **Web:** "
+                "https://www.editorialgafasmoradas.com"
+            )
         
     with col41:
         st.image("fotos/logo_gafas_moradas.png")
