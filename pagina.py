@@ -1347,6 +1347,7 @@ else:
         )
         st.markdown("""
         <div style="
+            background-color:#DC2F82;
             border:1px solid #ddd;
             border-radius:12px;
             padding:15px;
@@ -1360,7 +1361,6 @@ else:
                     text-decoration:none;
                     font-size:22px;
                     font-weight:bold;
-                    background-color: #DC2F82;
                     color: #F4E9E2;
                ">
                 Crónicas de la diversidad
@@ -1375,6 +1375,7 @@ else:
         )
         st.markdown("""
         <div style="
+            background-color:#DC2F82;
             border:1px solid #ddd;
             border-radius:12px;
             padding:15px;
@@ -1388,7 +1389,6 @@ else:
                     text-decoration:none;
                     font-size:22px;
                     font-weight:bold;
-                    background-color: #DC2F82;
                     color: #F4E9E2;
                ">
                 Revista Kametsa
