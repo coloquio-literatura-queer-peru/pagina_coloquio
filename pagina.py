@@ -1341,6 +1341,10 @@ else:
     col36, col37, col38 = st.columns(3)
 
     with col36:
+        st.image(
+            "fotos/cronicas_diversidad.png",
+            use_container_width=True
+        )
         st.markdown("""
         <a href="https://cronicasdeladiversidad.com/literatura/coloquio/" style="text-decoration:none;">
             <div style="
@@ -1349,7 +1353,6 @@ else:
                 overflow:hidden;
                 box-shadow:0px 2px 6px rgba(0,0,0,0.15);
             ">
-                <img src="fotos/cronicas_diversidad.png" width="400">
                 <div style="
                     padding:12px;
                     text-align:center;
