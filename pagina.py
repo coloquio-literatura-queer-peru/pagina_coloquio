@@ -1352,7 +1352,6 @@ elif pagina_seleccionada == "Feriantes":
                 Editorial independiente especializada en literatura,
                 feminismos y diversidad sexual.
             </div>
-    
         </div>
         """, unsafe_allow_html=True)
         
