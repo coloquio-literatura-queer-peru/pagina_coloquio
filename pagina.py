@@ -1315,7 +1315,7 @@ elif pagina_seleccionada == "Programa":
 elif pagina_seleccionada == "Feriantes":
     st.markdown("""
         <h1 style="
-            font-size:65px;
+            font-size:45px;
             color:#DC2F82;
             font-weight:bold;
             text-align:center;
@@ -1338,7 +1338,23 @@ else:
         </h2>
     """, unsafe_allow_html=True)
     
-       
+    col36, col37, col38 = st.columns(3)
+
+    with col38:
+        mostrar_tarjeta(
+            "cronicas_diversidad.png",
+            "Crónicas de la diversidad",
+            "https://cronicasdeladiversidad.com/literatura/coloquio/"
+        )
+    
+    with col37:
+        mostrar_tarjeta(
+            "kametsa_revista.png",
+            "Revista Kametsa",
+            "https://revistakametsa.wordpress.com/2026/06/03/nota-de-prensa-i-coloquio-de-literatura-peruana-queer-un-hito-para-la-memoria-literaria-y-cultura-lgtbiq-del-peru/?fbclid=IwY2xjawSOw-dleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeHr3agQikDrb-5pJniXenYalcRshLav0a7jRfP1abf_UdXcB0-Cs55ABKwCE_aem_crFumi4RhI0sNKix_-icEQ"
+        )
+     
+
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
 
