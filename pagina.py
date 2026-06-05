@@ -1364,6 +1364,10 @@ else:
         """, unsafe_allow_html=True)
     
     with col37:
+        st.image(
+            "kametsa_revista.png",
+            use_container_width=True
+        )
         st.markdown("""
         <a href="https://revistakametsa.wordpress.com/2026/06/03/nota-de-prensa-i-coloquio-de-literatura-peruana-queer-un-hito-para-la-memoria-literaria-y-cultura-lgtbiq-del-peru/?fbclid=IwY2xjawSOw-dleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeHr3agQikDrb-5pJniXenYalcRshLav0a7jRfP1abf_UdXcB0-Cs55ABKwCE_aem_crFumi4RhI0sNKix_-icEQ" style="text-decoration:none;">
             <div style="
@@ -1372,7 +1376,6 @@ else:
                 overflow:hidden;
                 box-shadow:0px 2px 6px rgba(0,0,0,0.15);
             ">
-                <img src="kametsa_revista.png" width="400">
                 <div style="
                     padding:12px;
                     text-align:center;
