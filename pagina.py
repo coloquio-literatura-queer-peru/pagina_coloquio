@@ -1332,7 +1332,7 @@ else:
             color:#9a62a5;
             font-weight:bold;
             text-align:center;
-            margin-bottom:20px;
+            margin-bottom:25px;
         ">
         MENCIONES 💜 🙌
         </h2>
@@ -1360,7 +1360,8 @@ else:
                     text-decoration:none;
                     font-size:22px;
                     font-weight:bold;
-                    color:#DC2F82;
+                    background-color: #DC2F82;
+                    color: #F4E9E2;
                ">
                 Crónicas de la diversidad
             </a>
@@ -1387,7 +1388,8 @@ else:
                     text-decoration:none;
                     font-size:22px;
                     font-weight:bold;
-                    color:#DC2F82;
+                    background-color: #DC2F82;
+                    color: #F4E9E2;
                ">
                 Revista Kametsa
             </a>
