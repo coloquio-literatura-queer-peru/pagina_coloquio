@@ -1332,7 +1332,8 @@ else:
             color:#9a62a5;
             font-weight:bold;
             text-align:center;
-            margin-bottom:25px;
+            margin-bottom:20px;
+            line-height:1.4;
         ">
         MENCIONES 💜 🙌
         </h2>
@@ -1353,7 +1354,6 @@ else:
             padding:15px;
             text-align:center;
             box-shadow:0 4px 10px rgba(0,0,0,0.15);
-            margin-top:10px;
         ">
             <a href="https://cronicasdeladiversidad.com/literatura/coloquio/"
                target="_blank"
@@ -1381,7 +1381,6 @@ else:
             padding:15px;
             text-align:center;
             box-shadow:0 4px 10px rgba(0,0,0,0.15);
-            margin-top:10px;
         ">
             <a href="https://revistakametsa.wordpress.com/2026/06/03/nota-de-prensa-i-coloquio-de-literatura-peruana-queer-un-hito-para-la-memoria-literaria-y-cultura-lgtbiq-del-peru/"
                target="_blank"
