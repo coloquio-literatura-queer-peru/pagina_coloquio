@@ -1369,24 +1369,25 @@ else:
             use_container_width=True
         )
         st.markdown("""
-        <a href="https://revistakametsa.wordpress.com/2026/06/03/nota-de-prensa-i-coloquio-de-literatura-peruana-queer-un-hito-para-la-memoria-literaria-y-cultura-lgtbiq-del-peru/?fbclid=IwY2xjawSOw-dleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeHr3agQikDrb-5pJniXenYalcRshLav0a7jRfP1abf_UdXcB0-Cs55ABKwCE_aem_crFumi4RhI0sNKix_-icEQ" style="text-decoration:none;">
-            <div style="
-                border:1px solid #ddd;
-                border-radius:10px;
-                overflow:hidden;
-                box-shadow:0px 2px 6px rgba(0,0,0,0.15);
-            ">
-                <div style="
-                    padding:12px;
-                    text-align:center;
-                    font-size:18px;
+        <div style="
+            border:1px solid #ddd;
+            border-radius:12px;
+            padding:15px;
+            text-align:center;
+            box-shadow:0 4px 10px rgba(0,0,0,0.15);
+            margin-top:10px;
+        ">
+            <a href="https://revistakametsa.wordpress.com/2026/06/03/nota-de-prensa-i-coloquio-de-literatura-peruana-queer-un-hito-para-la-memoria-literaria-y-cultura-lgtbiq-del-peru/"
+               target="_blank"
+               style="
+                    text-decoration:none;
+                    font-size:22px;
                     font-weight:bold;
-                    color:#dc2982;
-                ">
-                    Revista Kametsa
-                </div>
-            </div>
-        </a>
+                    color:#DC2F82;
+               ">
+                Revista Kametsa
+            </a>
+        </div>
         """, unsafe_allow_html=True)
      
 
