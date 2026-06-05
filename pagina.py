@@ -1349,7 +1349,7 @@ else:
                 overflow:hidden;
                 box-shadow:0px 2px 6px rgba(0,0,0,0.15);
             ">
-                <img src="cronicas_diversidad.png" width="400">
+                <img src="fotos/cronicas_diversidad.png" width="400">
                 <div style="
                     padding:12px;
                     text-align:center;
@@ -1365,7 +1365,7 @@ else:
     
     with col37:
         st.image(
-            "kametsa_revista.png",
+            "fotos/kametsa_revista.png",
             use_container_width=True
         )
         st.markdown("""
