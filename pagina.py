@@ -1312,13 +1312,24 @@ elif pagina_seleccionada == "Programa":
     
     st.image("fotos/flyer_coloquio.png", width=1800)
 
-#elif pagina_seleccionada == "Feriantes":
+elif pagina_seleccionada == "Feriantes":
+    st.markdown("""
+        <h1 style="
+            font-size:65px;
+            color:#DC2F82;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        Feriantes
+        </h1>
+    """, unsafe_allow_html=True)
 
 else:
     st.markdown("""
         <h2 style="
             font-size:45px;
-            color:#DC2F82;
+            color:#9a62a5;
             font-weight:bold;
             text-align:center;
             margin-bottom:20px;
