@@ -1329,10 +1329,38 @@ elif pagina_seleccionada == "Feriantes":
     
     with col40:
         st.image("fotos/logo_gafas_moradas.png")
-        #st.markdown("<div style='width:180px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>Julia Castillo</div>",unsafe_allow_html=True)
-        #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:18px; color:#3c8d6b; font-weight:bold;'>Coordinación General</div>",unsafe_allow_html=True)
-        #st.markdown("<div style='width:240px; margin:auto; text-align:left; font-size:18px; color:#a154d6;'>castillo.julia@pucp.edu.pe</div>",unsafe_allow_html=True)
-     
+        st.markdown("""
+        <div style="
+            background-color:#F8F3FA;
+            padding:15px;
+            border-radius:12px;
+            text-align:center;
+            min-height:220px;
+        ">
+            <div style="
+                font-size:16px;
+                color:#444;
+                margin-bottom:15px;
+            ">
+                Editorial independiente especializada en literatura,
+                feminismos y diversidad sexual.
+            </div>
+
+            <a href="https://gafasmoradas.com"
+               target="_blank"
+               style="
+                   background-color:#DC2F82;
+                   color:white;
+                   padding:8px 15px;
+                   border-radius:8px;
+                   text-decoration:none;
+                   font-weight:bold;
+               ">
+               Visitar página
+            </a>
+        </div>
+        """, unsafe_allow_html=True)
+        
     with col41:
         st.image("fotos/logo_gafas_moradas.png")
         #st.markdown("<div style='width:220px; margin:auto; text-align:left; font-size:24px; color:#dc2f82; font-weight:bold;'>André Mere Rivera</div>",unsafe_allow_html=True)
