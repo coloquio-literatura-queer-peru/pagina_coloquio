@@ -1336,12 +1336,10 @@ elif pagina_seleccionada == "Feriantes":
             border-radius:12px;
             text-align:center;
         ">
-    
             <div style="
                 font-size:22px;
                 font-weight:bold;
                 color:#DC2F82;
-                margin-bottom:10px;
             ">
                 Gafas Moradas
             </div>
@@ -1349,22 +1347,18 @@ elif pagina_seleccionada == "Feriantes":
             <div style="
                 font-size:16px;
                 color:#444;
-                margin-bottom:15px;
+                margin-top:10px;
             ">
                 Editorial independiente especializada en literatura,
                 feminismos y diversidad sexual.
             </div>
     
-            <a href="https://gafasmoradas.com"
-               target="_blank"
-               style="
-                   color:#DC2F82;
-                   font-weight:bold;
-                   word-break:break-all;
-               ">
-               https://gafasmoradas.com
-            </a>
-    
+            <div style="margin-top:10px;">
+                <a href="https://gafasmoradas.com"
+                   target="_blank">
+                   https://gafasmoradas.com
+                </a>
+            </div>
         </div>
         """, unsafe_allow_html=True)
         
