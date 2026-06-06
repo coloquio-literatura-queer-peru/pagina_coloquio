@@ -1427,11 +1427,11 @@ elif pagina_seleccionada == "Feriantes":
             st.write("")
             st.markdown(
                 "📷 **Instagram:** "
-                "[@diversaeditorial](https://www.instagram.com/diversaeditorial/)"
+                "[@cronicasdeladiversidad](https://www.instagram.com/cronicasdeladiversidad/)"
             )
             st.markdown(
-                "📩 **Correo:** "
-                "ed.diversa@gmail.com"
+                "🌐 **Web:** "
+                "https://cronicasdeladiversidad.com"
             )
            
     with col42:
@@ -1443,7 +1443,7 @@ elif pagina_seleccionada == "Feriantes":
                 color:#DC2F82;
                 margin-bottom:15px;
             ">
-                Club de Lectura: Leyendo con Orgullo
+                Almas Feministas
             </h3>
             """, unsafe_allow_html=True)
         
@@ -1453,18 +1453,17 @@ elif pagina_seleccionada == "Feriantes":
                 font-size:16px;
                 color:#444;
             ">
-                Leyendo con Orgullo es un club de lectura peruano dedicado a la difusión de literatura LGBTQ+ 
-                y a la creación de espacios para el diálogo y la reflexión. 
-                Fundado por Renzo Cabrera, el proyecto promueve la lectura de obras 
-                con protagonistas y temáticas de la diversidad sexual y de género, 
-                fomentando el intercambio de ideas, la construcción de comunidad y 
-                el reconocimiento de experiencias diversas a través de los libros.
+                Almas Feministas es una comunidad y plataforma de difusión feminista dedicada
+                a promover la reflexión, el aprendizaje y el diálogo en torno a la igualdad de género. 
+                A través de contenidos educativos, recomendaciones de lectura, espacios de encuentro y 
+                acciones de sensibilización, busca fortalecer el pensamiento crítico y contribuir 
+                a la construcción de una sociedad más justa e inclusiva para mujeres y diversidades..
             </div>
             """, unsafe_allow_html=True)
             st.write("")
             st.markdown(
                 "📷 **Instagram:** "
-                "[@leyendoconorgullo](https://www.instagram.com/leyendoconorgullo/)"
+                "[@almas.feministas](https://www.instagram.com/almas.feministas/)"
             )
             
     st.write("")
