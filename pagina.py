@@ -577,7 +577,7 @@ elif pagina_seleccionada == "Programa":
             text-align:center;
             margin-bottom:20px;
         ">
-        VIERNES 19 DE JUNIO (CASA DE LA LITERATURA)
+        VIERNES 19 DE JUNIO (CASA DE LA LITERATURA PERUANA)
         </h2>
     """, unsafe_allow_html=True)
 
@@ -833,7 +833,7 @@ elif pagina_seleccionada == "Programa":
             text-align:center;
             margin-bottom:20px;
         ">
-        SÁBADO 20 DE JUNIO (CASA DE LA LITERATURA)
+        SÁBADO 20 DE JUNIO (CASA DE LA LITERATURA PERUANA)
         </h2>
     """, unsafe_allow_html=True)
 
@@ -1356,7 +1356,7 @@ elif pagina_seleccionada == "Feriantes":
         font-size: 22px;
         font-weight: bold;
         color: #3c8d6b;">
-        📍 Hall de la Casa de la Literatura peruana
+        📍 Hall de la Casa de la Literatura Peruana
     </div>
     """,
     unsafe_allow_html=True
