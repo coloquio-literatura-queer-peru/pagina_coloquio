@@ -1469,44 +1469,8 @@ elif pagina_seleccionada == "Feriantes":
     st.write("")
 
     col43, col44, col45 = st.columns([0.8,0.8,0.8])
-    
+        
     with col43:
-        st.image("fotos/logo_gafas_moradas.png")
-        with st.container(border=True):
-            st.markdown("""
-            <h3 style="
-                text-align:center;
-                color:#DC2F82;
-                margin-bottom:15px;
-            ">
-                Editorial Gafas Moradas
-            </h3>
-            """, unsafe_allow_html=True)
-        
-            st.markdown("""
-            <div style="
-                text-align: justify;
-                font-size:16px;
-                color:#444;
-            ">
-                Gafas Moradas es una editorial peruana feminista e independiente con perspectiva de género. 
-                Publica libros que abordan temas como los feminismos, las masculinidades, la maternidad, 
-                la diversidad sexual y la paridad de género. A través de sus publicaciones, busca promover 
-                la reflexión, la igualdad y el activismo, invitando a sus lectores a mirar el mundo desde nuevas perspectivas.
-            </div>
-            """, unsafe_allow_html=True)
-            st.write("")
-            st.markdown(
-                "📷 **Instagram:** "
-                "[@editorial_gafas_moradas](https://www.instagram.com/editorial_gafas_moradas/)"
-            )
-
-            st.markdown(
-                "🌐 **Web:** "
-                "https://www.editorialgafasmoradas.com"
-            )
-        
-    with col44:
         st.image("fotos/diversa_editorial.png")
         with st.container(border=True):
             st.markdown("""
@@ -1540,7 +1504,43 @@ elif pagina_seleccionada == "Feriantes":
                 "📩 **Correo:** "
                 "ed.diversa@gmail.com"
             )
-           
+
+    with col44:
+        st.image("fotos/estado_limbo.png")
+        with st.container(border=True):
+            st.markdown("""
+            <h3 style="
+                text-align:center;
+                color:#DC2F82;
+                margin-bottom:15px;
+            ">
+                Editorial Gafas Moradas
+            </h3>
+            """, unsafe_allow_html=True)
+        
+            st.markdown("""
+            <div style="
+                text-align: justify;
+                font-size:16px;
+                color:#444;
+            ">
+                Gafas Moradas es una editorial peruana feminista e independiente con perspectiva de género. 
+                Publica libros que abordan temas como los feminismos, las masculinidades, la maternidad, 
+                la diversidad sexual y la paridad de género. A través de sus publicaciones, busca promover 
+                la reflexión, la igualdad y el activismo, invitando a sus lectores a mirar el mundo desde nuevas perspectivas.
+            </div>
+            """, unsafe_allow_html=True)
+            st.write("")
+            st.markdown(
+                "📷 **Instagram:** "
+                "[@editorial_gafas_moradas](https://www.instagram.com/editorial_gafas_moradas/)"
+            )
+
+            st.markdown(
+                "🌐 **Web:** "
+                "https://www.editorialgafasmoradas.com"
+            )
+    
     with col45:
         st.image("fotos/leyendo_orgullo.png")
         with st.container(border=True):
