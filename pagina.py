@@ -1325,6 +1325,42 @@ elif pagina_seleccionada == "Feriantes":
         </h1>
     """, unsafe_allow_html=True)
 
+    st.markdown(
+    """
+    <div style="
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #3c8d6b;">
+        📅 Viernes 19 y sábado 20 de junio
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+    st.markdown(
+    """
+    <div style="
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #3c8d6b;">
+        🕒 2:00 a 7:00 p.m.
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
+    st.markdown(
+    """
+    <div style="
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #3c8d6b;">
+        📍 Hall de la Casa de la Literatura peruana
+    </div>
+    """,
+    unsafe_allow_html=True
+    )
     col40, col41, col42 = st.columns([0.8,0.8,0.8])
     
     with col40:
