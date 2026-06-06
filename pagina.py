@@ -1348,8 +1348,7 @@ elif pagina_seleccionada == "Feriantes":
             ">
                 Gafas Moradas es una editorial peruana feminista e independiente con perspectiva de género. 
                 Publica libros que abordan temas como los feminismos, las masculinidades, la maternidad, 
-                la diversidad sexual y la paridad de género, además de rescatar obras fundamentales para 
-                el pensamiento crítico contemporáneo. A través de sus publicaciones, busca promover 
+                la diversidad sexual y la paridad de género. A través de sus publicaciones, busca promover 
                 la reflexión, la igualdad y el activismo, invitando a sus lectores a mirar el mundo desde nuevas perspectivas.
             </div>
             """, unsafe_allow_html=True)
