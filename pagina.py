@@ -1418,7 +1418,7 @@ elif pagina_seleccionada == "Feriantes":
                 color:#444;
             ">
                 Leyendo con Orgullo es un club de lectura peruano dedicado a la difusión de literatura LGBTQ+ 
-                y a la creación de espacios seguros para el diálogo y la reflexión. 
+                y a la creación de espacios para el diálogo y la reflexión. 
                 Fundado por Renzo Cabrera, el proyecto promueve la lectura de obras 
                 con protagonistas y temáticas de la diversidad sexual y de género, 
                 fomentando el intercambio de ideas, la construcción de comunidad y 
