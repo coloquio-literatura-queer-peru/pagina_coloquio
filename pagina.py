@@ -1408,7 +1408,7 @@ elif pagina_seleccionada == "Feriantes":
                 color:#DC2F82;
                 margin-bottom:15px;
             ">
-                Diversa Editorial
+                Crónicas de la Diversidad
             </h3>
             """, unsafe_allow_html=True)
         
@@ -1418,10 +1418,10 @@ elif pagina_seleccionada == "Feriantes":
                 font-size:16px;
                 color:#444;
             ">
-                Diversa Editorial es un emprendimiento sanmarquino que busca visibilizar la literatura disidente y queer en lengua castellana. 
-                Como editores de la revista Visibles, impulsa la difusión de narrativas diversas y, 
-                a través de publicaciones, libros y libretas artesanales, fomenta la circulación de
-                voces diversas y la representación de las disidencias sexuales y de género.
+                Crónicas de la Diversidad es una plataforma peruana de comunicación y 
+                difusión cultural dedicada a promover el arte, la literatura y las expresiones 
+                culturales LGBTQ+ en el Perú. Su labor busca fortalecer la memoria cultural LGBTQ+, fomentar el diálogo 
+                y contribuir a una sociedad más inclusiva y libre de discriminación.
             </div>
             """, unsafe_allow_html=True)
             st.write("")
