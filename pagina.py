@@ -1552,11 +1552,10 @@ elif pagina_seleccionada == "Feriantes":
                 font-size:16px;
                 color:#444;
             ">
-                Diversa Cartonera es una editorial independiente peruana dedicada a la promoción y democratización de la literatura disidente. 
+                Diversa Cartonera es una editorial independiente peruana dedicada a la promoción de la literatura disidente. 
                 Fundado por María José Montezuma, apuesta por la edición artesanal de libros cartoneros como una forma de acercar la lectura, 
                 la escritura y la cultura a diversas comunidades. A través de publicaciones, talleres y proyectos colaborativos, 
-                impulsa la visibilización de voces LGBTQ+, feministas y disidentes, promoviendo la memoria, la participación comunitaria y 
-                el acceso a la producción cultural desde una perspectiva inclusiva y transformadora.
+                impulsa la visibilización de voces LGBTQ+, feministas y disidentes, promoviendo la memoria y la participación comunitaria.
             </div>
             """, unsafe_allow_html=True)
             st.write("")
