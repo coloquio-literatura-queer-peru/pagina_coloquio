@@ -1561,13 +1561,9 @@ elif pagina_seleccionada == "Feriantes":
             st.write("")
             st.markdown(
                 "📷 **Instagram:** "
-                "[@diversaeditorial](https://www.instagram.com/diversaeditorial/)"
+                "[@diversacartonera](https://www.instagram.com/diversacartonera/)"
             )
-            st.markdown(
-                "📩 **Correo:** "
-                "ed.diversa@gmail.com"
-            )
-            
+
     st.write("")
 
     col46, col47, col48 = st.columns([0.8,0.8,0.8])
