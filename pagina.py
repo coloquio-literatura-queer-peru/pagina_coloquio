@@ -1478,7 +1478,7 @@ elif pagina_seleccionada == "Feriantes":
                 color:#DC2F82;
                 margin-bottom:15px;
             ">
-                Editorial Gafas Moradas
+                Estado de Limbo
             </h3>
             """, unsafe_allow_html=True)
         
@@ -1488,23 +1488,19 @@ elif pagina_seleccionada == "Feriantes":
                 font-size:16px;
                 color:#444;
             ">
-                Gafas Moradas es una editorial peruana feminista e independiente con perspectiva de género. 
-                Publica libros que abordan temas como los feminismos, las masculinidades, la maternidad, 
-                la diversidad sexual y la paridad de género. A través de sus publicaciones, busca promover 
-                la reflexión, la igualdad y el activismo, invitando a sus lectores a mirar el mundo desde nuevas perspectivas.
+                Estado de Limbo es el proyecto artístico y editorial de Romina Rodrigo, ilustradorx, 
+                diseñadorx gráficx y creadorx de cómics independientes. 
+                Nacido como una página de ilustraciones en 2014 y consolidado en el circuito 
+                de fanzines desde 2016, el proyecto explora temas vinculados a la cultura pop, 
+                la diversidad sexual, el afecto y las experiencias queer a través de la ilustración, el cómic y la autoedición.
             </div>
             """, unsafe_allow_html=True)
             st.write("")
             st.markdown(
                 "📷 **Instagram:** "
-                "[@editorial_gafas_moradas](https://www.instagram.com/editorial_gafas_moradas/)"
+                "[@estadodelimbo](https://www.instagram.com/estadodelimbo/)"
             )
 
-            st.markdown(
-                "🌐 **Web:** "
-                "https://www.editorialgafasmoradas.com"
-            )
-    
     with col44:
         st.image("fotos/leyendo_orgullo.png")
         with st.container(border=True):
