@@ -1400,7 +1400,7 @@ elif pagina_seleccionada == "Feriantes":
             )
         
     with col41:
-        st.image("fotos/diversa_editorial.png")
+        st.image("fotos/cronica_diversidad.png")
         with st.container(border=True):
             st.markdown("""
             <h3 style="
@@ -1435,7 +1435,7 @@ elif pagina_seleccionada == "Feriantes":
             )
            
     with col42:
-        st.image("fotos/leyendo_orgullo.png")
+        st.image("fotos/almas_feministas.png")
         with st.container(border=True):
             st.markdown("""
             <h3 style="
