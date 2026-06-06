@@ -1542,7 +1542,7 @@ elif pagina_seleccionada == "Feriantes":
                 color:#DC2F82;
                 margin-bottom:15px;
             ">
-                Diversa Editorial
+                Diversa Cartonera
             </h3>
             """, unsafe_allow_html=True)
         
@@ -1552,10 +1552,11 @@ elif pagina_seleccionada == "Feriantes":
                 font-size:16px;
                 color:#444;
             ">
-                Diversa Editorial es un emprendimiento sanmarquino que busca visibilizar la literatura disidente y queer en lengua castellana. 
-                Como editores de la revista Visibles, impulsa la difusión de narrativas diversas y, 
-                a través de publicaciones, libros y libretas artesanales, fomenta la circulación de
-                voces diversas y la representación de las disidencias sexuales y de género.
+                Diversa Cartonera es una editorial independiente peruana dedicada a la promoción y democratización de la literatura disidente. 
+                Fundado por María José Montezuma, apuesta por la edición artesanal de libros cartoneros como una forma de acercar la lectura, 
+                la escritura y la cultura a diversas comunidades. A través de publicaciones, talleres y proyectos colaborativos, 
+                impulsa la visibilización de voces LGBTQ+, feministas y disidentes, promoviendo la memoria, la participación comunitaria y 
+                el acceso a la producción cultural desde una perspectiva inclusiva y transformadora.
             </div>
             """, unsafe_allow_html=True)
             st.write("")
