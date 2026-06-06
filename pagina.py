@@ -1576,7 +1576,7 @@ elif pagina_seleccionada == "Feriantes":
                 color:#DC2F82;
                 margin-bottom:15px;
             ">
-                Editorial Gafas Moradas
+                Editorial AbriLes 
             </h3>
             """, unsafe_allow_html=True)
         
@@ -1586,21 +1586,22 @@ elif pagina_seleccionada == "Feriantes":
                 font-size:16px;
                 color:#444;
             ">
-                Gafas Moradas es una editorial peruana feminista e independiente con perspectiva de género. 
-                Publica libros que abordan temas como los feminismos, las masculinidades, la maternidad, 
-                la diversidad sexual y la paridad de género. A través de sus publicaciones, busca promover 
-                la reflexión, la igualdad y el activismo, invitando a sus lectores a mirar el mundo desde nuevas perspectivas.
+                Editorial Abriles es un sello editorial independiente peruano dedicado 
+                a la promoción de nuevas voces literarias y proyectos culturales emergentes. 
+                Su catálogo incluye poesía, narrativa y publicaciones de jóvenes autores, 
+                apostando por la difusión de propuestas contemporáneas y la creación de espacios 
+                para la expresión de escritoras y escritores en formación.
             </div>
             """, unsafe_allow_html=True)
             st.write("")
             st.markdown(
                 "📷 **Instagram:** "
-                "[@editorial_gafas_moradas](https://www.instagram.com/editorial_gafas_moradas/)"
+                "[@editorialabriles](https://www.instagram.com/editorialabriles/)"
             )
 
             st.markdown(
-                "🌐 **Web:** "
-                "https://www.editorialgafasmoradas.com"
+                "📷 **Facebook:** "
+                "[@editorialabriles](https://www.facebook.com/editorialabriles/)"
             )
 
     with col47:
