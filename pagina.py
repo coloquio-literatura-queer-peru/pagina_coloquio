@@ -1469,43 +1469,7 @@ elif pagina_seleccionada == "Feriantes":
     st.write("")
 
     col43, col44, col45 = st.columns([0.8,0.8,0.8])
-        
     with col43:
-        st.image("fotos/diversa_editorial.png")
-        with st.container(border=True):
-            st.markdown("""
-            <h3 style="
-                text-align:center;
-                color:#DC2F82;
-                margin-bottom:15px;
-            ">
-                Diversa Editorial
-            </h3>
-            """, unsafe_allow_html=True)
-        
-            st.markdown("""
-            <div style="
-                text-align: justify;
-                font-size:16px;
-                color:#444;
-            ">
-                Diversa Editorial es un emprendimiento sanmarquino que busca visibilizar la literatura disidente y queer en lengua castellana. 
-                Como editores de la revista Visibles, impulsa la difusión de narrativas diversas y, 
-                a través de publicaciones, libros y libretas artesanales, fomenta la circulación de
-                voces diversas y la representación de las disidencias sexuales y de género.
-            </div>
-            """, unsafe_allow_html=True)
-            st.write("")
-            st.markdown(
-                "📷 **Instagram:** "
-                "[@diversaeditorial](https://www.instagram.com/diversaeditorial/)"
-            )
-            st.markdown(
-                "📩 **Correo:** "
-                "ed.diversa@gmail.com"
-            )
-
-    with col44:
         st.image("fotos/estado_limbo.png")
         with st.container(border=True):
             st.markdown("""
@@ -1541,7 +1505,7 @@ elif pagina_seleccionada == "Feriantes":
                 "https://www.editorialgafasmoradas.com"
             )
     
-    with col45:
+    with col44:
         st.image("fotos/leyendo_orgullo.png")
         with st.container(border=True):
             st.markdown("""
@@ -1573,7 +1537,149 @@ elif pagina_seleccionada == "Feriantes":
                 "📷 **Instagram:** "
                 "[@leyendoconorgullo](https://www.instagram.com/leyendoconorgullo/)"
             )
-    st.write("")            
+    with col45:
+        st.image("fotos/diversa_editorial.png")
+        with st.container(border=True):
+            st.markdown("""
+            <h3 style="
+                text-align:center;
+                color:#DC2F82;
+                margin-bottom:15px;
+            ">
+                Diversa Editorial
+            </h3>
+            """, unsafe_allow_html=True)
+        
+            st.markdown("""
+            <div style="
+                text-align: justify;
+                font-size:16px;
+                color:#444;
+            ">
+                Diversa Editorial es un emprendimiento sanmarquino que busca visibilizar la literatura disidente y queer en lengua castellana. 
+                Como editores de la revista Visibles, impulsa la difusión de narrativas diversas y, 
+                a través de publicaciones, libros y libretas artesanales, fomenta la circulación de
+                voces diversas y la representación de las disidencias sexuales y de género.
+            </div>
+            """, unsafe_allow_html=True)
+            st.write("")
+            st.markdown(
+                "📷 **Instagram:** "
+                "[@diversaeditorial](https://www.instagram.com/diversaeditorial/)"
+            )
+            st.markdown(
+                "📩 **Correo:** "
+                "ed.diversa@gmail.com"
+            )
+            
+    st.write("")
+
+    col46, col47, col48 = st.columns([0.8,0.8,0.8])
+    with col46:
+        st.image("fotos/estado_limbo.png")
+        with st.container(border=True):
+            st.markdown("""
+            <h3 style="
+                text-align:center;
+                color:#DC2F82;
+                margin-bottom:15px;
+            ">
+                Editorial Gafas Moradas
+            </h3>
+            """, unsafe_allow_html=True)
+        
+            st.markdown("""
+            <div style="
+                text-align: justify;
+                font-size:16px;
+                color:#444;
+            ">
+                Gafas Moradas es una editorial peruana feminista e independiente con perspectiva de género. 
+                Publica libros que abordan temas como los feminismos, las masculinidades, la maternidad, 
+                la diversidad sexual y la paridad de género. A través de sus publicaciones, busca promover 
+                la reflexión, la igualdad y el activismo, invitando a sus lectores a mirar el mundo desde nuevas perspectivas.
+            </div>
+            """, unsafe_allow_html=True)
+            st.write("")
+            st.markdown(
+                "📷 **Instagram:** "
+                "[@editorial_gafas_moradas](https://www.instagram.com/editorial_gafas_moradas/)"
+            )
+
+            st.markdown(
+                "🌐 **Web:** "
+                "https://www.editorialgafasmoradas.com"
+            )
+    
+    with col47:
+        st.image("fotos/leyendo_orgullo.png")
+        with st.container(border=True):
+            st.markdown("""
+            <h3 style="
+                text-align:center;
+                color:#DC2F82;
+                margin-bottom:15px;
+            ">
+                Club de Lectura: Leyendo con Orgullo
+            </h3>
+            """, unsafe_allow_html=True)
+        
+            st.markdown("""
+            <div style="
+                text-align: justify;
+                font-size:16px;
+                color:#444;
+            ">
+                Leyendo con Orgullo es un club de lectura peruano dedicado a la difusión de literatura LGBTQ+ 
+                y a la creación de espacios para el diálogo y la reflexión. 
+                Fundado por Renzo Cabrera, el proyecto promueve la lectura de obras 
+                con protagonistas y temáticas de la diversidad sexual y de género, 
+                fomentando el intercambio de ideas, la construcción de comunidad y 
+                el reconocimiento de experiencias diversas a través de los libros.
+            </div>
+            """, unsafe_allow_html=True)
+            st.write("")
+            st.markdown(
+                "📷 **Instagram:** "
+                "[@leyendoconorgullo](https://www.instagram.com/leyendoconorgullo/)"
+            )
+    with col48:
+        st.image("fotos/diversa_editorial.png")
+        with st.container(border=True):
+            st.markdown("""
+            <h3 style="
+                text-align:center;
+                color:#DC2F82;
+                margin-bottom:15px;
+            ">
+                Diversa Editorial
+            </h3>
+            """, unsafe_allow_html=True)
+        
+            st.markdown("""
+            <div style="
+                text-align: justify;
+                font-size:16px;
+                color:#444;
+            ">
+                Diversa Editorial es un emprendimiento sanmarquino que busca visibilizar la literatura disidente y queer en lengua castellana. 
+                Como editores de la revista Visibles, impulsa la difusión de narrativas diversas y, 
+                a través de publicaciones, libros y libretas artesanales, fomenta la circulación de
+                voces diversas y la representación de las disidencias sexuales y de género.
+            </div>
+            """, unsafe_allow_html=True)
+            st.write("")
+            st.markdown(
+                "📷 **Instagram:** "
+                "[@diversaeditorial](https://www.instagram.com/diversaeditorial/)"
+            )
+            st.markdown(
+                "📩 **Correo:** "
+                "ed.diversa@gmail.com"
+            )
+            
+    st.write("")  
+
 else:
     st.markdown("""
         <h2 style="
