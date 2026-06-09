@@ -1710,6 +1710,9 @@ else:
             </a>
         </div>
         """, unsafe_allow_html=True)
+        
+    with col38:
+        st.video("https://www.youtube.com/watch?v=V2fKd0cNq3U")
      
 
 st.markdown("""
