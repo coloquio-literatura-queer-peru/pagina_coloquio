@@ -1659,7 +1659,7 @@ else:
     st.markdown("""
     <style>
     [data-testid="stImage"] {
-        margin-bottom: -90px;
+        margin-bottom: -100px;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -1722,6 +1722,27 @@ else:
     col50, col51 = st.columns(2)
     with col50:
         st.video("https://www.youtube.com/watch?v=V2fKd0cNq3U")
+        st.markdown("""
+        <div style="
+            background-color:#DC2F82;
+            border:1px solid #ddd;
+            border-radius:12px;
+            padding:15px;
+            text-align:center;
+            box-shadow:0 4px 10px rgba(0,0,0,0.15);
+        ">
+            <a href="https://www.youtube.com/watch?v=V2fKd0cNq3U"
+               target="_blank"
+               style="
+                    text-decoration:none;
+                    font-size:22px;
+                    font-weight:bold;
+                    color: #F4E9E2;
+               ">
+                Mholcast
+            </a>
+        </div>
+        """, unsafe_allow_html=True)
      
 
 st.markdown("""
