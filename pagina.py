@@ -641,7 +641,7 @@ elif pagina_seleccionada == "Programa":
             Julia Celeste Castillo Vaca, Coordinadora General del I Coloquio de Literatura Peruana Queer
         </div>
         <div style="margin-top:10px;">
-            <b>Puesta en escene "Divina prisión"</b>
+            <b>Puesta en escena <i>Divina prisión</i></b>
         </div>
         <div style="margin-top:10px;">
             Participa: Movimiento Homosexual de Lima (MHOL)
