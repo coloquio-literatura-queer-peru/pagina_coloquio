@@ -77,9 +77,18 @@ if pagina_seleccionada == "Presentación":
     st.write("")
         
     texto_1 = """
-    El I Coloquio de Literatura Peruana Queer nace como un espacio de encuentro entre la investigación, la creación literaria y las representaciones artísticas de personas LGBTIQ+. 
-    Este coloquio busca visibilizar autorías disidentes, compartir miradas críticas y tejer redes entre escritores, investigadores y lectores, apostando por la construcción de una comunidad literaria más diversa, accesible e inclusiva.
-    El evento se desarrollará el 19, 20 y 21 de junio de 2026.
+    Del 19 al 21 de junio del 2026, se realizará el I Coloquio de Literatura Peruana Queer, el primer encuentro de alcance nacional dedicado 
+    exclusivamente al estudio, difusión y celebración de las literaturas, memorias y expresiones culturales queer en el Perú. 
+    Este evento constituye un hito para la historia cultural y LGTBIQ+ peruana al reunir, por primera vez, a investigadores, escritores, 
+    poetas, activistas, artistas y gestores culturales en torno a una programación especializada centrada en las disidencias sexuales y de género.
+
+    Entre los temas que abordará el encuentro destacan las feminidades queer en la literatura peruana contemporánea, 
+    las relecturas queer del canon nacional, las poéticas trans y travestis, las representaciones de la diversidad en la literatura infantil, 
+    los archivos de las disidencias sexuales, las memorias LGTBIQ+ peruanas y las nuevas escrituras queer emergentes.
+    Asimismo, el coloquio presentará investigaciones audiovisuales inéditas como Lo queer en los Andes: 
+    entre la representación y el silencio en las ruralidades peruanas, de Fátima Denisse Córdova Luna, y 
+    Desprogramar el género: hyperpoesía, futurismo andino y subjetividades queer en la literatura digital peruana, 
+    de Lisa Carrasco La Cruz, contribuyendo a ampliar los horizontes de la investigación sobre sexualidad, género y producción cultural en el Perú.
     """
     st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
     
