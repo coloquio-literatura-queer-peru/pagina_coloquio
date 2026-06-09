@@ -1712,7 +1712,7 @@ else:
         """, unsafe_allow_html=True)
         
     with col38:
-        izquierda, centro, derecha = st.columns([1, 4, 1])
+        izquierda, centro, derecha = st.columns([4, 1, 1])
         with centro:
             st.video("https://www.youtube.com/watch?v=V2fKd0cNq3U")
      
