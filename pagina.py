@@ -1655,7 +1655,7 @@ else:
         </h2>
     """, unsafe_allow_html=True)
     
-    col36, col37, col38 = st.columns(3)
+    col36, col37 = st.columns(2)
     st.markdown("""
     <style>
     [data-testid="stImage"] {
@@ -1719,7 +1719,7 @@ else:
 
     st.write("")  
     
-    col50, col51, col52 = st.columns(3)
+    col50, col51 = st.columns(2)
     with col50:
         st.video("https://www.youtube.com/watch?v=V2fKd0cNq3U")
      
