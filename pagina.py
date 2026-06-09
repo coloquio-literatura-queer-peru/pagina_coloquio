@@ -1659,7 +1659,7 @@ else:
     st.markdown("""
     <style>
     [data-testid="stImage"] {
-        margin-bottom: -100px;
+        margin-bottom: -120px;
     }
     </style>
     """, unsafe_allow_html=True)
