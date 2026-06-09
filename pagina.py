@@ -635,13 +635,14 @@ elif pagina_seleccionada == "Programa":
         <strong>03:10 PM - 03:40 PM</strong><br> 
         Inauguración
         <div style="margin-top:10px;">
-            <b><i>Palabras de bienvenida</i></b>
+            <b>Palabras de bienvenida</b>
         </div>
         <div style="margin-top:10px;">
-            Participa: Julia Celeste Castillo Vaca, Coordinadora General del I Coloquio de Literatura Peruana Queer
+            Julia Celeste Castillo Vaca, Coordinadora General del I Coloquio de Literatura Peruana Queer
         </div>
+        st.write("")
         <div style="margin-top:10px;">
-            <b><i>Puesta en escene "Divina prisión"</i></b>
+            <b>Puesta en escene "Divina prisión"</b>
         </div>
         <div style="margin-top:10px;">
             Participa: Movimiento Homosexual de Lima (MHOL)
