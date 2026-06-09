@@ -81,7 +81,6 @@ if pagina_seleccionada == "Presentación":
     exclusivamente al estudio, difusión y celebración de las literaturas, memorias y expresiones culturales queer en el Perú. 
     Este evento constituye un hito para la historia cultural y LGTBIQ+ peruana al reunir, por primera vez, a investigadores, escritores, 
     poetas, activistas, artistas y gestores culturales en torno a una programación especializada centrada en las disidencias sexuales y de género.
-
     Entre los temas que abordará el encuentro destacan las feminidades queer en la literatura peruana contemporánea, 
     las relecturas queer del canon nacional, las poéticas trans y travestis, las representaciones de la diversidad en la literatura infantil, 
     los archivos de las disidencias sexuales, las memorias LGTBIQ+ peruanas y las nuevas escrituras queer emergentes.
