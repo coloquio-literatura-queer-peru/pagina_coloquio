@@ -84,9 +84,9 @@ if pagina_seleccionada == "Presentación":
     Entre los temas que abordará el encuentro destacan las feminidades queer en la literatura peruana contemporánea, 
     las relecturas queer del canon nacional, las poéticas trans y travestis, las representaciones de la diversidad en la literatura infantil, 
     los archivos de las disidencias sexuales, las memorias LGTBIQ+ peruanas y las nuevas escrituras queer emergentes.
-    Asimismo, el coloquio presentará investigaciones audiovisuales inéditas como Lo queer en los Andes: 
-    entre la representación y el silencio en las ruralidades peruanas, de Fátima Denisse Córdova Luna, y 
-    Desprogramar el género: hyperpoesía, futurismo andino y subjetividades queer en la literatura digital peruana, 
+    Asimismo, el coloquio presentará investigaciones audiovisuales inéditas como 'Lo queer en los Andes: 
+    entre la representación y el silencio en las ruralidades peruanas" de Fátima Denisse Córdova Luna, y 
+    "Desprogramar el género: hyperpoesía, futurismo andino y subjetividades queer en la literatura digital peruana" 
     de Lisa Carrasco La Cruz, contribuyendo a ampliar los horizontes de la investigación sobre sexualidad, género y producción cultural en el Perú.
     """
     st.markdown(f"<div style='text-align: justify; font-size: 22px'>{texto_1}</div>", unsafe_allow_html=True)
