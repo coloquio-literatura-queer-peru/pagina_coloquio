@@ -640,7 +640,6 @@ elif pagina_seleccionada == "Programa":
         <div style="margin-top:10px;">
             Julia Celeste Castillo Vaca, Coordinadora General del I Coloquio de Literatura Peruana Queer
         </div>
-        st.write("")
         <div style="margin-top:10px;">
             <b>Puesta en escene "Divina prisión"</b>
         </div>
