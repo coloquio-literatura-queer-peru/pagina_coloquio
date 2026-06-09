@@ -1656,7 +1656,13 @@ else:
     """, unsafe_allow_html=True)
     
     col36, col37, col38 = st.columns(3)
-
+    st.markdown("""
+    <style>
+    [data-testid="stImage"] {
+        margin-bottom: -20px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
     with col36:
         st.image(
             "fotos/cronicas_diversidad.png",
