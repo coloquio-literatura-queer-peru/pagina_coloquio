@@ -1710,11 +1710,10 @@ else:
             </a>
         </div>
         """, unsafe_allow_html=True)
-        
-    with col38:
-        izquierda, centro, derecha = st.columns([4, 1, 1])
-        with centro:
-            st.video("https://www.youtube.com/watch?v=V2fKd0cNq3U")
+
+    col50, col51, col52 = st.columns(3)
+    with col50:
+        st.video("https://www.youtube.com/watch?v=V2fKd0cNq3U")
      
 
 st.markdown("""
