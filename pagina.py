@@ -1711,6 +1711,8 @@ else:
         </div>
         """, unsafe_allow_html=True)
 
+    st.write("")  
+    
     col50, col51, col52 = st.columns(3)
     with col50:
         st.video("https://www.youtube.com/watch?v=V2fKd0cNq3U")
