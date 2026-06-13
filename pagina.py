@@ -652,7 +652,7 @@ elif pagina_seleccionada == "Programa":
             entorno hostil. La aparición de una figura divina pondrá a prueba quiénses son realmente.
         </div>
         <div style="margin-top:10px;">
-            Participa: Movimiento Homosexual de Lima (MHOL)
+            Movimiento Homosexual de Lima (MHOL)
         </div>
     </div>
     """, unsafe_allow_html=True)
