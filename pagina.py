@@ -641,7 +641,15 @@ elif pagina_seleccionada == "Programa":
             Julia Celeste Castillo Vaca, Coordinadora General del I Coloquio de Literatura Peruana Queer
         </div>
         <div style="margin-top:10px;">
+            Susel Paredes, Congresista de la República del Perú
+        </div>
+        <div style="margin-top:10px;">
             <b>Puesta en escena <i>Divina prisión</i></b>
+        </div>
+        <div style="margin-top:10px;">
+            Un grupo de personas despierta en una prisión sin saber por qué está allí.
+            Entre la confusión y el desconcierto, intentan reconstruir su identidad y sobrevivir en un 
+            entorno hostil. La aparición de una figura divina pondrá a prueba quiénses son realmente.
         </div>
         <div style="margin-top:10px;">
             Participa: Movimiento Homosexual de Lima (MHOL)
