@@ -1767,6 +1767,7 @@ else:
             </a>
         </div>
         """, unsafe_allow_html=True)
+        
      with col51:
         st.video("https://www.youtube.com/watch?v=wyXKcviaHbk&list=PL7goI-wl3QvHPciPlOzdo5WPkdhu_8jI7")
         st.markdown("""
