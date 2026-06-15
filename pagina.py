@@ -1767,7 +1767,29 @@ else:
             </a>
         </div>
         """, unsafe_allow_html=True)
-     
+     with col51:
+        st.video("https://www.youtube.com/watch?v=wyXKcviaHbk&list=PL7goI-wl3QvHPciPlOzdo5WPkdhu_8jI7")
+        st.markdown("""
+        <div style="
+            background-color:#DC2F82;
+            border:1px solid #ddd;
+            border-radius:12px;
+            padding:15px;
+            text-align:center;
+            box-shadow:0 4px 10px rgba(0,0,0,0.15);
+        ">
+            <a href="https://www.youtube.com/watch?v=wyXKcviaHbk&list=PL7goI-wl3QvHPciPlOzdo5WPkdhu_8jI7"
+               target="_blank"
+               style="
+                    text-decoration:none;
+                    font-size:22px;
+                    font-weight:bold;
+                    color: #F4E9E2;
+               ">
+                Sacúdete Sin Culpa (El Buen Librero)
+            </a>
+        </div>
+        """, unsafe_allow_html=True)
 
 st.markdown("""
 <hr style="margin-top:60px; margin-bottom:20px;">
