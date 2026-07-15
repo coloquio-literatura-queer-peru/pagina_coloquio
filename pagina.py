@@ -1678,6 +1678,15 @@ elif pagina_seleccionada == "Galería":
         </h1>
     """, unsafe_allow_html=True)
 
+    col61, col62, col63 = st.columns(3)
+    with col61:
+        st.image("fotos/viernes19_15")
+    with col62:
+        st.image("fotos/viernes19_14")
+    with col63:
+        st.image("fotos/viernes19_13")
+
+
 else:
     st.markdown("""
         <h2 style="
