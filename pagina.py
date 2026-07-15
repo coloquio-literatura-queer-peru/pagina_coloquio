@@ -33,13 +33,13 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-paginas = ["Presentación", "Equipo organizador", "Convocatoria de sumillas", "Programa", "Feriantes", "Menciones"]
+paginas = ["Presentación", "Equipo organizador", "Convocatoria de sumillas", "Programa", "Feriantes", "Galería", "Menciones"]
 
 with st.sidebar:
     pagina_seleccionada = option_menu(
         menu_title=None,
         options=paginas,
-        icons=['house','person','file-earmark-arrow-up','calendar', 'book-half', 'chat-left-heart'],
+        icons=['house','person','file-earmark-arrow-up','calendar', 'book-half', 'camera', 'chat-left-heart'],
         default_index=0
     )
 
@@ -1664,6 +1664,19 @@ elif pagina_seleccionada == "Feriantes":
             )
             
     st.write("")  
+
+elif pagina_seleccionada == "Galería":
+    st.markdown("""
+        <h1 style="
+            font-size:45px;
+            color:#e55940;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        Galería de fotos
+        </h1>
+    """, unsafe_allow_html=True)
 
 else:
     st.markdown("""
