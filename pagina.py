@@ -1678,6 +1678,18 @@ elif pagina_seleccionada == "Galería":
         </h1>
     """, unsafe_allow_html=True)
 
+    st.markdown("""
+        <h2 style="
+            font-size:30px;
+            color:#775aa4;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        VIERNES 19 DE JUNIO (CASA DE LA LITERATURA PERUANA)
+        </h2>
+    """, unsafe_allow_html=True)
+
     col61, col62, col63 = st.columns(3)
     with col61:
         st.image("fotos/viernes19_15.jpg")
