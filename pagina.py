@@ -1669,7 +1669,7 @@ elif pagina_seleccionada == "Galería":
     st.markdown("""
         <h1 style="
             font-size:45px;
-            color:#e55940;
+            color:#DC2F82;
             font-weight:bold;
             text-align:center;
             margin-bottom:20px;
