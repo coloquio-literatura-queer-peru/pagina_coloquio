@@ -1684,7 +1684,7 @@ elif pagina_seleccionada == "Galería":
     with col62:
         st.image("fotos/viernes19_14.jpg")
     with col63:
-        st.image("fotos/viernes19_13.jpg")
+        st.image("fotos/viernes19_11.jpg")
 
 
 else:
