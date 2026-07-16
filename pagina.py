@@ -1796,11 +1796,13 @@ elif pagina_seleccionada == "Galería":
 
     col94, col95, col96 = st.columns(3)
     with col94:
-        st.image("fotos/sabado20_18.jpg")
+        img18 = Image.open("fotos/sabado20_18.jpg").rotate(270, expand=True)
+        st.image(img18)
     with col95:
-        st.image("fotos/sabado20_19.jpg")
+        img19 = Image.open("fotos/sabado20_19.jpg").rotate(270, expand=True)
+        st.image(img19)
     with col96:
-        st.image("fotos/sabado20_20.jpg")
+        st.image("fotos/sabado20_20.png")
 
     col73, col74, col75 = st.columns(3)
     with col73:
