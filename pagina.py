@@ -1794,13 +1794,13 @@ elif pagina_seleccionada == "Galería":
         img17 = Image.open("fotos/sabado20_17.jpg").rotate(270, expand=True)
         st.image(img17)
 
-    col70, col71, col72 = st.columns(3)
-    with col70:
-        st.image("fotos/viernes19_2.jpg")
-    with col71:
-        st.image("fotos/viernes19_8.jpg")
-    with col72:
-        st.image("fotos/viernes19_1.jpg")
+    col94, col95, col96 = st.columns(3)
+    with col94:
+        st.image("fotos/sabado20_18.jpg")
+    with col95:
+        st.image("fotos/sabado20_19.jpg")
+    with col96:
+        st.image("fotos/sabado20_20.jpg")
 
     col73, col74, col75 = st.columns(3)
     with col73:
