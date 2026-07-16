@@ -1799,19 +1799,19 @@ elif pagina_seleccionada == "Galería":
 
     col94, col95, col96 = st.columns(3)
     with col94:
-        st.image("fotos/sabado20_14.jpg")
-    with col95:
         st.image("fotos/sabado20_12.jpg")
-    with col96:
+    with col95:
         st.image("fotos/sabado20_13.jpg")
+    with col96:
+        st.image("fotos/sabado20_15.jpg")
 
-    col76, col77, col78 = st.columns(3)
-    with col76:
-        st.image("fotos/viernes19_18.jpg")
-    with col77:
-        st.image("fotos/viernes19_5.jpg")
-    with col78:
-        st.image("fotos/viernes19_17.jpg")
+    col97, col98, col99 = st.columns(3)
+    with col97:
+        st.image("fotos/sabado20_16.jpg")
+    with col98:
+        st.image("fotos/sabado20_17.jpg")
+    with col99:
+        st.image("fotos/sabado20_18.jpg")
 
     col79, col80, col81 = st.columns(3)
     with col79:
