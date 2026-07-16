@@ -1673,6 +1673,14 @@ elif pagina_seleccionada == "Feriantes":
     with col102:
         st.image("fotos/feria19_3.jpg")
 
+    col103, col104, col105 = st.columns(3)
+    with col103:
+        st.image("fotos/feria19_4.jpg")
+    with col104:
+        st.image("fotos/feria19_5.jpg")
+    with col105:
+        st.image("fotos/feria19_6.jpg")
+
 elif pagina_seleccionada == "Galería":
     st.markdown("""
         <h1 style="
