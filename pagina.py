@@ -1777,40 +1777,32 @@ elif pagina_seleccionada == "Galería":
         
     col88, col89, col90 = st.columns(3)
     with col88:
-        st.image("fotos/sabado20_14.jpg")
-    with col89:
-        st.image("fotos/sabado20_12.jpg")
-    with col90:
-        st.image("fotos/sabado20_13.jpg")
-
-    col91, col92, col93 = st.columns(3)
-    with col91:
         st.image("fotos/sabado20_15.jpg")
-    with col92:
+    with col89:
         img16 = Image.open("fotos/sabado20_16.jpg").rotate(270, expand=True)
         st.image(img16)
 
-    with col93:
+    with col90:
         img17 = Image.open("fotos/sabado20_17.jpg").rotate(270, expand=True)
         st.image(img17)
 
-    col94, col95, col96 = st.columns(3)
-    with col94:
+    col91, col92, col93 = st.columns(3)
+    with col91:
         img18 = Image.open("fotos/sabado20_18.jpg").rotate(270, expand=True)
         st.image(img18)
-    with col95:
+    with col92:
         img19 = Image.open("fotos/sabado20_19.jpg").rotate(270, expand=True)
         st.image(img19)
-    with col96:
+    with col93:
         img20 = Image.open("fotos/sabado20_20.jpg").rotate(270, expand=True)
         st.image(img20)
 
-    col73, col74, col75 = st.columns(3)
-    with col73:
+    col94, col95, col96 = st.columns(3)
+    with col94:
         st.image("fotos/viernes19_7.jpg")
-    with col74:
+    with col95:
         st.image("fotos/viernes19_16.jpg")
-    with col75:
+    with col96:
         st.image("fotos/viernes19_6.jpg")
 
     col76, col77, col78 = st.columns(3)
