@@ -1776,9 +1776,9 @@ elif pagina_seleccionada == "Galería":
         
     col88, col89, col90 = st.columns(3)
     with col88:
-        st.image("fotos/sabado20_12.jpg")
-    with col89:
         st.image("fotos/sabado20_14.jpg")
+    with col89:
+        st.image("fotos/sabado20_12.jpg")
     with col90:
         st.image("fotos/sabado20_13.jpg")
 
