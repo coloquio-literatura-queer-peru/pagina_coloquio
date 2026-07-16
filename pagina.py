@@ -1766,7 +1766,7 @@ elif pagina_seleccionada == "Galería":
         </h2>
     """, unsafe_allow_html=True)
 
-    col85, col86, col87 = st.columns([1.25,1.15,1.15])
+    col85, col86, col87 = st.columns([1.23,1.15,1.15])
     with col85:
         st.image("fotos/sabado20_2.jpg")
     with col86:
