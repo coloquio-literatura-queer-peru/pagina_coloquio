@@ -1875,11 +1875,11 @@ elif pagina_seleccionada == "Galería":
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("fotos/sabado20_5.jpg")
+        st.image("fotos/domingo21_1.jpg")
     with col2:
-        st.image("fotos/sabado20_4.jpg")
+        st.image("fotos/domingo21_2.jpg")
     with col3:
-        st.image("fotos/sabado20_11.jpg")
+        st.image("fotos/domingo21_3.png")
 
 else:
     st.markdown("""
