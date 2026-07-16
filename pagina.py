@@ -1665,22 +1665,6 @@ elif pagina_seleccionada == "Feriantes":
 
     st.write("") 
 
-    col100, col101, col102 = st.columns(3)
-    with col100:
-        st.image("fotos/feria19_1.jpg")
-    with col101:
-        st.image("fotos/feria19_2.jpg")
-    with col102:
-        st.image("fotos/feria19_3.jpg")
-
-    col103, col104, col105 = st.columns(3)
-    with col103:
-        st.image("fotos/feria19_4.jpg")
-    with col104:
-        st.image("fotos/feria19_5.jpg")
-    with col105:
-        st.image("fotos/feria19_6.jpg")
-
 elif pagina_seleccionada == "Galería":
     st.markdown("""
         <h1 style="
@@ -1753,6 +1737,22 @@ elif pagina_seleccionada == "Galería":
         st.image("fotos/viernes19_5.jpg")
     with col78:
         st.image("fotos/viernes19_17.jpg")
+
+    col79, col80, col81 = st.columns(3)
+    with col79:
+        st.image("fotos/feria19_1.jpg")
+    with col80:
+        st.image("fotos/feria19_2.jpg")
+    with col81:
+        st.image("fotos/feria19_3.jpg")
+
+    col82, col83, col84 = st.columns(3)
+    with col82:
+        st.image("fotos/feria19_4.jpg")
+    with col83:
+        st.image("fotos/feria19_5.jpg")
+    with col84:
+        st.image("fotos/feria19_6.jpg")
 
 else:
     st.markdown("""
