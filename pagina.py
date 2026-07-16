@@ -1815,19 +1815,35 @@ elif pagina_seleccionada == "Galería":
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("fotos/sabado20_21.jpg")
+        st.image("fotos/sabado20_25.jpg")
     with col2:
-        st.image("fotos/sabado20_22.jpg")
+        st.image("fotos/sabado20_24.jpg")
     with col3:
-        st.image("fotos/sabado20_23.jpg")
+        st.image("fotos/sabado20_26.jpg")
 
-    col82, col83, col84 = st.columns(3)
-    with col82:
-        st.image("fotos/feria19_4.jpg")
-    with col83:
-        st.image("fotos/feria19_5.jpg")
-    with col84:
-        st.image("fotos/feria19_6.jpg")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("fotos/sabado20_25.jpg")
+    with col2:
+        st.image("fotos/sabado20_24.jpg")
+    with col3:
+        st.image("fotos/sabado20_26.jpg")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("fotos/sabado20_25.jpg")
+    with col2:
+        st.image("fotos/sabado20_24.jpg")
+    with col3:
+        st.image("fotos/sabado20_26.jpg")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("fotos/sabado20_25.jpg")
+    with col2:
+        st.image("fotos/sabado20_24.jpg")
+    with col3:
+        st.image("fotos/sabado20_26.jpg")
 else:
     st.markdown("""
         <h2 style="
