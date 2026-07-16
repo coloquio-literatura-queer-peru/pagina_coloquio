@@ -1702,8 +1702,7 @@ elif pagina_seleccionada == "Galería":
             text-align:center;
             margin-bottom:20px;
         ">
-        VIERNES 19 DE JUNIO 
-        (CASA DE LA LITERATURA PERUANA)
+        VIERNES 19 DE JUNIO (CASA DE LA LITERATURA PERUANA)
         </h2>
     """, unsafe_allow_html=True)
 
