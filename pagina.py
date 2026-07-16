@@ -1774,13 +1774,13 @@ elif pagina_seleccionada == "Galería":
     with col87:
         st.image("fotos/sabado20_1.jpg")
         
-    col64, col65, col66 = st.columns(3)
-    with col64:
-        st.image("fotos/viernes19_10.jpg")
-    with col65:
-        st.image("fotos/viernes19_3.jpg")
-    with col66:
-        st.image("fotos/viernes19_4.jpg")
+    col88, col89, col90 = st.columns(3)
+    with col88:
+        st.image("fotos/sabado20_12.jpg")
+    with col89:
+        st.image("fotos/sabado20_13.jpg")
+    with col90:
+        st.image("fotos/sabado20_14.jpg")
 
     col67, col68, col69 = st.columns(3)
     with col67:
