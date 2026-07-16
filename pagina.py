@@ -1909,11 +1909,27 @@ elif pagina_seleccionada == "Galería":
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("fotos/domingo21_4.JPG")
+        st.image("fotos/domingo21_13.JPG")
     with col2:
-        st.image("fotos/domingo21_5.JPG")
+        st.image("fotos/domingo21_14.JPG")
     with col3:
-        st.image("fotos/domingo21_6.JPG")
+        st.image("fotos/domingo21_15.JPG")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("fotos/domingo21_13.JPG")
+    with col2:
+        st.image("fotos/domingo21_14.JPG")
+    with col3:
+        st.image("fotos/domingo21_15.JPG")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("fotos/domingo21_13.JPG")
+    with col2:
+        st.image("fotos/domingo21_14.JPG")
+    with col3:
+        st.image("fotos/domingo21_15.JPG")
 
 else:
     st.markdown("""
