@@ -1674,14 +1674,14 @@ elif pagina_seleccionada == "Galería":
             text-align:center;
             margin-bottom:20px;
         ">
-        Galería de fotos
+        GALERÍA DE FOTOS
         </h1>
     """, unsafe_allow_html=True)
 
     st.markdown("""
         <h2 style="
             font-size:30px;
-            color:#775aa4;
+            color:#DC2F82;
             font-weight:bold;
             text-align:center;
             margin-bottom:20px;
@@ -1754,6 +1754,81 @@ elif pagina_seleccionada == "Galería":
     with col84:
         st.image("fotos/feria19_6.jpg")
 
+    st.markdown("""
+        <h2 style="
+            font-size:30px;
+            color:#e55940;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        VIERNES 20 DE JUNIO (CASA DE LA LITERATURA PERUANA)
+        </h2>
+    """, unsafe_allow_html=True)
+
+    col61, col62, col63 = st.columns(3)
+    with col61:
+        st.image("fotos/viernes19_15.jpg")
+    with col62:
+        st.image("fotos/viernes19_14.jpg")
+    with col63:
+        st.image("fotos/viernes19_11.jpg")
+        
+    col64, col65, col66 = st.columns(3)
+    with col64:
+        st.image("fotos/viernes19_10.jpg")
+    with col65:
+        st.image("fotos/viernes19_3.jpg")
+    with col66:
+        st.image("fotos/viernes19_4.jpg")
+
+    col67, col68, col69 = st.columns(3)
+    with col67:
+        st.image("fotos/viernes19_9.jpg")
+    with col68:
+        st.image("fotos/viernes19_12.jpg")
+    with col69:
+        st.image("fotos/viernes19_13.jpg")
+
+    col70, col71, col72 = st.columns(3)
+    with col70:
+        st.image("fotos/viernes19_2.jpg")
+    with col71:
+        st.image("fotos/viernes19_8.jpg")
+    with col72:
+        st.image("fotos/viernes19_1.jpg")
+
+    col73, col74, col75 = st.columns([1.2,1.2,1.1])
+    with col73:
+        st.image("fotos/viernes19_7.jpg")
+    with col74:
+        st.image("fotos/viernes19_16.jpg")
+    with col75:
+        st.image("fotos/viernes19_6.jpg")
+
+    col76, col77, col78 = st.columns(3)
+    with col76:
+        st.image("fotos/viernes19_18.jpg")
+    with col77:
+        st.image("fotos/viernes19_5.jpg")
+    with col78:
+        st.image("fotos/viernes19_17.jpg")
+
+    col79, col80, col81 = st.columns(3)
+    with col79:
+        st.image("fotos/feria19_1.jpg")
+    with col80:
+        st.image("fotos/feria19_2.jpg")
+    with col81:
+        st.image("fotos/feria19_3.jpg")
+
+    col82, col83, col84 = st.columns(3)
+    with col82:
+        st.image("fotos/feria19_4.jpg")
+    with col83:
+        st.image("fotos/feria19_5.jpg")
+    with col84:
+        st.image("fotos/feria19_6.jpg")
 else:
     st.markdown("""
         <h2 style="
