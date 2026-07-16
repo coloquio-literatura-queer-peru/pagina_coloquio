@@ -1891,7 +1891,7 @@ elif pagina_seleccionada == "Galería":
     with col3:
         st.image("fotos/domingo21_6.JPG")
 
-    col1, col2, col3 = st.columns([1,1,1.1])
+    col1, col2, col3 = st.columns([1,1,1.5])
     with col1:
         st.image("fotos/domingo21_12.JPG")
     with col2:
