@@ -1766,13 +1766,13 @@ elif pagina_seleccionada == "Galería":
         </h2>
     """, unsafe_allow_html=True)
 
-    col61, col62, col63 = st.columns(3)
-    with col61:
-        st.image("fotos/viernes19_15.jpg")
-    with col62:
-        st.image("fotos/viernes19_14.jpg")
-    with col63:
-        st.image("fotos/viernes19_11.jpg")
+    col85, col86, col87 = st.columns(3)
+    with col85:
+        st.image("fotos/sabado20_1.jpg")
+    with col86:
+        st.image("fotos/sabado20_2.jpg")
+    with col87:
+        st.image("fotos/sabado20_3.jpg")
         
     col64, col65, col66 = st.columns(3)
     with col64:
