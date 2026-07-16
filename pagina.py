@@ -1860,6 +1860,27 @@ elif pagina_seleccionada == "Galería":
         st.image("fotos/sabado20_4.jpg")
     with col3:
         st.image("fotos/sabado20_11.jpg")
+
+    st.markdown("""
+        <h2 style="
+            font-size:30px;
+            color:#775aa4;
+            font-weight:bold;
+            text-align:center;
+            margin-bottom:20px;
+        ">
+        DOMINGO 21 DE JUNIO (MUSEO DE ARTE DE LIMA)
+        </h2>
+    """, unsafe_allow_html=True)
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("fotos/sabado20_5.jpg")
+    with col2:
+        st.image("fotos/sabado20_4.jpg")
+    with col3:
+        st.image("fotos/sabado20_11.jpg")
+
 else:
     st.markdown("""
         <h2 style="
