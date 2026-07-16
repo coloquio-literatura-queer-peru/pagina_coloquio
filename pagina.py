@@ -1891,7 +1891,7 @@ elif pagina_seleccionada == "Galería":
     with col3:
         st.image("fotos/domingo21_6.JPG")
 
-    col1, col2, col3 = st.columns([1,1,1.15])
+    col1, col2, col3 = st.columns([1,1,1.17])
     with col1:
         st.image("fotos/domingo21_12.JPG")
     with col2:
@@ -1901,11 +1901,11 @@ elif pagina_seleccionada == "Galería":
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("fotos/domingo21_4.JPG")
+        st.image("fotos/domingo21_9.JPG")
     with col2:
-        st.image("fotos/domingo21_5.JPG")
+        st.image("fotos/domingo21_11.JPG")
     with col3:
-        st.image("fotos/domingo21_6.JPG")
+        st.image("fotos/domingo21_10.JPG")
 
     col1, col2, col3 = st.columns(3)
     with col1:
