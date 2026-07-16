@@ -1883,6 +1883,22 @@ elif pagina_seleccionada == "Galería":
     with col3:
         st.image("fotos/domingo21_3.png")
 
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("fotos/domingo21_4.JPG")
+    with col2:
+        st.image("fotos/domingo21_5.JPG")
+    with col3:
+        st.image("fotos/domingo21_6.JPG")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("fotos/domingo21_7.JPG")
+    with col2:
+        st.image("fotos/domingo21_12.JPG")
+    with col3:
+        st.image("fotos/domingo21_8.JPG")
+
 else:
     st.markdown("""
         <h2 style="
