@@ -1662,8 +1662,16 @@ elif pagina_seleccionada == "Feriantes":
                 "📩 **Correo:** "
                 "ed.diversa@gmail.com"
             )
-            
-    st.write("")  
+
+    st.write("") 
+
+    col100, col101, col102 = st.columns(3)
+    with col100:
+        st.image("fotos/feria19_1.jpg")
+    with col101:
+        st.image("fotos/feria19_2.jpg")
+    with col102:
+        st.image("fotos/feria19_3.jpg")
 
 elif pagina_seleccionada == "Galería":
     st.markdown("""
