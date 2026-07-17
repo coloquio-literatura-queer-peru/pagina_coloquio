@@ -1673,16 +1673,14 @@ elif pagina_seleccionada == "Galería":
             color:#DC2F82;
             font-weight:bold;
             text-align:center;
-            margin-bottom:20px;
+            margin-bottom:30px;
         ">
         GALERÍA DE FOTOS
         </h1>
     """, unsafe_allow_html=True)
 
     st.markdown("""
-    ### 💜 Agradecimientos
-    
-    El comité organizador expresa su profundo agradecimiento a **AHF Perú**, **REDLIT** y a **Rebeca Chávez**, 
+    El Comité Organizador expresa su profundo agradecimiento a **AHF Perú**, **REDLIT** y a **Rebeca Chávez**, 
     por su generosa colaboración en la cobertura fotográfica del **I Coloquio de Literatura Peruana Queer**. 
     """)
 
