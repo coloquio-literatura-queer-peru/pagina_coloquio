@@ -1941,11 +1941,11 @@ elif pagina_seleccionada == "Galería":
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("fotos/domingo21_20.JPG")
+        st.image("fotos/domingo21_25.JPG")
     with col2:
-        st.image("fotos/domingo21_19.JPG")
+        st.image("fotos/domingo21_26.JPG")
     with col3:
-        st.image("fotos/domingo21_21.JPG")
+        st.image("fotos/domingo21_27.JPG")
 
     col1, col2, col3 = st.columns(3)
     with col1:
