@@ -1680,6 +1680,31 @@ elif pagina_seleccionada == "Galería":
     """, unsafe_allow_html=True)
 
     st.markdown("""
+    <div style="
+        background-color:#f8f6f2;
+        border-left:6px solid #8B5E3C;
+        padding:20px;
+        border-radius:10px;
+        margin-top:30px;
+        margin-bottom:30px;
+        text-align:center;
+        font-size:18px;
+        line-height:1.8;
+    ">
+        <h3 style="color:#8B5E3C; margin-bottom:15px;">
+            💜 Agradecimientos
+        </h3>
+    
+        <p style="color:#444;">
+            Expresamos nuestro más sincero agradecimiento a <b>AHF Perú</b>,
+            <b>REDLIT</b> y, de manera especial, a <b>Rebeca Chávez</b>,
+            por su valioso apoyo en la cobertura fotográfica del
+            <i>I Coloquio de Literatura Peruana Queer</i>.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
         <h2 style="
             font-size:30px;
             color:#DC2F82;
