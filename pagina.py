@@ -1681,8 +1681,8 @@ elif pagina_seleccionada == "Galería":
 
     st.markdown("""
     <p style="font-size:25px; text-align:justify;">
-    El Comité Organizador expresa su profundo agradecimiento a **AHF Perú**, **REDLIT** y a **Rebeca Chávez**, 
-    por su generosa colaboración en la cobertura fotográfica del **I Coloquio de Literatura Peruana Queer**.
+    El Comité Organizador expresa su profundo agradecimiento a AHF Perú, REDLIT y a Rebeca Chávez, 
+    por su generosa colaboración en la cobertura fotográfica del I Coloquio de Literatura Peruana Queer.
     </p>
     """, unsafe_allow_html=True)
 
