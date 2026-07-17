@@ -1961,15 +1961,15 @@ elif pagina_seleccionada == "Galería":
     with col2:
         st.image("fotos/domingo21_33.JPG")
     with col3:
-        st.image("fotos/domingo21_33.JPG")
+        st.image("fotos/domingo21_34.JPG")
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("fotos/domingo21_32.JPG")
+        st.image("fotos/domingo21_31.JPG")
     with col2:
-        st.image("fotos/domingo21_33.JPG")
+        st.image("fotos/domingo21_35.JPG")
     with col3:
-        st.image("fotos/domingo21_33.JPG")
+        st.image("fotos/domingo21_36.JPG")
 
 else:
     st.markdown("""
