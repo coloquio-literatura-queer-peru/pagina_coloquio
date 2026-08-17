@@ -186,6 +186,8 @@ if pagina_seleccionada == "Presentación":
             st.image("fotos/logo_fce.png")
         with subcol4:
             st.image("fotos/logo_gafas_moradas.png")
+
+    st.video("https://www.youtube.com/watch?v=2O8Ahbin2Yw")
         
 elif pagina_seleccionada == "Equipo organizador":
     st.markdown("""
